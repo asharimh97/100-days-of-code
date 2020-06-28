@@ -1,23 +1,13 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: June 28 2020, Sunday
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Prepare for the real deal, set up mind, things, devices, start reading the rules in **The Odin Project**. 
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I see many of the course are still to basic, I'm sure I have known some of them and been using in my daily basis. I'll try to re-read it carefully and try to look up for something in case I missed some points when I learned those topics back then. I've thought to skip some step as well since it's too basic. Let's see...
 
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
+**Link to work**
+[The Odin Project](https://www.theodinproject.com/courses/web-development-101)
 
 ### Day 1: June 27, Monday
 
