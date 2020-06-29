@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <title>Google</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__left">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+        <div class="navbar__right">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <button class="button__login">
+            Sign in
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="content-wrapper">
+        <img 
+          class="logo"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+          alt="Google"
+        >
+        <form class="form-search" action="result.html">
+          <div class="form-search__input-wrapper">
+            <input type="text" class="form-search__input" />
+          </div>
+          <div class="form-search__button-wrapper">
+            <button type="submit" class="form-search__button">Google Search</button>
+            <button type="button" class="form-search__button">I'm Feeling Lucky</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <nav class="navbar__footer">
+        <div class="navbar__footer--left">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search Works</a>
+        </div>
+        <div class="navbar__footer--right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </nav>
+    </footer>
+
+    <script>
+      let input = document.querySelector(".form-search__input");
+      let inputWrapper = document.querySelector(".form-search__input-wrapper");
+
+      input.addEventListener("focus", function() {
+        inputWrapper.classList.add("form-search__input-wrapper--active");
+      });
+
+      input.addEventListener("blur", function() {
+        inputWrapper.classList.remove("form-search__input-wrapper--active");
+      });
+    </script>
+  </body>
+</html>

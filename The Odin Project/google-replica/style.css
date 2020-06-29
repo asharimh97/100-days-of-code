@@ -1,0 +1,156 @@
+/* 
+ * The Odin Project - Project Google Replicate
+ * Made by: Ashari Muhammad Hisbulloh
+ * Date: June 29 2020, Monday
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  align-items: center;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 16px 32px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar__left a, .navbar__right a {
+  color: #000;
+  font-size: 13px;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.navbar__left a:hover, .navbar__left a:active, .navbar__left a:visited,
+.navbar__right a:hover, .navbar__right a:active, .navbar__right a:visited {
+  text-decoration: underline;
+}
+
+.navbar__right .button__login {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  outline: none;
+  padding: 8px 12px;
+}
+
+.main-content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-5em);
+}
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.form-search {}
+
+.form-search .form-search__input-wrapper {
+  border: solid 0.5px #cecece;
+  border-radius: 23px;
+  height: 46px;
+  margin-bottom: 32px;
+  padding: 1px 48px;
+  position: relative;
+  width: 584px;
+}
+
+.form-search .form-search__input-wrapper.form-search__input-wrapper--active {
+  box-shadow: 0 2px 5px 0 rgba(60, 60, 67, 0.1), 
+              0 7px 10px 0 rgba(60, 60, 67, 0.07), 
+              0 5px 14px 0 rgba(60, 60, 67, 0.06);
+}
+
+.form-search .form-search__input-wrapper .form-search__input {
+  border: none;
+  font-size: 16px;
+  outline: none;
+  height: 100%;
+  width: 100%;
+}
+
+.form-search__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form-search__button {
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #5F6368;
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  margin: 5px;
+  padding: 0 16px;
+  min-width: 54px;
+}
+
+.form-search__button:hover, 
+.form-search__button:focus, 
+.form-search__button:active {
+  border-color: #cecece;
+}
+
+footer {
+  background: #f2f2f2;
+  border-top: solid 1px #e4e4e4;
+  bottom: 0px;
+  left: 0px;
+  padding: 16px 24px;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar__footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__footer--left a, .navbar__footer--right a{
+  color: #5f6368;
+  font-size: 14px;
+  margin-right: 24px;
+  text-decoration: none;
+}
+.navbar__footer--left a:last-child, 
+.navbar__footer--right a:last-child {
+  margin-right: 0;
+}
+
+.navbar__footer--left a:hover, 
+.navbar__footer--right a:hover {
+  text-decoration: underline;
+}
