@@ -1,11 +1,12 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <title>Google</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./images/google.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -26,24 +27,42 @@
 
     <main class="main-content">
       <div class="content-wrapper">
-        <img 
+        <img
           class="logo"
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           alt="Google"
-        >
+        />
         <form class="form-search" action="result.html">
           <div class="form-search__input-wrapper">
+            <svg
+              class="form-search__input-search-icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.5 14H14.71L14.43 13.73C15.5281 12.4509 16.0878 10.7961 15.9918 9.11301C15.8957 7.42995 15.1513 5.84957 13.9148 4.70368C12.6784 3.5578 11.046 2.93554 9.36052 2.96758C7.67502 2.99961 6.06749 3.68344 4.87545 4.87548C3.68341 6.06752 2.99958 7.67505 2.96755 9.36055C2.93551 11.046 3.55777 12.6784 4.70365 13.9149C5.84954 15.1513 7.42992 15.8958 9.11298 15.9918C10.796 16.0879 12.4509 15.5281 13.73 14.43L14 14.71V15.5L18.25 19.75C18.4494 19.9386 18.7145 20.0419 18.9889 20.0381C19.2633 20.0343 19.5254 19.9236 19.7195 19.7295C19.9135 19.5354 20.0242 19.2733 20.0281 18.9989C20.0319 18.7245 19.9286 18.4594 19.74 18.26L15.5 14ZM9.49998 14C8.60997 14 7.73994 13.7361 6.99992 13.2416C6.2599 12.7472 5.68312 12.0444 5.34253 11.2221C5.00193 10.3998 4.91282 9.49502 5.08645 8.62211C5.26008 7.74919 5.68867 6.94737 6.318 6.31803C6.94734 5.6887 7.74916 5.26011 8.62208 5.08648C9.49499 4.91285 10.3998 5.00196 11.2221 5.34256C12.0443 5.68315 12.7471 6.25993 13.2416 6.99995C13.7361 7.73997 14 8.61 14 9.50001C14.0008 10.0912 13.8849 10.6767 13.659 11.223C13.4332 11.7693 13.1017 12.2657 12.6837 12.6838C12.2657 13.1018 11.7693 13.4332 11.223 13.6591C10.6767 13.8849 10.0912 14.0008 9.49998 14Z"
+                fill="#bbb"
+              />
+            </svg>
+
             <input type="text" class="form-search__input" />
           </div>
           <div class="form-search__button-wrapper">
-            <button type="submit" class="form-search__button">Google Search</button>
-            <button type="button" class="form-search__button">I'm Feeling Lucky</button>
+            <button type="submit" class="form-search__button">
+              Google Search
+            </button>
+            <button type="button" class="form-search__button">
+              I'm Feeling Lucky
+            </button>
           </div>
         </form>
       </div>
     </main>
 
-    <footer>
+    <footer class="footer--home">
       <nav class="navbar__footer">
         <div class="navbar__footer--left">
           <a href="#">Advertising</a>
@@ -62,11 +81,11 @@
       let input = document.querySelector(".form-search__input");
       let inputWrapper = document.querySelector(".form-search__input-wrapper");
 
-      input.addEventListener("focus", function() {
+      input.addEventListener("focus", function () {
         inputWrapper.classList.add("form-search__input-wrapper--active");
       });
 
-      input.addEventListener("blur", function() {
+      input.addEventListener("blur", function () {
         inputWrapper.classList.remove("form-search__input-wrapper--active");
       });
     </script>
