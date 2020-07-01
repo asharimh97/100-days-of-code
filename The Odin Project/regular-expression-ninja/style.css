@@ -1,0 +1,22 @@
+.form__input {
+  outline: none;
+}
+
+.form__input + .form__helper {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form__input--valid {
+  border-color: green;
+}
+
+.form__input--invalid {
+  border-color: red;
+}
+
+.form__input--invalid + .form__helper {
+  color: red;
+  opacity: 1;
+  visibility: visible;
+}

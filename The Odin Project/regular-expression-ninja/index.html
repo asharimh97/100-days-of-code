@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Regular Expression Ninja Training</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h3 class="register-title">New user registration</h3>
+      <form action="#" class="form">
+        <div class="form__item">
+          <input
+            type="text"
+            name="name"
+            placeholder="Username"
+            class="form__input"
+          />
+          <span class="form__helper"
+            >Username should be alphanumeric and contain 5 - 12 characters</span
+          >
+        </div>
+        <div class="form__item">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="form__input"
+          />
+          <span class="form__helper"
+            >Email must be a valid address, e.g. loremipsum@mail.com</span
+          >
+        </div>
+        <div class="form__item">
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            class="form__input"
+          />
+          <span class="form__helper"
+            >Password should be alphanumeric (@,_ and - are also allowed) and be
+            8 - 20 characters</span
+          >
+        </div>
+        <div class="form__item">
+          <input
+            type="tel"
+            name="telephone"
+            placeholder="Telephone Number"
+            class="form__input"
+          />
+          <span class="form__helper"
+            >Telephone should be valid (10 - 13 digits)</span
+          >
+        </div>
+        <div class="form__item">
+          <input
+            type="tel"
+            name="slug"
+            placeholder="Slug"
+            class="form__input"
+          />
+          <span class="form__helper"
+            >Slug must contain only lowecase letters, numbers, and hypens and be
+            8 - 20 characters</span
+          >
+        </div>
+      </form>
+    </main>
+
+    <script src="./validation.js"></script>
+  </body>
+</html>
