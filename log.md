@@ -34,3 +34,15 @@ I didn't expect create website page without any framework will take time so long
 **Link(s) to work**
 
 1. [The Odin Project - Google Landing Page replica](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/google-replica)
+
+### Day 3: July 1 2020, Wednesday
+
+**Today's Progress**: I learn about regular expression with The Net Ninja
+
+**Thoughts**
+
+Actually it's a bit cheating since in the rule, online couse shouldn't be counted, well yeah I agree but regex is one of many javascript topics that I was terrible at. I didn't expect it's actually simple, easy, and so much fun. I could be at least quite confident to bring it to my daily project.
+
+**Link(s) to work**
+
+1. [The Odin Project - Google Landing Page replica](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/regular-expression-ninja)
