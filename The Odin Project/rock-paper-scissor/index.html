@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="game-title">Pick your weapon:</h1>
+    <div class="option-section option-section--player">
+      <div class="option__item" data-value="rock">
+        <img src="./images/rock.svg" alt="rock" />
+      </div>
+      <div class="option__item" data-value="paper">
+        <img src="./images/paper.svg" alt="paper" />
+      </div>
+      <div class="option__item" data-value="scissors">
+        <img src="./images/scissors.svg" alt="scissors" />
+      </div>
+    </div>
+
+    <h1 class="game-title">Computer's Choice</h1>
+    <div class="option-section option-section--computer">
+      <div class="option__item" data-value="computer-option">
+        <img
+          id="computer-choice"
+          src="./images/rock.svg"
+          alt="computer choice"
+        />
+      </div>
+    </div>
+
+    <h1 id="game-result" class="game-title"></h1>
+
+    <script>
+      const options = document.querySelectorAll(
+        ".option-section--player .option__item"
+      );
+      const computerOption = document.querySelector(
+        `[data-value="computer-option"]`
+      );
+      const imgComputer = document.getElementById("computer-choice");
+
+      const weapons = {
+        rock: { weakness: "paper", icon: "./images/rock.svg" },
+        paper: { weakness: "scissors", icon: "./images/paper.svg" },
+        scissors: { weakness: "rock", icon: "./images/scissors.svg" },
+      };
+
+      function capitalize(word) {
+        return `${word[0].toUpperCase()}${word.substr(1)}`;
+      }
+
+      function playRound(playerSelection, computerSelection) {
+        const player = playerSelection.toLowerCase();
+        const computer = computerSelection.toLowerCase();
+        const resultEl = document.getElementById("game-result");
+
+        let result = "lose";
+
+        if (player === computer) {
+          result = "tie";
+        } else if (player === weapons[computer].weakness) {
+          result = "win";
+        }
+
+        if (result === "tie") {
+          resultEl.innerText = `Tie! Nobody win nobody lose`;
+        } else {
+          resultEl.innerText = `You ${capitalize(result)}! ${capitalize(
+            player
+          )} ${result === "lose" ? "beaten by" : "beats"} ${capitalize(
+            computer
+          )}`;
+        }
+      }
+
+      function computerPlay() {
+        const idx = Math.floor((Math.random() * 10) % 3);
+        return Object.keys(weapons)[idx];
+      }
+
+      function computerPick(callback) {
+        let limit = 0;
+        computerOption.classList.add("option__item--loading");
+
+        let interval = setInterval(() => {
+          if (limit >= 30) {
+            clearInterval(interval);
+            computerOption.classList.remove("option__item--loading");
+            computerOption.classList.add("option__item--selected");
+            imgComputer.src = weapons[computerSelection].icon;
+            callback(computerSelection);
+          } else {
+            computerSelection = computerPlay();
+            imgComputer.src = weapons[computerSelection].icon;
+          }
+
+          limit++;
+        }, 100);
+      }
+
+      function resetChoice() {
+        options.forEach((opt) => {
+          opt.classList.remove("option__item--selected");
+        });
+      }
+
+      options.forEach((opt) => {
+        opt.addEventListener("click", function () {
+          resetChoice();
+
+          this.classList.add("option__item--selected");
+          const playerSelection = this.dataset.value;
+
+          computerPick((val) => {
+            const computerSelection = val;
+            imgComputer.src = weapons[val].icon;
+            playRound(playerSelection, computerSelection);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
