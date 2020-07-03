@@ -69,8 +69,6 @@ Now I know that if you `clearInterval()` the `setInterval()` will still run unle
 
 I didn't know that there's another unit tester other than `jest`. It's quite fun playing logic and algorithm with Jasmine. From the experience, I learn that my algorithm still quite weak and I still don't know about many things such as rounding numbers without `toFixed()` -- because it turns your number into String, be careful -- temperature ratios, etc. Still so many things to finish inside javascript exercise. Let's save it for tomorrow.
 
-Now I know that if you `clearInterval()` the `setInterval()` will still run unless you wrap them in an `if else`.
-
 **Link(s) to work**
 
 1. [The Odin Project - Javascript exercise](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/javascript-exercise)
