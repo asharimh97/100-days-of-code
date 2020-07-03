@@ -45,4 +45,32 @@ Actually it's a bit cheating since in the rule, online couse shouldn't be counte
 
 **Link(s) to work**
 
-1. [The Odin Project - Google Landing Page replica](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/regular-expression-ninja)
+1. [The Odin Project - Regular expression](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/regular-expression-ninja)
+
+### Day 4: July 2 2020, Thursday
+
+**Today's Progress**: Made a rock paper scissors game with Javascript
+
+**Thoughts**
+
+Create a simple game using Javascript is quite fun. It's so simple when we just play around logic and console, but it's another story when it comes to combine our logic into HTML element and play with css classes.
+
+Now I know that if you `clearInterval()` the `setInterval()` will still run unless you wrap them in an `if else`.
+
+**Link(s) to work**
+
+1. [The Odin Project - Rock paper scissors](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/rock-paper-scissor)
+
+### Day 5: July 3 2020, Friday
+
+**Today's Progress**: Playing with Javascript unit tester `Jasmine`
+
+**Thoughts**
+
+I didn't know that there's another unit tester other than `jest`. It's quite fun playing logic and algorithm with Jasmine. From the experience, I learn that my algorithm still quite weak and I still don't know about many things such as rounding numbers without `toFixed()` -- because it turns your number into String, be careful -- temperature ratios, etc. Still so many things to finish inside javascript exercise. Let's save it for tomorrow.
+
+Now I know that if you `clearInterval()` the `setInterval()` will still run unless you wrap them in an `if else`.
+
+**Link(s) to work**
+
+1. [The Odin Project - Javascript exercise](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/javascript-exercise)
