@@ -72,3 +72,29 @@ I didn't know that there's another unit tester other than `jest`. It's quite fun
 **Link(s) to work**
 
 1. [The Odin Project - Javascript exercise](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/javascript-exercise)
+
+### Day 6: July 4 2020, Saturday
+
+**Today's Progress**: Upgrade Next JS dashboard boilerplate to v9
+
+**Thoughts**
+
+It's not as simple as I thought, upgrade node js version from 8 to 12.18, upgrade all dependencies, new folder structure and behavior of many libraries suhc as `Next JS, next redux wrapper, styled components, styled system, etc`.
+
+**Link(s) to work**
+
+1. [Kulina OPS Boilerplate](https://github.com/asharimh97/kulina-ops-boilerplate)
+
+### Day 7: July 5 2020, Sunday
+
+**Today's Progress**: Finish upgrade Next JS dashboard to v9
+
+**Thoughts**
+
+As I said, migrating system to the newer one is not that simple, I should wary about new behavior, new libraries, updated dependency especially major version of it may be harder than I think. Fortunately all features have been migrated and tested without any error. Fyuh.
+
+It's a nice experience though. I should re-check it.
+
+**Link(s) to work**
+
+1. [Kulina OPS Boilerplate](https://github.com/asharimh97/kulina-ops-boilerplate)
