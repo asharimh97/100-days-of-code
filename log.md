@@ -98,3 +98,20 @@ It's a nice experience though. I should re-check it.
 **Link(s) to work**
 
 1. [Kulina OPS Boilerplate](https://github.com/asharimh97/kulina-ops-boilerplate)
+
+### Day 7: July 6 2020, Monday
+
+**Today's Progress**: Finish Etch sketch task and some javascript algorithm exercises
+
+**Thoughts**
+
+Create a pixelated canvas using HTML grid by using Javascript to generate it is quite easy, but I don't know somehow the performance is quite poor. I'm wondering what is wrong with my code.
+
+On the other hand, javascript exercises today is quite hard. The most difficult task is caesar problem. We should make it circular in alphabet, **the circular** thing is the hardest one, we should _change the direction of encryption_ if it "tembus" below "a" alphabet. Palindrome problem also quite tricky in my opinion.
+
+I think I've met the problem before, but since I am using Javascript instead of C++, I think it becomes easier than back then, but I **really** should learn more about algorithm and make my mind into shape.
+
+**Link(s) to work**
+
+1. [The Odin Project - Etch Sketch](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/etch-sketch)
+2. [The Odin Project - Javascript exercise](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/javascript-exercise)
