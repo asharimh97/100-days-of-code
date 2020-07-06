@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="reset" onclick="cleanCanvas()">Clean sketch</button>
+      <button id="redraw" onclick="drawFromInput()">
+        Change pixel dimension
+      </button>
+      <div id="grid-wrapper"></div>
+      <p id="error-message"></p>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>

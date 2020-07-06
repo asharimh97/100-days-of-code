@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #fff;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.container {
+  width: 640px;
+  margin: auto;
+}
+
+#grid-wrapper {
+  display: grid;
+  height: 640px;
+}
+
+#error-message {
+  color: red;
+  text-align: center;
+}
