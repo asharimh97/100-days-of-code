@@ -99,7 +99,7 @@ It's a nice experience though. I should re-check it.
 
 1. [Kulina OPS Boilerplate](https://github.com/asharimh97/kulina-ops-boilerplate)
 
-### Day 7: July 6 2020, Monday
+### Day 8: July 6 2020, Monday
 
 **Today's Progress**: Finish Etch sketch task and some javascript algorithm exercises
 
@@ -115,3 +115,15 @@ I think I've met the problem before, but since I am using Javascript instead of 
 
 1. [The Odin Project - Etch Sketch](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/etch-sketch)
 2. [The Odin Project - Javascript exercise](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/javascript-exercise)
+
+### Day 9: July 7 2020, Tuesday
+
+**Today's Progress**: Starting calculator project
+
+**Thoughts**
+
+Wondering how to calculate string sequence without using `eval`. An hour isn't enough to figure out the solution, so today I wasted my time on thinking and just writing a small piece of code.
+
+**Link(s) to work**
+
+1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
