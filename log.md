@@ -127,3 +127,17 @@ Wondering how to calculate string sequence without using `eval`. An hour isn't e
 **Link(s) to work**
 
 1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
+
+### Day 10: July 8 2020, Wednesday
+
+**Today's Progress**: Finish method to calculate string into number
+
+**Thoughts**
+
+After receiving opinion from Alvis and Faldy to calculate string number sequence , finally finish the core function to calculate them. They suggested using recursion but since I am not good at recursion, I used while loop to solve the problem.
+
+Save the numbers input into string and separate each number and operator with space `" "`, clean then calculate operator `*` and `/` first, then clean and calculate `+` and `-`. Voila you get the result number.
+
+**Link(s) to work**
+
+1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
