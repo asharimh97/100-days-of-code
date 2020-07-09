@@ -141,3 +141,13 @@ Save the numbers input into string and separate each number and operator with sp
 **Link(s) to work**
 
 1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
+
+**Today's Progress**: Create HTML and CSS for calculator
+
+**Thoughts**
+
+I think this project will take a longer time, due to my concentration splitted between this journey and errors happened in kulina project. I should really take care of my body so it won't be burdened.
+
+**Link(s) to work**
+
+1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
