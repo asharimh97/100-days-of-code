@@ -142,11 +142,25 @@ Save the numbers input into string and separate each number and operator with sp
 
 1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
 
+### Day 11: July 9 2020, Thursday
+
 **Today's Progress**: Create HTML and CSS for calculator
 
 **Thoughts**
 
 I think this project will take a longer time, due to my concentration splitted between this journey and errors happened in kulina project. I should really take care of my body so it won't be burdened.
+
+**Link(s) to work**
+
+1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
+
+### Day 12: July 10 2020, Friday
+
+**Today's Progress**: Implement button function to calculator
+
+**Thoughts**
+
+Implement button click function to calculator, it turned out quite simple and I think this project could be finished by this week. I'm surprised tho. After we figure out how to calculate string it really opened up a path. Can't wait to see it finished. Let's add keyboard support or backspace for tomorrow.
 
 **Link(s) to work**
 
