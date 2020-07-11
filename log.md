@@ -165,3 +165,15 @@ Implement button click function to calculator, it turned out quite simple and I 
 **Link(s) to work**
 
 1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
+
+### Day 13: July 11 2020, Saturday
+
+**Today's Progress**: Finish calculator implementation
+
+**Thoughts**
+
+Finally add backspace/delete button and keyboard support. Thus we could assume that this project is finished.
+
+**Link(s) to work**
+
+1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
