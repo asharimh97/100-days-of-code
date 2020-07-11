@@ -33,7 +33,6 @@ body {
 .calculator__head {
   border-bottom: solid 0.5px var(--light-grey);
   height: 125px;
-  padding: 24px;
   position: relative;
 }
 
@@ -44,13 +43,32 @@ body {
   transform: translateY(-50%);
 }
 
+.calculator__delete {
+  background: none;
+  border: none;
+  color: var(--secondary-blue);
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.calculator__delete i {
+  font-size: 20px;
+}
+
 .calculator__display {
   font-size: 32px;
   font-weight: 500;
-  right: 24px;
+  margin: 0 48px;
+  width: -webkit-fill-available;
+  text-align: right;
 }
 
 .calculator__operator {
+  left: 20px;
   font-size: 20px;
 }
 

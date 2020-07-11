@@ -7,19 +7,35 @@ let currentOperator = "";
 const buttons = document.querySelectorAll(".button-pad");
 const display = document.querySelector(".calculator__display");
 const operator = document.querySelector(".calculator__operator");
+const btnDelete = document.querySelector(".calculator__delete");
 
 buttons.forEach((button) => {
   button.addEventListener("click", function () {
     const { type } = this.dataset;
     if (type === "number") {
-      clickNumberPad(this);
+      clickNumberPad(this.value);
     } else if (type === "operator") {
-      clickOperatorPad(this);
+      clickOperatorPad(this.value);
     }
   });
 });
 
-function clickNumberPad(element) {
+window.addEventListener("keydown", (e) => {
+  const { key } = e;
+  if (/\d/.test(key)) {
+    clickNumberPad(key);
+  } else if (/[+\-\*\/=x]/.test(key)) {
+    clickOperatorPad(key);
+  } else if (key == "Backspace") {
+    deleteNumber();
+  } else if (key == "Enter") {
+    clickOperatorPad("=");
+  }
+});
+
+btnDelete.addEventListener("click", deleteNumber);
+
+function clickNumberPad(value) {
   /**
    * TODOS:
    * if (currentNumber && currentOperator)
@@ -36,32 +52,60 @@ function clickNumberPad(element) {
     display.textContent = "";
   }
 
-  currentNumber += element.value;
+  currentNumber += value;
   display.textContent = currentNumber;
 }
 
-function clickOperatorPad(element) {
-  if (currentNumber) {
+function clickOperatorPad(value) {
+  if (!currentNumber && sequence.split(" ").length === 1) {
+    currentOperator = value;
+  } else if (currentNumber) {
     sequence += currentNumber;
     currentNumber = "";
+    currentOperator = value;
   }
 
-  if (element.value === "=") {
+  if (value === "=") {
     // calculate sequence and push res to sequence
     // clear operator and set current number and text content
-    console.log(sequence);
+    // console.log(sequence);
     const [res] = calculate(sequence);
 
-    sequence = res;
+    sequence = res.toString();
     currentNumber = "";
     currentOperator = "";
 
     operator.textContent = "";
     display.textContent = res;
+    operator.textContent = "=";
     return;
   }
-  currentOperator = element.value;
+
   operator.textContent = currentOperator;
+}
+
+function deleteNumber() {
+  let number = currentNumber.slice(0, currentNumber.length - 1);
+  currentNumber = number;
+
+  if (
+    sequence &&
+    sequence.split(" ").length === 1 &&
+    !currentNumber &&
+    !currentOperator
+  ) {
+    number = "";
+    sequence = "";
+    operator.textContent = "";
+  }
+
+  const currentSequence = sequence.trim();
+
+  if (number === "" && /[+\-\*\/]/.test(currentSequence.slice(-1))) {
+    sequence = sequence.slice(0, sequence.length - 3);
+  }
+
+  display.textContent = number;
 }
 
 // operational function
