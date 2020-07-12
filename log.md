@@ -177,3 +177,19 @@ Finally add backspace/delete button and keyboard support. Thus we could assume t
 **Link(s) to work**
 
 1. [The Odin Project - Calculator](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/calculator)
+
+### Day 14: July 12 2020, Sunday
+
+**Today's Progress**: Learn basic about Ruby
+
+**Thoughts**
+
+Installed all necessities for Ruby programming such as ruby itself, rbenv, heroku.
+
+Learned about ruby starting from basic. There are String, Numbers, Symbol, Hash, Boolean, Array, and also nil.
+
+It's quite different with some programming language I've learned, in ruby we use snake case `this_is_snake_case` instead of camel case `thisIsCamelCase`. I don't know yet but I'm sure both camel case and snake case will work just fine in Ruby, but it's doesn't fit the standard. So let's go along with the standard.
+
+Some operation quite simpler in Ruby than in Javascript, like if we want to reverse a string we could just use `.reverse` to string, in Javascript we should split it to array, reverse, then join it since reverse only works for array. Logical ternary operation also quite different in Ruby, we use `?` at the end of class instance.
+
+Ah there's also string literal which support interpolation (insert code inside the string) just like template literals in Javascript, but it uses double quotation mark `""` and `#{}`.
