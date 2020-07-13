@@ -193,3 +193,11 @@ It's quite different with some programming language I've learned, in ruby we use
 Some operation quite simpler in Ruby than in Javascript, like if we want to reverse a string we could just use `.reverse` to string, in Javascript we should split it to array, reverse, then join it since reverse only works for array. Logical ternary operation also quite different in Ruby, we use `?` at the end of class instance.
 
 Ah there's also string literal which support interpolation (insert code inside the string) just like template literals in Javascript, but it uses double quotation mark `""` and `#{}`.
+
+### Day 15: July 13 2020, Monday
+
+**Today's Progress**: Learn data types, variables, input output and conditional logic in Ruby
+
+**Thoughts**
+
+Although I am quite sleepy while do it, I learn about basic data types until conditional logic. The thing is most of them just look alike any other programming language I've ever learned. But it's quite surprising Ruby is more humane.
