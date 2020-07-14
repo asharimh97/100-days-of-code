@@ -201,3 +201,11 @@ Ah there's also string literal which support interpolation (insert code inside t
 **Thoughts**
 
 Although I am quite sleepy while do it, I learn about basic data types until conditional logic. The thing is most of them just look alike any other programming language I've ever learned. But it's quite surprising Ruby is more humane.
+
+### Day 16: July 14 2020, Tuesday
+
+**Today's Progress**: Learn loop, recursion, and array in Ruby
+
+**Thoughts**
+
+There are so many array instance method for Array, also playing array with Ruby I think quite fun. It's simpler than in Javascript as per I know till now. But yeaa we won't know later.
