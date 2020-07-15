@@ -228,3 +228,13 @@ Anyway if we assign has as we used in Javascript
 ```
 
 Each key will be converted to symbol.
+
+### Day 18: July 16 2020, Thursday
+
+**Today's Progress**: Learn debugging with Pry, problem solving 101, and implement caesar chiper
+
+**Thoughts**
+
+I rarely use debugger even in Javascript because I don't really know what's going on when debugger is hitted. But it turns out my curiousity about debugging answered with Ruby Pry, it becomes easier to debug the code.
+
+Also solving caesar chiper in Ruby is easier as well since by nature array in Ruby is circular. So we only have to store alphabet to array and play with the index.
