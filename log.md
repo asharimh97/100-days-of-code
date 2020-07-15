@@ -209,3 +209,22 @@ Although I am quite sleepy while do it, I learn about basic data types until con
 **Thoughts**
 
 There are so many array instance method for Array, also playing array with Ruby I think quite fun. It's simpler than in Javascript as per I know till now. But yeaa we won't know later.
+
+### Day 17: July 15 2020, Wednesday
+
+**Today's Progress**: Learn hash, enumerable, and method
+
+**Thoughts**
+
+Most of ruby method are humane, it's so easy to remember and easier to read I think. Well the quite different thing in today's learning is the hash or in Javascript/Java we call it object, or dictionary in python. The way ruby assign value to object key property quite different, and it's preferred to use symbol instead of string.
+
+Anyway if we assign has as we used in Javascript
+
+```ruby
+  hash = {
+    key1: "value",
+    key2: "value2"
+  }
+```
+
+Each key will be converted to symbol.
