@@ -238,3 +238,21 @@ Each key will be converted to symbol.
 I rarely use debugger even in Javascript because I don't really know what's going on when debugger is hitted. But it turns out my curiousity about debugging answered with Ruby Pry, it becomes easier to debug the code.
 
 Also solving caesar chiper in Ruby is easier as well since by nature array in Ruby is circular. So we only have to store alphabet to array and play with the index.
+
+### Day 19: July 16 2020, Friday
+
+**Today's Progress**: Take a day off from Ruby, learn Z-algorithm
+
+**Thoughts**
+
+Z algorithm is used in matching prefix to reduce time and boost performance, it's a DP after all. It's been bugging me since yesterday's test from Kargo. I didn't know WTH was z algorithm, so frustrating.
+
+I need some time to understand the concept and how it works. Fortunately I could understand it quite well, I hope I won't forget it too fast.
+
+**Link(s) to work**
+
+1. [Z Algorithm](https://github.com/asharimh97/100-days-of-code/blob/master/javascript-exercises/z-algorithm.js)
+
+**Reference**
+
+1. [Z Algorithm Z Values](https://www.youtube.com/watch?v=CpZh4eF8QBw)
