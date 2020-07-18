@@ -256,3 +256,18 @@ I need some time to understand the concept and how it works. Fortunately I could
 **Reference**
 
 1. [Z Algorithm Z Values](https://www.youtube.com/watch?v=CpZh4eF8QBw)
+
+### Day 20: July 17 2020, Saturday
+
+**Today's Progress**: Do substring and stock picker challenge
+
+**Thoughts**
+
+Implement what I've learn to solve simple problems with Ruby. There are many things I'm not familiar although I know the concept and how to do it. Still need to open documentation frequently especially in Enumerable methods. I should familiarize myself with Ruby much more to be somehow fluent in Ruby. Hahaha
+
+Also reflecting from Z-algorithm and today's exercises, I should learn about solving mathematical problem. I'm so bad at it. Urgh.
+
+**Link(s) to work**
+
+1. [The Odin Project - Ruby Exerices - Substring](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/substrings)
+2. [The Odin Project - Ruby Exerices - Stock Picker](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/stock-picker)
