@@ -283,3 +283,24 @@ Things quite different in swapping array element in ruby. If we try conventional
 **Link(s) to work**
 
 1. [The Odin Project - Ruby Exerices - Bubble Sort](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/buble-sort)
+
+### Day 22: July 19 2020, Sunday
+
+**Today's Progress**: Learn Proc, Lambda, Block, and OOP in Ruby
+
+**Thoughts**
+
+Proc and Lambda are objects to shorten function/method handler in some class method. For example
+
+```ruby
+  ages = [102, 99, 17, 203, 300, 40]
+  under_100 = Proc.new { |x| x < 100 }
+
+  ages.select(&under_100)
+```
+
+Basically it's just like move function callback with pre-defined function in Javascript. Also about OOP, since it's still "muqadimah" I just learned global variable, instance variable, class variable, and inheritance principle.
+
+**Link(s) to work**
+
+1. [Codecademy - Learn Ruby](https://www.codecademy.com/courses/learn-ruby)
