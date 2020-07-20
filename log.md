@@ -239,7 +239,7 @@ I rarely use debugger even in Javascript because I don't really know what's goin
 
 Also solving caesar chiper in Ruby is easier as well since by nature array in Ruby is circular. So we only have to store alphabet to array and play with the index.
 
-### Day 19: July 16 2020, Friday
+### Day 19: July 17 2020, Friday
 
 **Today's Progress**: Take a day off from Ruby, learn Z-algorithm
 
@@ -257,7 +257,7 @@ I need some time to understand the concept and how it works. Fortunately I could
 
 1. [Z Algorithm Z Values](https://www.youtube.com/watch?v=CpZh4eF8QBw)
 
-### Day 20: July 17 2020, Saturday
+### Day 20: July 18 2020, Saturday
 
 **Today's Progress**: Do substring and stock picker challenge
 
@@ -271,3 +271,15 @@ Also reflecting from Z-algorithm and today's exercises, I should learn about sol
 
 1. [The Odin Project - Ruby Exerices - Substring](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/substrings)
 2. [The Odin Project - Ruby Exerices - Stock Picker](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/stock-picker)
+
+### Day 21: July 19 2020, Sunday
+
+**Today's Progress**: Do bubble sort challenge and review Ruby Fundamentals
+
+**Thoughts**
+
+Things quite different in swapping array element in ruby. If we try conventional way to swap value, it will result wrong value, so instead of using `temp` variable to store a value, we could swap it right away with `arr[i], arr[j] = arr[j], arr[i]`.
+
+**Link(s) to work**
+
+1. [The Odin Project - Ruby Exerices - Bubble Sort](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/buble-sort)
