@@ -284,7 +284,7 @@ Things quite different in swapping array element in ruby. If we try conventional
 
 1. [The Odin Project - Ruby Exerices - Bubble Sort](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/ruby-exercise/buble-sort)
 
-### Day 22: July 19 2020, Sunday
+### Day 22: July 20 2020, Monday
 
 **Today's Progress**: Learn Proc, Lambda, Block, and OOP in Ruby
 
@@ -300,6 +300,26 @@ Proc and Lambda are objects to shorten function/method handler in some class met
 ```
 
 Basically it's just like move function callback with pre-defined function in Javascript. Also about OOP, since it's still "muqadimah" I just learned global variable, instance variable, class variable, and inheritance principle.
+
+**Link(s) to work**
+
+1. [Codecademy - Learn Ruby](https://www.codecademy.com/courses/learn-ruby)
+
+### Day 23: July 21 2020, Tuesday
+
+**Today's Progress**: Finished Codecademy OOP part 2
+
+**Thoughts**
+
+Learned about `public` and `private` methods in Ruby, module, class, `include`, `extend`, as per I see it's not really different compared to Java. Ya iyalah, namanya juga OOP, the basic is just same but the syntax a little bit different.
+
+Ruby also supports us to make big number readable by inserting underscore `_` between them. For example
+
+```ruby
+  number = 1_000_000_000 # will read as 1000000000
+```
+
+Small thing but I think it will help a lot especially if we make a program with numbers.
 
 **Link(s) to work**
 
