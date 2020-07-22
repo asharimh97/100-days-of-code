@@ -324,3 +324,15 @@ Small thing but I think it will help a lot especially if we make a program with 
 **Link(s) to work**
 
 1. [Codecademy - Learn Ruby](https://www.codecademy.com/courses/learn-ruby)
+
+### Day 24: July 21 2020, Wednesday
+
+**Today's Progress**: Create TicTacToe with Ruby
+
+**Thoughts**
+
+It's so challenging create a tic tac toe game in ruby. However, the method used in check winner is still so poor and I can't figured out the simpler way because I couldn't focus due to my sleepiness. Will need to take a look at it some day to figure out better way to check tictactoe problem.
+
+**Link(s) to work**
+
+1. [The Odin Project - Tic Tac Tor](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/tic-tac-toe)
