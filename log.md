@@ -335,4 +335,20 @@ It's so challenging create a tic tac toe game in ruby. However, the method used 
 
 **Link(s) to work**
 
-1. [The Odin Project - Tic Tac Tor](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/tic-tac-toe)
+1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/tic-tac-toe)
+
+### Day 24: July 21 2020, Wednesday
+
+**Today's Progress**: Create Mastermind game with Ruby
+
+**Thoughts**
+
+Create game in ruby may be isn't as hard as it seem, but since I'm unfamiliar with some (most of) syntaxes it's quite difficult to pour what in our mind into a code. I want to finish ruby course as fast as possible, but I know that things take time. I need to enjoy it step by step, but I want it to be done. Urgh...
+
+Furthermore when we try to code a game, the hardest part maybe is figuring out the game rules. I also unfamiliar with the games. hnnnnn
+
+I should add computer support to the game. It's now only 1 player game.
+
+**Link(s) to work**
+
+1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
