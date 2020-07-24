@@ -325,7 +325,7 @@ Small thing but I think it will help a lot especially if we make a program with 
 
 1. [Codecademy - Learn Ruby](https://www.codecademy.com/courses/learn-ruby)
 
-### Day 24: July 21 2020, Wednesday
+### Day 24: July 22 2020, Wednesday
 
 **Today's Progress**: Create TicTacToe with Ruby
 
@@ -337,7 +337,7 @@ It's so challenging create a tic tac toe game in ruby. However, the method used 
 
 1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/tic-tac-toe)
 
-### Day 24: July 21 2020, Wednesday
+### Day 25: July 23 2020, Thursday
 
 **Today's Progress**: Create Mastermind game with Ruby
 
@@ -348,6 +348,20 @@ Create game in ruby may be isn't as hard as it seem, but since I'm unfamiliar wi
 Furthermore when we try to code a game, the hardest part maybe is figuring out the game rules. I also unfamiliar with the games. hnnnnn
 
 I should add computer support to the game. It's now only 1 player game.
+
+**Link(s) to work**
+
+1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
+
+### Day 26: July 24 2020, Friday
+
+**Today's Progress**: Continued Mastermind game with Ruby
+
+**Thoughts**
+
+Create class player (computer and human classes as well) to make the game supports for 2 player. But it's still confusing how to separate which class does what. Hmm... Also stopping in the half way is actually such pain in the ass -\_- but my mind got blank, I can't figure out anything. Damn it.
+
+I should take a rest first and continue tomorrow morning when my mind is clear.
 
 **Link(s) to work**
 
