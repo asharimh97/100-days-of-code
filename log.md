@@ -366,3 +366,15 @@ I should take a rest first and continue tomorrow morning when my mind is clear.
 **Link(s) to work**
 
 1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
+
+### Day 27: July 25 2020, Saturday
+
+**Today's Progress**: Continued Mastermind game with Ruby
+
+**Thoughts**
+
+Modify main file/game class to support player challenges computer in game play. It works fine but computer still couldn't get the correct answer. I will need to learn to make computer save the latest guess if there's correct color so the next guess computer will reuse the used color and win the game within 12 iteration.
+
+**Link(s) to work**
+
+1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
