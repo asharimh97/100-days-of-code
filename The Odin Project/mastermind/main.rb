@@ -1,26 +1,66 @@
+require_relative "human"
+require_relative "computer"
+
 class Game
   COLORS = %w[red blue yellow black white green]
+  MODE = {"1" => "breaker", "2" => "maker"}
   def initialize
     @chances = 12
     @game_over = false
 
-    generate_color
+    @player = Human.new
+    @computer = Computer.new
 
+    puts "Welcome to 'Mastermind' game\n\n"
     puts "Try to guess color sequence. e.g. red blue green yellow"
-    puts "Available color: red, blue, yellow, green, black, white\n"
+    puts "Available color: red, blue, yellow, green, black, white\n\n"
 
-    guess_color until @game_over
+    select_mode
+
+    start_game
   end
 
-  def guess_color
-    chances_over if @chances == 0
-    
-    puts "You have #{@chances} chance(s) left"
-    @chances -= 1
-    guess = gets.chomp.split(" ")
-    
-    
+  def start_game
+    chances = 12
+    player = @mode == "breaker" ? "You" : "Computer"
+    puts "In this game you will play as #{@mode}"
+
+    generate_code
+
+    chances.times do |i|
+      puts "\n#{player} have #{chances - i} chance(s) left..."
+      
+      # if mode breaker, computer generate code, player guess until correct/chances == 0
+      # if mode maker, player choose to auto generate color or create color code
+      # then computer guess until correct/chances == 0
+
+      if @mode == "breaker"
+        human_play
+      else
+        computer_play
+      end
+
+      break if @game_over
+      
+    end
+
+    chances_over unless @game_over
+  end
+
+  def human_play
+    puts "Your gues..."
+    guess = @player.guess_code
+
     check_answer(guess)
+  end
+
+  def computer_play
+    puts "Computer will try to guess..."
+    guess = @computer.guess_code
+
+    check_answer(guess)
+
+    sleep 3
   end
 
   def check_answer(colors)
@@ -47,32 +87,46 @@ class Game
   end
 
   private
-  def generate_color
-    @color_code = Array.new(4).map { |idx| COLORS[rand(6)] }
-    @color_code_map = @color_code.reduce({}) do |map, color|
-      map.has_key?(color) ? map[color] += 1 : map[color] = 1
-      map
-    end
+  def select_mode 
+    puts "Select game mode: \n1) play as breaker\n2) play as maker\n"
+    mode = gets.chomp()
+    @mode = MODE[mode] || MODE["1"]
+  end
 
-    p @color_code
+  def generate_code
+    if @mode == "breaker" 
+      @computer.generate_code
+
+      @color_code = @computer.color_code
+      @color_code_map = @computer.color_code_map
+    else
+      puts "How will you generate the code?"
+      puts "1) Manual\n2) Automatic"
+
+      mode = gets.chomp.to_i
+
+      mode == 1 ? @player.create_code : @player.generate_code
+      
+      @color_code = @player.color_code
+      @color_code_map = @player.color_code_map
+    end
   end
 
   def correct_answer
     @game_over = true
-    puts "Congratulations! The answer is correct"
+    puts "\nCongratulations! Your guess is hit the right spot!\n\n"
   end
 
-  def correct_color_position(color, idx)
-    puts "Your color guess for position #{idx} is correct. It's #{color}"
+  def correct_color_position(color, position)
+    puts "Color #{color} is in the right position"
   end
 
   def correct_color(color)
-    puts "The color is on sequence but not in this position. Try again."
+    puts "The color #{color} is on sequence but not in this position. Try again."
   end
 
   def chances_over
-    @game_over = true
-    puts "Last chances baby!"
+    puts "\nYou lose! Your chance is over!\n\n"
   end
 end
 
