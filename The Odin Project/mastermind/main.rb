@@ -11,6 +11,8 @@ class Game
     @player = Human.new
     @computer = Computer.new
 
+    p @player, @computer
+
     puts "Welcome to 'Mastermind' game\n\n"
     puts "Try to guess color sequence. e.g. red blue green yellow"
     puts "Available color: red, blue, yellow, green, black, white\n\n"
@@ -60,7 +62,7 @@ class Game
 
     check_answer(guess)
 
-    sleep 3
+    sleep 1.5
   end
 
   def check_answer(colors)
@@ -71,6 +73,8 @@ class Game
       if (color == @color_code[idx])
         correct_color_position(color, idx)
         color_map[color] -= 1
+
+        @computer.update_reference(color, idx) if @mode == "maker"
       elsif color_map.has_key? (color)
         correct_color(color) if color_map[color] > 0
       end
@@ -109,6 +113,10 @@ class Game
       
       @color_code = @player.color_code
       @color_code_map = @player.color_code_map
+
+      @computer.generate_reference
+
+      puts "Color code is #{@color_code.join(" ")}"
     end
   end
 
@@ -126,7 +134,8 @@ class Game
   end
 
   def chances_over
-    puts "\nYou lose! Your chance is over!\n\n"
+    puts "\nThe correct answer is #{@color_code.join(" ")}"
+    puts "You lose! Your chance is over!\n\n"
   end
 end
 
