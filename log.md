@@ -378,3 +378,15 @@ Modify main file/game class to support player challenges computer in game play. 
 **Link(s) to work**
 
 1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
+
+### Day 28: July 25 2020, Sunday
+
+**Today's Progress**: Create post about Mental Model in Javascript
+
+**Thoughts**
+
+Extract and explain something is harder than learning itself. I should carefully arrange words, sentence, so my explanation will hit the dot. I need to learn more about organizing writing.
+
+**Link(s) to work**
+
+1. [Mental Model Wire in Bahas Javascript](https://medium.com/bahas-javascript/mental-model-wire-88da9df175d5)
