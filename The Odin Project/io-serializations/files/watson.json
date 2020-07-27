@@ -1,0 +1,10 @@
+{
+  "name": "John H. Watson",
+  "nickname": "Dr. Watson",
+  "occupation": "doctor",
+  "address": {
+    "street": "221B Baker Street",
+    "city": "London",
+    "country": "UK"
+  }
+}
