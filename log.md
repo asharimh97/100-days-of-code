@@ -379,7 +379,7 @@ Modify main file/game class to support player challenges computer in game play. 
 
 1. [The Odin Project - Mastermind](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/mastermind)
 
-### Day 28: July 25 2020, Sunday
+### Day 28: July 26 2020, Sunday
 
 **Today's Progress**: Create post about Mental Model in Javascript
 
@@ -390,3 +390,16 @@ Extract and explain something is harder than learning itself. I should carefully
 **Link(s) to work**
 
 1. [Mental Model Wire in Bahas Javascript](https://medium.com/bahas-javascript/mental-model-wire-88da9df175d5)
+
+### Day 29: July 27 2020, Monday
+
+**Today's Progress**: Learned about I/O and serializations
+
+**Thoughts**
+
+Serializing in Ruby could be done in YAML and JSON, I'm quite familiar with JSON and I don't think I'll have any problem with it, but I'm curious about YAML, maybe I'll use this chance to learn more about YAML.
+
+**Link(s) to work**
+
+1. [The Odin Project - IO and Serializations](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/io-serializations)
+2. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
