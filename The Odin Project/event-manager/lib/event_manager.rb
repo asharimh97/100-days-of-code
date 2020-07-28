@@ -1,7 +1,7 @@
 require "csv"
 require "google/apis/civicinfo_v2"
+require "erb"
 
-template_letter = File.read "template_letter.html"
 
 def clean_zipcode(zipcode)
   zipcode.to_s.rjust(5, "0")[0..4]
@@ -10,7 +10,7 @@ end
 def legislators_by_zipcode(zipcode)
   civic_info = Google::Apis::CivicinfoV2::CivicInfoService.new
   civic_info.key = "AIzaSyClRzDqDh5MsXwnCWi0kOiiBivP6JsSyBw"
-
+  
   begin
     legislators = civic_info.representative_info_by_address(
       address: zipcode,
@@ -19,9 +19,20 @@ def legislators_by_zipcode(zipcode)
     )
     legislators = legislators.officials
     legislators_name = legislators.map(&:name).join(", ")
-    legislators_name
+    
+    legislators
   rescue
     "Oops, Your zipcode is invalid brader!"
+  end
+end
+
+def generate_file(id, letter)
+  Dir.mkdir("output") unless Dir.exist? "output"
+
+  file_name = "output/thanks_#{id}.html"
+
+  File.open(file_name, "w") do |file|
+    file.puts letter
   end
 end
 
@@ -29,15 +40,16 @@ puts "Event Manager Initialized!"
 
 contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
 
+template_letter = File.read "template_letter.erb"
+erb_template = ERB.new template_letter
+
 contents.each do |row|
+  id = row[0]
   name = "#{row[:first_name]} #{row[:last_name]}"
   zipcode = clean_zipcode(row[:zipcode])
   legislators = legislators_by_zipcode(zipcode)
 
-  personal_letter = template_letter.gsub("FIRST_NAME", name)
-  personal_letter.gsub!("LEGISLATORS", legislators)
+  personal_letter = erb_template.result(binding)
 
-  puts personal_letter
-
-  # puts "Name: #{name}, Zipcode: #{zipcode}, Legislator: #{legislators}"
+  generate_file(id, personal_letter)
 end
