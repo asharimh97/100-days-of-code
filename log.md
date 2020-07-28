@@ -403,3 +403,17 @@ Serializing in Ruby could be done in YAML and JSON, I'm quite familiar with JSON
 
 1. [The Odin Project - IO and Serializations](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/io-serializations)
 2. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
+
+### Day 30: July 28 2020, Tuesday
+
+**Today's Progress**:
+
+- Write about assigning value in Javascript
+
+**Thoughts**
+
+I know my writing skill is not really good, it's still circular and wordy, but I realized that explaining a smaller chunk will be better for me, it makes my writing more structured. I think I should decompose the post I want to write into smaller chunks and put in a "series".
+
+**Link(s) to work**
+
+1. [Assigning Value: Under the Hood](https://medium.com/bahas-javascript/assigning-value-under-the-hood-1fa1836e41ee)
