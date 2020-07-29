@@ -2,6 +2,8 @@ require "csv"
 require "google/apis/civicinfo_v2"
 require "erb"
 
+$time_collection = []
+
 
 def clean_zipcode(zipcode)
   zipcode.to_s.rjust(5, "0")[0..4]
@@ -17,6 +19,13 @@ def clean_phone(number)
   else
     "Bad phone number"
   end
+end
+
+def convert_time(time)
+  date = DateTime.strptime(time, "%m/%d/%y %H:%M")
+  $time_collection.push(date)
+  
+  date
 end
 
 def legislators_by_zipcode(zipcode)
@@ -48,6 +57,20 @@ def generate_file(id, letter)
   end
 end
 
+def get_most_hour_accessed
+  max_count = -99
+  hour_accessed = $time_collection.reduce({}) do |obj, time|
+    obj.has_key?(time.hour) ? obj[time.hour] += 1 : obj[time.hour] = 1
+    max_count = obj[time.hour] if obj[time.hour] > max_count
+
+    obj
+  end
+  
+  most_optimum_hours = hour_accessed.select { |k, v| v == max_count }
+
+  most_optimum_hours.keys
+end
+
 puts "Event Manager Initialized!"
 
 contents = CSV.open "event_attendees.csv", headers: true, header_converters: :symbol
@@ -60,11 +83,14 @@ contents.each do |row|
   name = "#{row[:first_name]} #{row[:last_name]}"
   zipcode = clean_zipcode(row[:zipcode])
   phone = clean_phone(row[:homephone])
+  time = convert_time(row[:regdate])
   # legislators = legislators_by_zipcode(zipcode)
 
-  puts "#{name} => #{phone}"
+  puts "#{name} => #{phone}; #{time}"
 
   # personal_letter = erb_template.result(binding)
 
   # generate_file(id, personal_letter)
 end
+
+puts "Most accessed hours are at #{get_most_hour_accessed().join(", ")}"
