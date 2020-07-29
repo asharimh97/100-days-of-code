@@ -57,18 +57,20 @@ def generate_file(id, letter)
   end
 end
 
-def get_most_hour_accessed
+def get_most_accessed(param)
+  date_param = param.to_sym
   max_count = -99
-  hour_accessed = $time_collection.reduce({}) do |obj, time|
-    obj.has_key?(time.hour) ? obj[time.hour] += 1 : obj[time.hour] = 1
-    max_count = obj[time.hour] if obj[time.hour] > max_count
+
+  accessed = $time_collection.reduce({}) do |obj, time|
+    obj.has_key?(time.send(date_param)) ? obj[time.send(date_param)] += 1 : obj[time.send(date_param)] = 1
+    max_count = obj[time.send(date_param)] if obj[time.send(date_param)] > max_count
 
     obj
   end
   
-  most_optimum_hours = hour_accessed.select { |k, v| v == max_count }
+  most_optimum_data = accessed.select { |k, v| v == max_count }
 
-  most_optimum_hours.keys
+  most_optimum_data.keys
 end
 
 puts "Event Manager Initialized!"
@@ -93,4 +95,6 @@ contents.each do |row|
   # generate_file(id, personal_letter)
 end
 
-puts "Most accessed hours are at #{get_most_hour_accessed().join(", ")}"
+puts "Most accessed hours are at #{get_most_accessed("hour").join(", ")}"
+
+puts "Most accessed day in week is at #{get_most_accessed("wday").join(", ")}"
