@@ -409,6 +409,7 @@ Serializing in Ruby could be done in YAML and JSON, I'm quite familiar with JSON
 **Today's Progress**:
 
 - Write about assigning value in Javascript
+- Continue event manager project
 
 **Thoughts**
 
@@ -417,3 +418,38 @@ I know my writing skill is not really good, it's still circular and wordy, but I
 **Link(s) to work**
 
 1. [Assigning Value: Under the Hood](https://medium.com/bahas-javascript/assigning-value-under-the-hood-1fa1836e41ee)
+2. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
+
+### Day 31: July 29 2020, Wednesday
+
+**Today's Progress**: Finished event manager project in The Odin Project
+
+**Thoughts**
+
+I was confused how to access class attribute dynamically in ruby at first, but finally I got the answer of my problem, it's using `.send(:attribute_name)`. With that we could access every attribute dynamically.
+
+We could replicate this
+
+```javascript
+let dd = new Date();
+
+console.log(dd.getYear());
+console.log(dd["getYear"]());
+```
+
+into this in Ruby
+
+```ruby
+dd = DateTime.new
+
+param = "hour".to_sym
+
+puts dd.hour
+puts dd.send(param)
+```
+
+Damn! But maybe will need to pay more attention on it, since I don't know if this way of accessing attribute is recommended.
+
+**Link(s) to work**
+
+1. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
