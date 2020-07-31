@@ -453,3 +453,28 @@ Damn! But maybe will need to pay more attention on it, since I don't know if thi
 **Link(s) to work**
 
 1. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
+
+### Day 32: July 30 2020, Thursday
+
+**Today's Progress**: Initiate hangman project
+
+**Thoughts**
+Finish i/o and serialization module by creating hangman project is not really easey. I should think carefully about what can we do while playing the hangman game
+
+**Link(s) to work**
+
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+
+### Day 33: July 31 2020, Friday
+
+**Today's Progress**: Continue hangman project
+
+**Thoughts**
+Create class and insert the previous code inside class code is easy. We just need to wrap the code into method.
+
+Oh I also read about 10 Python one-line methods
+
+**Link(s) to work**
+
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+2. [10 Awesome Python One-liners](https://dev.to/devmount/10-awesome-pythonic-one-liners-explained-3doc)
