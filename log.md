@@ -478,3 +478,15 @@ Oh I also read about 10 Python one-line methods
 
 1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
 2. [10 Awesome Python One-liners](https://dev.to/devmount/10-awesome-pythonic-one-liners-explained-3doc)
+
+### Day 34: August 1 2020, Satudray
+
+**Today's Progress**: Continue hangman project
+
+**Thoughts**
+Added methods for playing hangman game. What's left is methods to save and load the game. I'll need to refine the flow of save and load hangman game.
+
+**Link(s) to work**
+
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+2. [10 Awesome Python One-liners](https://dev.to/devmount/10-awesome-pythonic-one-liners-explained-3doc)
