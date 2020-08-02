@@ -1,0 +1,9 @@
+---
+:secret_word: Shirley
+:striped_word: _hi____
+:correct_chars: hi
+:guessed_chars:
+- a
+- h
+- i
+:chances: 4
