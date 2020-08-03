@@ -452,7 +452,7 @@ Damn! But maybe will need to pay more attention on it, since I don't know if thi
 
 **Link(s) to work**
 
-1. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/event-manager)
+1. [The Odin Project - Event Manager](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/event-manager)
 
 ### Day 32: July 30 2020, Thursday
 
@@ -463,7 +463,7 @@ Finish i/o and serialization module by creating hangman project is not really ea
 
 **Link(s) to work**
 
-1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/hangman)
 
 ### Day 33: July 31 2020, Friday
 
@@ -476,7 +476,7 @@ Oh I also read about 10 Python one-line methods
 
 **Link(s) to work**
 
-1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/hangman)
 2. [10 Awesome Python One-liners](https://dev.to/devmount/10-awesome-pythonic-one-liners-explained-3doc)
 
 ### Day 34: August 1 2020, Satuday
@@ -488,7 +488,7 @@ Added methods for playing hangman game. What's left is methods to save and load 
 
 **Link(s) to work**
 
-1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/hangman)
 
 ### Day 35: August 2 2020, Sunday
 
@@ -499,4 +499,15 @@ Add function to save and load hangman game. And with those two functions this pr
 
 **Link(s) to work**
 
-1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming-hangman)
+1. [The Odin Project - Hangman](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/hangman)
+
+### Day 36: August 3 2020, Monday
+
+**Today's Progress**: Start recursion in Ruby
+
+**Thoughts**
+Due to health condition I couldn't fully perform today's progress. But successfully create fibonacci with recursion in Ruby.
+
+**Link(s) to work**
+
+1. [The Odin Project - Recursion](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/recursion)
