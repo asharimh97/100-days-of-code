@@ -511,3 +511,17 @@ Due to health condition I couldn't fully perform today's progress. But successfu
 **Link(s) to work**
 
 1. [The Odin Project - Recursion](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/recursion)
+
+### Day 37: August 4 2020, Tuesday
+
+**Today's Progress**: Finished recursion and learned binary search tree module
+
+**Thoughts**
+Data structure and binary tree are things I'm not really good at computer science. Actually I didn't know what does it do. But I felt enlighted after watched the video reference by The Odin Project.
+
+Oh I also learn about binary search and setup my fiverr profile today
+
+**Link(s) to work**
+
+1. [The Odin Project - Recursion](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/recursion)
+2. [The Odin Project - Binary Search](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/binary-search)
