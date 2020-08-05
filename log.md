@@ -525,3 +525,14 @@ Oh I also learn about binary search and setup my fiverr profile today
 
 1. [The Odin Project - Recursion](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/recursion)
 2. [The Odin Project - Binary Search](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/binary-search)
+
+### Day 38: August 5 2020, Wednesday
+
+**Today's Progress**: Linked list with Ruby
+
+**Thoughts**
+Creating linked list in ruby, I should say easier than in C++, because everything wrapped in a class and there's no annoying `*` pointer.
+
+**Link(s) to work**
+
+1. [The Odin Project - Linked List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/linked-list)
