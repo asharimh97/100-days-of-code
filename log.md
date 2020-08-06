@@ -536,3 +536,15 @@ Creating linked list in ruby, I should say easier than in C++, because everythin
 **Link(s) to work**
 
 1. [The Odin Project - Linked List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/linked-list)
+
+### Day 39: August 6 2020, Thursday
+
+**Today's Progress**: Bidirection Linked List and Binary Tree
+
+**Thoughts**
+Binary tree is still confusing, but I think I get the grasp of it. I only do build tree and insert value into tree today.
+
+**Link(s) to work**
+
+1. [The Odin Project - Linked List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/linked-list)
+2. [The Odin Project - Binary Tree](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/tree)
