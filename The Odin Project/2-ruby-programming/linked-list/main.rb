@@ -61,11 +61,13 @@ class LinkedList
 
     temp.next = nil
     @tail = temp
+    @size -= 1
   end
 
   def shift
     @head = @head.next
     @tail = @head if @head.nil?
+    @size -= 1 if @size >= 0 
   end
 
   # TODO: Add insertion with specified index
