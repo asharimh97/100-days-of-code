@@ -548,3 +548,14 @@ Binary tree is still confusing, but I think I get the grasp of it. I only do bui
 
 1. [The Odin Project - Linked List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/linked-list)
 2. [The Odin Project - Binary Tree](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/tree)
+
+### Day 40: August 7 2020, Friday
+
+**Today's Progress**: Finished Binary Tree assignment
+
+**Thoughts**
+It was little cheating since I don't really know binary tree although I am understand it better than back then, I take a look at some references because I don't know how to code it.
+
+**Link(s) to work**
+
+1. [The Odin Project - Binary Tree](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/tree)
