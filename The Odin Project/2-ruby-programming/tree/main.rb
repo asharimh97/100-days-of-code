@@ -118,6 +118,57 @@ class Tree
     puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
     pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
   end
+
+  # printing tree
+  def level_order (root = @root)
+    return root if root.nil?
+    arr = Array.new
+    q = Array.new
+
+    q.push(root)
+    until q.empty? do
+      current = q[0]
+      arr.push(current.data)
+
+      q.push(current.left) unless current.left.nil?
+      q.push(current.right) unless current.right.nil?
+
+      q.shift
+    end
+
+    arr
+  end
+
+  def pre_order (root = @root, arr = [])
+    unless root.nil?
+      arr.push(root.data)
+      pre_order(root.left, arr)
+      pre_order(root.right, arr)
+    end
+
+    arr
+  end
+
+  def in_order (root = @root, arr = [])
+    unless root.nil?
+      in_order(root.left, arr)
+      arr.push(root.data)
+      in_order(root.right, arr)
+    end
+
+    arr
+  end
+
+  def post_order (root = @root, arr = [])
+    unless root.nil?
+      post_order(root.left, arr)
+      post_order(root.right, arr)
+      arr.push(root.data)
+    end
+
+    arr
+  end
+  
 end
 
 arr = [1, 2, 4, 10, 3, 7]
@@ -133,7 +184,14 @@ tree.insert(4)
 tree.delete(0)
 tree.delete(4)
 tree.insert(-1)
+tree.insert(1)
 tree.insert(2)
 
 tree.pretty_print
 p tree.find(-1)
+
+p tree.level_order
+
+p tree.pre_order
+p tree.in_order
+p tree.post_order
