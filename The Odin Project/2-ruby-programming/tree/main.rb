@@ -113,13 +113,51 @@ class Tree
     end
   end
 
+  # depth and height
+  # check the level of the searched node
+  def depth (node)
+    node = Node.new(node) unless node.kind_of? (Node)
+    current = @root
+    node_depth = 0
+
+    until current.nil? || current == node do
+      current = node < current ? current.left : current.right
+      node_depth += 1
+    end
+
+    node_depth
+  end
+
+  # check the height -> total longest edges of tree/subtree
+  def height (root = @root, count = 0)
+    node = Node.new (node) unless node.kind_of? (Node)
+    return count if root.left.nil? && root.right.nil?
+
+    count += 1
+
+    left_height = (height(root.left, count) if root.left).to_i
+    right_height = (height(root.right, count) if root.right).to_i
+
+    [left_height, right_height].max
+  end
+
+  # tree balance
+  def balance?
+    (height(@root.left) - height(@root.right)).abs <= 1
+  end
+
+  def rebalance
+    arr = level_order
+    @root = build_tree(arr)
+  end
+  
+  # printing tree
   def pretty_print(node = root, prefix="", is_left = true)
     pretty_print(node.right, "#{prefix}#{is_left ? "│ " : " "}", false) if node.right
     puts "#{prefix}#{is_left ? "└── " : "┌── "}#{node.data.to_s}"
     pretty_print(node.left, "#{prefix}#{is_left ? " " : "│ "}", true) if node.left
   end
 
-  # printing tree
   def level_order (root = @root)
     return root if root.nil?
     arr = Array.new
@@ -186,12 +224,20 @@ tree.delete(4)
 tree.insert(-1)
 tree.insert(1)
 tree.insert(2)
+tree.insert(2)
 
 tree.pretty_print
 p tree.find(-1)
 
 p tree.level_order
+p tree.balance?
 
-p tree.pre_order
-p tree.in_order
-p tree.post_order
+tree.rebalance unless tree.balance?
+
+tree.pretty_print
+
+# p tree.pre_order
+# p tree.in_order
+# p tree.post_order
+
+# p tree.depth(7)
