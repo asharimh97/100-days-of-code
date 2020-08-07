@@ -38,25 +38,78 @@ class Tree
     return root
   end
 
-  def insert (root = @root, node)
+  def find (node, root = @root)
+    node = Node.new(node) unless node.kind_of? (Node)
+    return root if root.nil? || root == node
+
+    if node < root
+      find(node, root.left)
+    elsif node > root
+      find(node, root.right)
+    end
+  end
+
+  def insert (node, root = @root)
     node = Node.new(node) unless node.kind_of? (Node) 
     if (root.nil?)
-      p "Rootnya ini gan"
       root = node
     else
       if (node < root)
         if root.left.nil?
           root.left = node
         else
-          insert(root.left, node)
+          insert(node, root.left)
         end
       else
         if root.right.nil?
           root.right = node
         else
-          insert(root.right, node)
+          insert(node, root.right)
         end
       end
+    end
+
+    def delete (node, root = @root)
+      node = Node.new(node) unless node.kind_of? (Node)
+
+      return root if root.nil?
+
+      # if value smaller/bigger than root, the value is in subtree
+      if node < root
+        root.left = delete(node, root.left)
+      elsif node > root
+        root.right = delete(node, root.right)
+      else
+        # the value is root, delete root
+        if root.left.nil? 
+          temp = root.right
+          root = nil
+          return temp
+        elsif root.right.nil?
+          temp = root.left
+          root = nil
+          return temp
+        end
+
+        # get the minimum value in the right branches of tree
+        temp = min_value_node(root.right)
+
+        root.data = temp.data
+
+        root.right = delete(temp, root.right)
+      end
+
+      root
+    end
+
+    def min_value_node(node)
+      current = node
+
+      until current.left.nil? do
+        current = current.left
+      end
+
+      current
     end
   end
 
@@ -75,4 +128,12 @@ tree = Tree.new (arr)
 tree.insert(11)
 tree.insert(0)
 tree.insert(4)
+# tree.pretty_print
+
+tree.delete(0)
+tree.delete(4)
+tree.insert(-1)
+tree.insert(2)
+
 tree.pretty_print
+p tree.find(-1)
