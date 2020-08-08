@@ -559,3 +559,14 @@ It was little cheating since I don't really know binary tree although I am under
 **Link(s) to work**
 
 1. [The Odin Project - Binary Tree](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/tree)
+
+### Day 41: August 8 2020, Saturday
+
+**Today's Progress**: Start Knight Travails assignment
+
+**Thoughts**
+As expected after finished tree, now I have to deal with graph. Man it's so difficult and it will take a long time.
+
+**Link(s) to work**
+
+1. [The Odin Project - Knight Travails](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/knight-travails)
