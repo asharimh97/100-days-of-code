@@ -1,5 +1,9 @@
 class Knight
-  def initialize
+  attr_accessor :position, :moves, :parent
+  def initialize (position, parent = nil)
+    @position = position
+    @parent = parent
+    @moves = possible_moves(position)
   end
 
   # all possible moves from initial position
@@ -18,12 +22,6 @@ class Knight
       possible_moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0, 7)
     end
 
-    p possible_moves
+    possible_moves
   end
 end
-
-knight = Knight.new
-
-knight.possible_moves([0, 0])
-knight.possible_moves([1, 2])
-knight.possible_moves([2, 1])
