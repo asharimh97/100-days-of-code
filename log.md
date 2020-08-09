@@ -570,3 +570,21 @@ As expected after finished tree, now I have to deal with graph. Man it's so diff
 **Link(s) to work**
 
 1. [The Odin Project - Knight Travails](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/knight-travails)
+
+### Day 42: August 9 2020, Sunday
+
+**Today's Progress**: Finished Knight Travails assignment
+
+**Thoughts**
+I don't know whether the method I am using is graph or not since I don't think I implement adjacent array in my code, but I'm sure I implemented linked list/binary tree in it, since it's used as tracker of steps taken from start position to target position.
+
+It's so much fun yet difficult at the same time.
+
+Honorable mentions to:
+
+- [Chess board by rueeazy](https://github.com/rueeazy/chess/)
+- [Logic inspiration by jegrieve](https://github.com/jegrieve/Knight-s_Travails)
+
+**Link(s) to work**
+
+1. [The Odin Project - Knight Travails](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/knight-travails)
