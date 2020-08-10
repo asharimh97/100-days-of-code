@@ -588,3 +588,17 @@ Honorable mentions to:
 **Link(s) to work**
 
 1. [The Odin Project - Knight Travails](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/knight-travails)
+
+### Day 43: August 10 2020, Monday
+
+**Today's Progress**: Playing TDD using Rspec
+
+**Thoughts**
+If Javascript has Jasmine as one of its unit testing library, Ruby has `Rspec`. It's quite the same so I don't think there'll be difficulty using it. But I haven't known if it used in the bigger and more complex projects.
+
+Also add unit testing for Caesar Chiper problem
+
+**Link(s) to work**
+
+1. [The Odin Project - Ruby Testing](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/ruby-testing)
+2. [The Odin Project - Caesar Chiper](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/ruby-exercise/caesar-chiper)
