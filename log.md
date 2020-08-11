@@ -602,3 +602,16 @@ Also add unit testing for Caesar Chiper problem
 
 1. [The Odin Project - Ruby Testing](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/ruby-testing)
 2. [The Odin Project - Caesar Chiper](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/ruby-exercise/caesar-chiper)
+
+### Day 44: August 10 2020, Tuesday
+
+**Today's Progress**: Intermezzo playing with Hackerrank
+
+**Thoughts**
+Because I couldn't think about unit test of connect four, I got stuck, my mind went blank, I decided to take a look at my progress at Hackerrank. It's been a while doing some competitive programming things, I thought. Eventually I continue my 30 Days of code from hackerrank tutorial.
+
+I could say that things I learned in the past 43 days helps me solve the problems I saw quite difficult back then.
+
+**Link(s) to work**
+
+1. [Hackerrank 30 Days of code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
