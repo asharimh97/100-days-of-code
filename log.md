@@ -626,3 +626,14 @@ I still couldn't figure out how to make a good unit test in ruby with Rspec, I d
 **Link(s) to work**
 
 1. [Hackerrank 30 Days of code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
+
+### Day 46: August 13 2020, Thursday
+
+**Today's Progress**: Start creating unit test for connect-four game
+
+**Thoughts**
+As I said few days ago about testing in ruby seems like testing in Javascript, it's pretty much look alike, I learned about `let`, `have_attributes`, `described_class`, `subject`, `instance_variable_set`. I should break down every class rules to get a clearer things to be tested on.
+
+**Link(s) to work**
+
+1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
