@@ -20,15 +20,13 @@ class Board
   end
 
   def horizontal_presence (row_index)
-    array = board[row_index].select { |x| !x.nil? }
-
-    array
+    board[row_index]
   end
 
   def vertical_presence (column_index)
     array = []
     board.each do |row|
-      array.push(row[column_index]) unless row[column_index].nil?
+      array.push(row[column_index])
     end
 
     array
