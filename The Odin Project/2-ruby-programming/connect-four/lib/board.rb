@@ -19,15 +19,36 @@ class Board
   def insert_piece (column)
   end
 
-  def horizontal_win (player, row_index, column_index)
+  def horizontal_presence (row_index)
+    array = board[row_index].select { |x| !x.nil? }
+
+    array
   end
 
-  def vertical_win (player, row_index, column_index)
+  def vertical_presence (column_index)
+    array = []
+    board.each do |row|
+      array.push(row[column_index]) unless row[column_index].nil?
+    end
+
+    array
   end
 
-  def diagonal_win (player, row_index, column_index)
+  def diagonal_presence (row_index, column_index)
   end
 
-  def four_in_a_row? (arr)
+  def four_in_a_row? (piece, arr)
+    count = 0
+    arr.each do |disc|
+      break if count >= 4
+
+      if (disc == piece)
+        count += 1
+      else
+        count = 0
+      end
+    end
+
+    count >= 4
   end
 end
