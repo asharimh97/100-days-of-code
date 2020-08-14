@@ -637,3 +637,16 @@ As I said few days ago about testing in ruby seems like testing in Javascript, i
 **Link(s) to work**
 
 1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
+
+### Day 47: August 14 2020, Friday
+
+**Today's Progress**: Continue unit test for board connect four
+
+**Thoughts**
+Successfully create testing logic for `horizontal`, `vertical`, and check if there is 4 consecutive piece in array given to `four_in_a_row?`. Still stuck with diagonal checker but have gotten the inspiration from knight travails problem.
+
+**Selamat Hari Pramuka!!!**
+
+**Link(s) to work**
+
+1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
