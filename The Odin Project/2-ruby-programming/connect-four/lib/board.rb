@@ -19,7 +19,7 @@ class Board
   def insert_piece (player, column)
     lowest_level = 0
     return nil unless @board[BOARD_ROW - 1][column].nil?
-    
+
     while lowest_level < BOARD_ROW do
       if (@board[lowest_level][column].nil?) 
         break
@@ -93,5 +93,24 @@ class Board
     end
 
     count >= 4
+  end
+
+  def to_s
+    puts "    ---------------------------"
+    for i in (BOARD_ROW-1).downto(0)
+      row_content = "#{i + 1}  "
+      for j in 0..BOARD_COLUMN-1
+        d = @board[i][j]
+        column_content = "|   "
+        
+        column_content = "| #{d} " unless d.nil?
+        row_content += column_content
+      end
+      row_content += "|"
+      puts row_content
+      puts "   ----+---+---+---+---+---+----" if i > 0
+    end
+    puts "    ---------------------------"
+    puts "     1   2   3   4   5   6   7"
   end
 end
