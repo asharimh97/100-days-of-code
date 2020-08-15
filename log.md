@@ -650,3 +650,14 @@ Successfully create testing logic for `horizontal`, `vertical`, and check if the
 **Link(s) to work**
 
 1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
+
+### Day 48: August 15 2020, Saturday
+
+**Today's Progress**: Continue unit test for board connect four
+
+**Thoughts**
+Finished all necessary methods for board class and now we could head to game class, but first let's take a break a little bit to ensure the flow of game we want it to be.
+
+**Link(s) to work**
+
+1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
