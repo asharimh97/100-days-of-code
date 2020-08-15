@@ -105,6 +105,32 @@ describe Board do
 
       column = 3
       level = 2
+
+      array_result = board.diagonal_down_presence(level, column)
+      expected_array = [nil, nil, "x", nil, nil, nil]
+
+      expect(array_result).to eql(expected_array)
+    end
+
+    it "returns diagonal data non-nil when `diagonal_up`" do 
+      current_board = [
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, "x", "y", nil, nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, nil, "x", "y", nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, "y", nil, nil, "x", "y"],
+      ]
+
+      board.instance_variable_set(:@board, current_board)
+
+      column = 3
+      level = 2
+
+      array_result = board.diagonal_up_presence(level, column)
+      expected_array = [nil, "x", "x", "y", nil, "y"]
+
+      expect(array_result).to eql(expected_array)
     end
   end
 end

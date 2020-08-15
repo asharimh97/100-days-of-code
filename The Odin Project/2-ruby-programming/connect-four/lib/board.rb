@@ -33,6 +33,32 @@ class Board
   end
 
   def diagonal_presence (row_index, column_index)
+    left = diagonal_down_presence(row_index, column_index)
+    right = diagonal_up_presence(row_index, column_index)
+
+    [left, right]
+  end
+
+  def diagonal_down_presence (row_index, column_index)
+    init_piece = board[row_index][column_index]
+    arr = [init_piece]
+    for i in 1..5
+      arr.unshift(@board[row_index - i][column_index + i]) if (row_index - i).between?(0,5) && (column_index + i).between?(0,6)
+      arr.push(@board[row_index + i][column_index - i]) if (row_index + i).between?(0,5) && (column_index - i).between?(0,6)
+    end
+
+    arr
+  end
+
+  def diagonal_up_presence (row_index, column_index)
+    init_piece = board[row_index][column_index]
+    arr = [init_piece]
+    for i in 1..5
+      arr.unshift(@board[row_index - i][column_index - i]) if (row_index - i).between?(0,5) && (column_index - i).between?(0,6)
+      arr.push(@board[row_index + i][column_index + i]) if (row_index + i).between?(0,5) && (column_index + i).between?(0,6)
+    end
+
+    arr
   end
 
   def four_in_a_row? (piece, arr)
