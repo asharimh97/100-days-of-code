@@ -1,4 +1,5 @@
 require "../lib/board"
+require "../lib/player"
 
 describe Board do
   let (:board) { described_class.new }
@@ -32,7 +33,80 @@ describe Board do
     expect(board.board).to eql(empty_board)
   end
 
+  describe "inserting piece in board" do 
+    it "inserts in the lowest possible level of column" do
+      current_board = [
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, "y", nil, nil, nil, nil],
+      ]
+
+      expected_board = [
+        [nil, "A", nil, nil, nil, nil, nil],
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, nil, nil, nil, nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, nil, "x", nil, nil, nil],
+        [nil, nil, "y", nil, nil, nil, nil],
+      ]
+
+      board.instance_variable_set(:@board, current_board)
+
+      player = Player.new("John", "A")
+      column = 1
+
+      board.insert_piece(player, column)
+
+      expect(board.board).to eql(expected_board)
+    end
+
+    it "can't inserts to column if it's full" do 
+      current_board = [
+        ["A", nil, nil, nil, nil, nil, nil],
+        ["A", nil, nil, nil, nil, nil, nil],
+        ["A", nil, nil, nil, nil, nil, nil],
+        ["A", nil, nil, "x", nil, nil, nil],
+        ["A", nil, nil, "x", nil, nil, nil],
+        ["A", nil, "y", nil, nil, nil, nil],
+      ]
+
+      board.instance_variable_set(:@board, current_board)
+
+      player = Player.new("John", "A")
+      column = 0
+
+      res = board.insert_piece(player, column)
+
+      expect(res).to eql(nil)
+    end
+  end
+
   describe "check winner in board" do
+    context "board is full" do
+      it "returns `has_winner?` of `true` if at least there's four in a row" do 
+        current_board = [
+          ['r', 'r', 'b', 'r', 'b', 'r', 'b'],
+          ['b', 'b', 'r', 'r', 'b', 'r', 'b'],
+          ['b', 'b', 'b', 'r', 'r', 'b', 'r'],
+          ['r', 'r', 'r', 'b', 'b', 'r', 'b'],
+          ['r', 'r', 'b', 'r', 'r', 'b', 'b'],
+          ['b', 'b', 'b', 'b', 'b', 'r', 'b']
+        ]
+
+        board.instance_variable_set(:@board, current_board)
+
+        piece = 'b'
+        level = 5
+        column = 0
+
+        has_winner = board.has_winner?(piece, level, column)
+
+        expect(has_winner).to eql(true)
+      end
+    end
     context "check piece 4 in arrow" do
       piece = "A"
       it "returns `true` when at least 4 consecutive piece" do

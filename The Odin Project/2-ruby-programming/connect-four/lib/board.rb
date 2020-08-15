@@ -16,7 +16,26 @@ class Board
     @board = Array.new(BOARD_ROW) { Array.new(BOARD_COLUMN, nil) }
   end
 
-  def insert_piece (column)
+  def insert_piece (player, column)
+    lowest_level = 0
+    return nil unless @board[BOARD_ROW - 1][column].nil?
+    
+    while lowest_level < BOARD_ROW do
+      if (@board[lowest_level][column].nil?) 
+        break
+      end
+      lowest_level += 1
+    end
+
+    @board[lowest_level][column] = player.piece
+  end
+
+  def has_winner? (piece, level, column)
+    horizontal = horizontal_presence(level)
+    vertical = vertical_presence(column)
+    left, right = diagonal_presence(level, column)
+
+    four_in_a_row?(piece, horizontal) || four_in_a_row?(piece, vertical) || four_in_a_row?(piece, left) || four_in_a_row?(piece, right)
   end
 
   def horizontal_presence (row_index)
