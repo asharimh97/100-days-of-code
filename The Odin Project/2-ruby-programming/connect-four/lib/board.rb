@@ -1,3 +1,5 @@
+require_relative "player"
+
 class Board
   BOARD_ROW = 6
   BOARD_COLUMN = 7
@@ -28,6 +30,8 @@ class Board
     end
 
     @board[lowest_level][column] = player.piece
+
+    return [player.piece, lowest_level, column]
   end
 
   def has_winner? (piece, level, column)
@@ -36,6 +40,10 @@ class Board
     left, right = diagonal_presence(level, column)
 
     four_in_a_row?(piece, horizontal) || four_in_a_row?(piece, vertical) || four_in_a_row?(piece, left) || four_in_a_row?(piece, right)
+  end
+
+  def board_full? 
+    board.flatten.none? (nil)
   end
 
   def horizontal_presence (row_index)

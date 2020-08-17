@@ -86,6 +86,20 @@ describe Board do
 
   describe "check winner in board" do
     context "board is full" do
+      it "returns `board_full?` of `true`" do
+        current_board = [
+          ['r', 'r', 'b', 'r', 'b', 'r', 'b'],
+          ['b', 'b', 'r', 'r', 'b', 'r', 'b'],
+          ['b', 'b', 'b', 'r', 'r', 'b', 'r'],
+          ['r', 'r', 'r', 'b', 'b', 'r', 'b'],
+          ['r', 'r', 'b', 'r', 'r', 'b', 'b'],
+          ['b', 'b', 'b', 'b', 'b', 'r', 'b']
+        ]
+
+        board.instance_variable_set(:@board, current_board)
+
+        expect(board.board_full?).to eql(true)
+      end
       it "returns `has_winner?` of `true` if at least there's four in a row" do 
         current_board = [
           ['r', 'r', 'b', 'r', 'b', 'r', 'b'],
