@@ -661,3 +661,10 @@ Finished all necessary methods for board class and now we could head to game cla
 **Link(s) to work**
 
 1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
+
+### Day 49: August 16 2020, Sunday
+
+**Today's Progress**: Discussed personal blog project with Dila
+
+**Thoughts**
+Today is not a coding day, I spent my time discussing about her friend's personal web project. We had a lot of fun discussing this. I couldn't wait to get involved in this project. The good news is, they trusted us to do this project. Woah!
