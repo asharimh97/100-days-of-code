@@ -645,7 +645,7 @@ As I said few days ago about testing in ruby seems like testing in Javascript, i
 **Thoughts**
 Successfully create testing logic for `horizontal`, `vertical`, and check if there is 4 consecutive piece in array given to `four_in_a_row?`. Still stuck with diagonal checker but have gotten the inspiration from knight travails problem.
 
-**Selamat Hari Pramuka!!!**
+**_Selamat Hari Pramuka!!!_**
 
 **Link(s) to work**
 
@@ -668,3 +668,20 @@ Finished all necessary methods for board class and now we could head to game cla
 
 **Thoughts**
 Today is not a coding day, I spent my time discussing about her friend's personal web project. We had a lot of fun discussing this. I couldn't wait to get involved in this project. The good news is, they trusted us to do this project. Woah!
+
+### Day 50: August 17 2020, Monday
+
+**Today's Progress**: Finished connect four game
+
+**Thoughts**
+Finished class game and finish game connect four code, although I couldn't create the TDD for class game but I think the MVP of this lesson is the basic way to test ruby. And I somehow get the grasp. Well I think I could consider it as done for now.
+
+**_Selamat Hari Kemerdekaan Indonesia ke-75! Dirgahayu Indonesiaku_**
+
+**Link(s) to work**
+
+1. [The Odin Project - Connect Four](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/connect-four)
+
+**Notes**
+
+1. Needs to take a deep dive to TDD in ruby in the next day
