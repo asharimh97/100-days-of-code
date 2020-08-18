@@ -685,3 +685,10 @@ Finished class game and finish game connect four code, although I couldn't creat
 **Notes**
 
 1. Needs to take a deep dive to TDD in ruby in the next day
+
+### Day 51: August 18 2020, Tuesday
+
+**Today's Progress**: Research for chess project and blue at hue project
+
+**Thoughts**
+I haven't known how to fully implement chess' rules into code. Needs to see more references.
