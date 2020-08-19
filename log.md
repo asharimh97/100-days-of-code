@@ -692,3 +692,14 @@ Finished class game and finish game connect four code, although I couldn't creat
 
 **Thoughts**
 I haven't known how to fully implement chess' rules into code. Needs to see more references.
+
+### Day 52: August 19 2020, Wednesday
+
+**Today's Progress**: Initialize and prepare chess game
+
+**Thoughts**
+I haven't fully find a way to make the game works, especially when deals with how to generate possible moves efficiently.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
