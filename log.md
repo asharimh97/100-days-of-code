@@ -703,3 +703,14 @@ I haven't fully find a way to make the game works, especially when deals with ho
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 53: August 20 2020, Thursday
+
+**Today's Progress**: Create UI for Blueathue project
+
+**Thoughts**
+I am still thinking about how to solve the chess problem tho, but I haven't fully learn about the rule especially to determine when will we estimate that opponent's king is in check/mate, or how to determine it's a stalemate, or even how to do "lukir" or castling. Hmmm...
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
