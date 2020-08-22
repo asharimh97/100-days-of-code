@@ -1,5 +1,6 @@
 module Movements
   KNIGHT_MOVES = [[1, 2], [2, 1], [2, -1], [1, -2], [-1, 2], [-2, 1], [-2, -1], [-1, -2]]
+  KING_MOVES = [[-1, 0], [-1, 1], [0, 1], [1, 1], [1, 0], [1, -1], [0, -1], [-1, -1]]
   
   def Movements.ROOK_MOVES
     rook = []
