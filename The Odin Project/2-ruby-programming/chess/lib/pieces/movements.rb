@@ -10,7 +10,7 @@ module Movements
       rook.unshift([-i, 0])
     end
 
-    rook
+    rook.sort
   end
 
   def Movements.BISHOP_MOVES
@@ -22,7 +22,7 @@ module Movements
       bishop.unshift([i, -i])
     end
 
-    bishop
+    bishop.sort
   end
 end
 
