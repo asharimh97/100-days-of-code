@@ -13,6 +13,10 @@ class Pawn
 
     moves << [x, y + (@direction * 2)] if (@color == "black" && y == 6) || (@color == "white" && y == 1)
     
+    # pawn also has an attacking moves 1 square diagonally (left/right)
+    # but I think it's not possible to generate from this method, and it's better
+    # to generate the pawn's attacking moves in the game class
+
     moves
   end
 
