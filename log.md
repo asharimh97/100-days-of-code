@@ -715,7 +715,7 @@ I am still thinking about how to solve the chess problem tho, but I haven't full
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
 
-### Day 54: August 20 2020, Friday
+### Day 54: August 21 2020, Friday
 
 **Today's Progress**: Finish UI for Blueathue project and continue chess game project
 
@@ -723,6 +723,19 @@ I am still thinking about how to solve the chess problem tho, but I haven't full
 I am still thinking about how to solve the chess problem tho, but I haven't fully learn about the rule especially to determine when will we estimate that opponent's king is in check/mate, or how to determine it's a stalemate, or even how to do "lukir" or castling. Hmmm...
 
 Add movements generator for each chess piece as well.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 55: August 22 2020, Saturday
+
+**Today's Progress**: Continue chess game project
+
+**Thoughts**
+Implement moves for bishop, queen, king, and pawn. The pawn attacking moves is not possible to be implemented inside the `Pawn` class, it's better to implement the moves inside the board game class later on.
+
+Note: Should try to figure out how to generate a real possible moves in board later on as well, which identify if pieces (except knight) path is get blocked, there'll be no further step.
 
 **Link(s) to work**
 
