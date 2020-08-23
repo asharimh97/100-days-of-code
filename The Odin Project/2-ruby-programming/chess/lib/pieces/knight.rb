@@ -34,6 +34,6 @@ class Knight
   end
 end
 
-knight = Knight.new("black")
+# knight = Knight.new("black")
 
-p knight.possible_moves([0,1])
+# p knight.possible_moves([0,1])

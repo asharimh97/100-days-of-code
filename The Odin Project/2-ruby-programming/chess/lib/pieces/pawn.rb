@@ -29,8 +29,8 @@ class Pawn
   end
 end
 
-pawn = Pawn.new("black")
-pawn2 = Pawn.new("white")
+# pawn = Pawn.new("black")
+# pawn2 = Pawn.new("white")
 
-p pawn.possible_moves([0, 6])
-p pawn2.possible_moves([0, 7])
+# p pawn.possible_moves([0, 6])
+# p pawn2.possible_moves([0, 7])

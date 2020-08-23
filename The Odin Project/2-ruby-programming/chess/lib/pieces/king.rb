@@ -30,6 +30,6 @@ class King
   end
 end
 
-king = King.new("black")
+# king = King.new("black")
 
-p king.possible_moves([3, 0])
+# p king.possible_moves([3, 0])

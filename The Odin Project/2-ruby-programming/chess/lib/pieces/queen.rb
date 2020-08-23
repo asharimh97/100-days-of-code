@@ -31,6 +31,6 @@ class Queen
   end
 end
 
-queen = Queen.new("black")
+# queen = Queen.new("black")
 
-p queen.possible_moves([0, 4])
+# p queen.possible_moves([0, 4])
