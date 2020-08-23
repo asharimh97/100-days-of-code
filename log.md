@@ -740,3 +740,14 @@ Note: Should try to figure out how to generate a real possible moves in board la
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 56: August 23 2020, Sunday
+
+**Today's Progress**: Continue chess game project and present Blueathue prototype
+
+**Thoughts**
+Create board methods to be used in the game later on. Also presented UI prototype to Aysah, it's a good experience, I was so freakin' nervous and "gagap", I should refine my public speaking skill for once more so I wouldn't do speech filler too much.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
