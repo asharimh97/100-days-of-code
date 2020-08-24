@@ -751,3 +751,14 @@ Create board methods to be used in the game later on. Also presented UI prototyp
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 57: August 24 2020, Monday
+
+**Today's Progress**: Initialize Blueathue project
+
+**Thoughts**
+Create homepage with navigation for mobile view for Blueathue project. I need to review some more about bootstrap and scss. There are some parts I forgot.
+
+**Link(s) to work**
+
+1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
