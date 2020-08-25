@@ -762,3 +762,16 @@ Create homepage with navigation for mobile view for Blueathue project. I need to
 **Link(s) to work**
 
 1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
+
+
+### Day 58: August 25 2020, Tuesday
+
+**Today's Progress**: Finished mobile view for Blueathue project
+
+**Thoughts**
+So far it's quite easy to make view for mobile screen, but I still curious how to only implement masonry in desktop view?
+
+**Link(s) to work**
+
+1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
+
