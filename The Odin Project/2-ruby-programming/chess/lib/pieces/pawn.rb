@@ -1,8 +1,9 @@
 class Pawn
-  attr_accessor :color
+  attr_accessor :color, :attack_moves
   def initialize (color)
     @color = color
     @direction = color == "black" ? -1 : 1
+    @attack_moves = []
   end
 
   def possible_moves (position)
@@ -12,6 +13,11 @@ class Pawn
     moves << [x, y + @direction] if (y + @direction).between?(0, 7)
 
     moves << [x, y + (@direction * 2)] if (@color == "black" && y == 6) || (@color == "white" && y == 1)
+
+    # generate attack moves directly
+    # then do verification in board class
+    @attack_moves.push([x-1, y + @direction]) if (x-1).between?(0,1)
+    @attack_moves.push([x+1, y + @direction]) if (x+1).between?(0,1)
     
     # pawn also has an attacking moves 1 square diagonally (left/right)
     # but I think it's not possible to generate from this method, and it's better
