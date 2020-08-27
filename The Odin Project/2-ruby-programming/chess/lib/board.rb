@@ -70,4 +70,9 @@ board = Board.new
 
 board.to_s
 
-p board.board[1][0].possible_moves([1, 0])
+piece = board.board[1][0]
+
+# yang dipake ketika possible moves [column, row] => [column, row]
+# untuk akses koordinat di board [row][column]
+p piece.possible_moves([0, 1])
+p piece.attack_moves if piece.kind_of? Pawn
