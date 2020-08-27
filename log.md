@@ -763,7 +763,6 @@ Create homepage with navigation for mobile view for Blueathue project. I need to
 
 1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
 
-
 ### Day 58: August 25 2020, Tuesday
 
 **Today's Progress**: Finished mobile view for Blueathue project
@@ -775,3 +774,42 @@ So far it's quite easy to make view for mobile screen, but I still curious how t
 
 1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
 
+### Day 59: August 26 2020, Wednesday
+
+**Today's Progress**: Finished web view for Blueathue project
+
+**Thoughts**
+It's so much easier to do mobile development using mobile-first perspective. Also I had fun implementing Macy.JS, I could make it masonry in desktop view and remove it in mobile view. Wow!
+
+**Link(s) to work**
+
+1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
+
+### Day 60: August 27 2020, Thursday
+
+**Today's Progress**: Continue chess project, write down each test case
+
+**Thoughts**
+Since I am not using usual technique to generate possible moves, it's quite difficult to deal with determine if path from starting coordinate to destination coordinate is clear. But I think I got a glimpse.
+
+What if we separate each movements
+
+```
+// [x, y]
+
+horizontal_left = [-1, 0] -> [-7, 0]
+horizontal_right = [1, 0] -> [7, 0]
+vertical_up = [0, 1] -> [0, 7]
+vertical_down = [0, -1] -> [0, -7]
+
+diagonal_bottom_left = [-1, -1] -> [-7, -7]
+diagonal_up_right = [1, 1] -> [7, 7]
+diagonal_up_left = [-1, 1] -> [-7, 7]
+diagonal_bottom_right = [1, -1] -> [7, -7]
+
+// group each of them into array, then do a loop for each group, if there's obstacle, it means that's the coordinate limit
+```
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
