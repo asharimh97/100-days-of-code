@@ -23,6 +23,37 @@ class Game
     @player = @white
   end
 
+  def player_turn
+    # insert coordinate separated by space
+    # validate if coordinate start is a piece and its color is valid
+    # then validate destination by check with all possible moves from piece
+      # if destination valid (empty or could seize opponent's piece)
+      # place piece
+      # log moves
+      # switch player
+  end
+
+  def valid_moves? (destination, moves)
+    # check if destination inside movement list
+  end
+
+  def get_possible_moves (moves)
+    # if a Pawn, check if the row is 2 [idx: 1] or 7 [idx: 6] (get additional step), 
+      # add attack moves as well if there is opponent piece in 1 block diagonal
+    # if King/Knight check if possible moves blocked by another piece
+    # if Queen/Rook/Bishop check if possible moves is blocked in the middle path
+  end
+
+  def place_piece (start, destination)
+    # set start coordinate to nil
+    # set destination to piece
+  end
+
+  # input data player and switching player
+  def parse_input(input)
+    # convert a3 -> [2][0] ([row][column]) / [0, 2] ([column, row])
+  end
+  
   def input_player(color)
     # print "Insert #{color}'s player name: "
     # name = gets.chomp
@@ -37,6 +68,12 @@ class Game
 
     # puts "Welcome #{color} army's King, #{name} \n\n"
   end
+
+  def switch_player
+    @player = @player.color == "white" ? @black : @white
+  end
+
+  # save and load game
 
   def save_game
     puts "You save the game"
