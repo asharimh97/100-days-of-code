@@ -1,22 +1,30 @@
 require_relative "./movements"
 
 class Queen
+  include Movements
+
   attr_accessor :color
   def initialize (color)
     @color = color
   end
 
   def possible_moves (position)
-    queen_moves = [].concat(Movements.ROOK_MOVES, Movements.BISHOP_MOVES())
+    queen_moves = [].concat(ROOK_MOVES, BISHOP_MOVES)
     moves = []
     x, y = position
 
-    queen_moves.each do |move|
-      i, j = move
-      x1 = x + i
-      y1 = y + j
+    queen_moves.each do |direction|
+      direction_moves = []
 
-      moves.push([x1, y1]) if x1.between?(0,7) && y1.between?(0,7)
+      direction.each do |move|
+        i, j = move
+        x1 = x + i
+        y1 = y + j
+
+        direction_moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0, 7)
+      end
+
+      moves.push(direction_moves) if direction_moves.length > 0
     end
 
     moves
@@ -31,6 +39,6 @@ class Queen
   end
 end
 
-# queen = Queen.new("black")
+queen = Queen.new("black")
 
-# p queen.possible_moves([0, 4])
+p queen.possible_moves([0, 4])

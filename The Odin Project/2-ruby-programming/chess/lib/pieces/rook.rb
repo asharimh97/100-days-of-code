@@ -1,6 +1,7 @@
 require_relative "./movements"
 
 class Rook 
+  include Movements
   attr_accessor :color
   def initialize (color)
     @color = color
@@ -10,12 +11,18 @@ class Rook
     moves = []
     x, y = position
 
-    Movements::ROOK_MOVES().each do |move|
-      i, j = move
-      x1 = x + i
-      y1 = y + j
+    ROOK_MOVES.each do |direction|
+      direction_moves = []
 
-      moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0, 7)
+      direction.each do |move|
+        i, j = move
+        x1 = x + i
+        y1 = y + j
+
+        direction_moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0, 7)
+      end
+
+      moves.push(direction_moves) if direction_moves.length > 0
     end
 
     moves
@@ -30,6 +37,6 @@ class Rook
   end
 end
 
-# rook = Rook.new("black")
+rook = Rook.new("black")
 
-# p rook.possible_moves([0, 0])
+p rook.possible_moves([0, 0])

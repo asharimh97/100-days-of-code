@@ -1,6 +1,8 @@
 require_relative "./movements"
 
 class Bishop
+  include Movements
+
   attr_accessor :color
   def initialize(color)
     @color = color
@@ -10,15 +12,21 @@ class Bishop
     moves = []
     x, y = position
 
-    Movements.BISHOP_MOVES().each do |move|
-      i, j = move
-      x1 = x + i
-      y1 = y + j
+    BISHOP_MOVES.each do |direction|
+      direction_moves = []
 
-      moves.push([x1, y1]) if x1.between?(0,7) && y1.between?(0,7)
+      direction.each do |move|
+        i, j = move
+        x1 = x + i
+        y1 = y + j
+
+        direction_moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0, 7)
+      end
+
+      moves.push(direction_moves) if direction_moves.length > 0
     end
 
-    moves.sort
+    moves
   end
 
   def to_s
@@ -30,6 +38,6 @@ class Bishop
   end
 end
 
-# bishop = Bishop.new("white")
+bishop = Bishop.new("white")
 
-# p bishop.possible_moves([7, 2])
+p bishop.possible_moves([7, 2])
