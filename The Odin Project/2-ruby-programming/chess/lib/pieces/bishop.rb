@@ -38,6 +38,6 @@ class Bishop
   end
 end
 
-bishop = Bishop.new("white")
+# bishop = Bishop.new("white")
 
-p bishop.possible_moves([7, 2])
+# p bishop.possible_moves([7, 2])
