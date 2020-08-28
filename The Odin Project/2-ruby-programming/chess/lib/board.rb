@@ -66,13 +66,13 @@ class Board
   end
 end
 
-board = Board.new
+# board = Board.new
 
-board.to_s
+# board.to_s
 
-piece = board.board[1][0]
+# piece = board.board[1][0]
 
 # yang dipake ketika possible moves [column, row] => [column, row]
 # untuk akses koordinat di board [row][column]
-p piece.possible_moves([0, 1])
-p piece.attack_moves if piece.kind_of? Pawn
+# p piece.possible_moves([0, 1])
+# p piece.attack_moves if piece.kind_of? Pawn

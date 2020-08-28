@@ -37,6 +37,6 @@ class Rook
   end
 end
 
-rook = Rook.new("black")
+# rook = Rook.new("black")
 
-p rook.possible_moves([0, 0])
+# p rook.possible_moves([0, 0])
