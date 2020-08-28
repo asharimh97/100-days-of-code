@@ -813,3 +813,14 @@ diagonal_bottom_right = [1, -1] -> [7, -7]
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 61: August 28 2020, Friday
+
+**Today's Progress**: Continue chess project, implement game rules and update generate possible moves
+
+**Thoughts**
+Implemented yesterday's thought of pieces' possible moves, I think it will be easier for now to deal with checking if path is blocked without using tree. Waaaahh mantap gan.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
