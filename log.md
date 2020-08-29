@@ -824,3 +824,15 @@ Implemented yesterday's thought of pieces' possible moves, I think it will be ea
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 62: August 28 2020, Friday
+
+**Today's Progress**: Working on Blueathue revisions (styling, logo), continue chess project
+
+**Thoughts**
+Add some patch due to class naming incompatibility in Wordpress, start create the logo for blueathue, and implemented movement validation. So long it's worked, it generates the valid moves of each piece type with considering if path is blocked by opponent/our own piece.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+2. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
