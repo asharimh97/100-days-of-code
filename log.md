@@ -825,7 +825,7 @@ Implemented yesterday's thought of pieces' possible moves, I think it will be ea
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
 
-### Day 62: August 28 2020, Friday
+### Day 62: August 29 2020, Saturday
 
 **Today's Progress**: Working on Blueathue revisions (styling, logo), continue chess project
 
@@ -836,3 +836,14 @@ Add some patch due to class naming incompatibility in Wordpress, start create th
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
 2. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
+
+### Day 63: August 30 2020, Sunday
+
+**Today's Progress**: Working on chess project `check/skak` validation
+
+**Thoughts**
+It turns out quite difficult since I don't have a mock board nor tree to generate each pieces possible movements, so I need another way to validate if opponent's king is surrounded by the end of our turn.
+
+**Link(s) to work**
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
