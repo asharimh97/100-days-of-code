@@ -13,11 +13,28 @@ class Game
 
     # variables used when game played
     @current_piece = nil
+    @check = false
+    @victory = false
+    @game_over = false
+
+    # map variables to ease check determination
+    @king_position = {
+      "white" => nil,
+      "black" => nil
+    }
+    @pieces_positions = {
+      "white" => [],
+      "black" => []
+    }
   end
 
   def start_game
     instruction
+    
+    # generate piece map position
+    generate_positions
 
+    # print initial board
     @board.to_s
 
     puts "You start a new game"
@@ -30,6 +47,28 @@ class Game
     player_turn
   end
 
+  def generate_positions
+    board = @board.board
+    board.each_with_index do |row, row_index|
+      row.each_with_index do |col, col_index|
+        unless col.nil?
+          @pieces_positions[col.color].push([col_index, row_index])
+          @king_position[col.color] = [col_index, row_index] if col.kind_of?(King)
+        end
+      end
+    end
+  end
+
+  def regenerate_pieces (start, destination)
+    # regenerate map pieces based on player color
+    @pieces_positions[@player.color].map! { |pos| pos == start ? destination : pos }
+  end
+
+  def move_king (position)
+    # move king destination based on player color
+    @king_position[@player.color] = position
+  end
+
   def player_turn
     # insert coordinate separated by space
     input_instruction
@@ -39,16 +78,19 @@ class Game
     destination = parse_input(input[1])
 
     # validate if coordinate start is a piece and its color is valid
-    # until valid_piece?
-    #   invalid_input
-    #   player_turn
-    # end
+    until valid_piece?(start)
+      invalid_input
+      player_turn
+    end
 
     @current_piece = @board.board[start[1]][start[0]]
     moves = get_possible_moves(@current_piece.possible_moves(start))
 
     if valid_move?(destination, moves)
-      puts "Destination valid"
+      place_piece(start, destination)
+      log_last_move(input[0], input[1])
+      @board.to_s
+      switch_player
     else
       puts "Destination tidak valid kawanku"
     end
@@ -165,6 +207,48 @@ class Game
 
     @board.board[row2][col2] = @current_piece
     @board.board[row1][col1] = nil
+
+    promote if promotable?(destination)
+
+    # regenerate new map piece
+    regenerate_pieces(start, destination)
+    move_king(destination) if @current_piece.kind_of? King
+  end
+
+  def promotable? (position)
+    if @current_piece.kind_of?(Pawn)
+      col, row = position
+      return true if (row == 0 || row == 7)
+    end
+
+    false
+  end
+
+  def promote (position)
+    puts "Your pawn is promotable, please choose new job to your pawn: "
+    puts "[1] Queen     [2] Bishop      [3] Knight      [4] Rook"
+    promotions = {
+      1 => Queen.new,
+      2 => Bishop.new,
+      3 => Knight.new,
+      4 => Rook.new
+    }
+
+    input = gets.chomp.to_i
+
+    promote unless (1..4).include?(input)
+
+    col, row = position
+    @board.board[row][col] = promotions[input]
+  end
+
+  def check? 
+    # generate every current player moves then compare if there's any single opponent
+    # king inside pieces possible moves, then it's a check
+  end
+
+  def mate?
+    # check if all opponent king's movement is surrounded
   end
 
   # input data player and switching player
