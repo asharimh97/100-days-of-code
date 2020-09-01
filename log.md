@@ -847,3 +847,17 @@ It turns out quite difficult since I don't have a mock board nor tree to generat
 **Link(s) to work**
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 64: August 31 2020, Monday
+
+**Today's Progress**: BAD NEWS! My Macbook is injured
+
+**Thoughts**
+I think the power board in my macbook is broken, it doesn't want to turn on. So unexpected, there's no symptoms, uuuhhh. I ended up borrow Jennie's laptop but I get confused with Elementary OS. Hmm...
+
+### Day 65: September 1 2020, Tuesday
+
+**Today's Progress**: Change Jennie's laptop to office's Macbook
+
+**Thoughts**
+I'm quite ewuh using Jennie's laptop, so I ask office if there's a device unused this time and it turns out there's a Macbook unused in office, reconfig it, to support my works and 100 days of code streak. I think I could continue my chess project effectively started from tomorrow.
