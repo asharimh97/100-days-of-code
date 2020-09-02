@@ -35,7 +35,6 @@ class Game
     generate_positions
 
     # print initial board
-    @board.to_s
 
     puts "You start a new game"
     input_player("white")
@@ -44,7 +43,21 @@ class Game
     # init player as white
     @player = @white
 
-    player_turn
+    until @victory do
+      # print board
+      @board.to_s
+
+      # player play
+      player_turn
+
+      # check if check mate
+      check?
+
+      # switch player
+      switch_player
+    end
+
+    puts "Game's over!"
   end
 
   def generate_positions
@@ -78,9 +91,9 @@ class Game
     destination = parse_input(input[1])
 
     # validate if coordinate start is a piece and its color is valid
-    until valid_piece?(start)
-      invalid_input
-      player_turn
+    unless valid_piece?(start)
+      invalid_input(start)
+      return player_turn
     end
 
     @current_piece = @board.board[start[1]][start[0]]
@@ -89,10 +102,9 @@ class Game
     if valid_move?(destination, moves)
       place_piece(start, destination)
       log_last_move(input[0], input[1])
-      @board.to_s
-      switch_player
     else
-      puts "Destination tidak valid kawanku"
+      invalid_input(destination)
+      return player_turn
     end
 
     # then validate destination by check with all possible moves from piece
@@ -129,9 +141,8 @@ class Game
     moves.find { |move| move == destination }
   end
 
-  def get_possible_moves (moves = [])
+  def get_possible_moves (moves = [], piece = @current_piece)
     possible_moves = []
-    piece = @current_piece
     
     # if a Pawn, check if the row is 2 [idx: 1] or 7 [idx: 6] (get additional step)
       # add attack moves as well if there is opponent piece in 1 block diagonal
@@ -167,13 +178,10 @@ class Game
     piece_moves = []
     board = @board.board
     moves.each do |move|
-      if valid_piece? (move)
-        break
-      elsif opponent_piece? (move)
+      col, row = move
+      if (opponent_piece?(move) || @board.board[row][col].nil?)
         piece_moves.push(move)
-        break
       end
-      piece_moves.push(move)
     end
 
     piece_moves
@@ -243,12 +251,49 @@ class Game
   end
 
   def check? 
+    player_color = @player.color
+    opponent_color = player_color == "black" ? "white" : "black"
+    opponent_king = @king_position[opponent_color]
+
+    player_moves = []
+
     # generate every current player moves then compare if there's any single opponent
+    # get all player moves
+    @pieces_positions[player_color].each do |position|
+      col, row = position
+      current_piece = @board.board[row][col]
+      piece_moves = get_possible_moves(current_piece.possible_moves(position), current_piece)
+
+      player_moves = player_moves.concat(piece_moves)
+    end
+
+    p player_moves
+
     # king inside pieces possible moves, then it's a check
+    # if player_moves.include? opponent_king
+    #   # check mate, end game
+    #   @check = true
+    #   if mate?(player_moves, opponent_king)
+    #     puts "CHECKMATE!"
+    #     @victory = true
+    #   else
+    #     puts "CHECK!"
+    #     @victory = false
+    #   end
+
+    #   return true
+    # end
+
+    false
   end
 
-  def mate?
+  def mate? (moves, king_position)
+    col, row = king_position
+    king = @board.board[row][col]
+    king_moves = get_possible_moves(king.possible_moves(king_position))
+
     # check if all opponent king's movement is surrounded
+    king_moves.all? { |move| moves.include? move }
   end
 
   # input data player and switching player
@@ -270,6 +315,25 @@ class Game
     row = row.to_i - 1
 
     [col, row]
+  end
+
+  def reverse_parse (input)
+    col, row = input
+    cols = {
+      0 => "a",
+      1 => "b",
+      2 => "c",
+      3 => "d",
+      4 => "e",
+      5 => "f",
+      6 => "g",
+      7 => "h",
+    }
+
+    col = cols[col]
+    row = row.to_i + 1
+
+    "#{col}#{row}"
   end
 
   def input_player(color)
@@ -365,7 +429,7 @@ class Game
     # occupied by our own piece
 
     puts "
-      #{input} is not a valid move. It's either blocked by other piece
+      #{reverse_parse(input)} is not a valid move. It's either blocked by other piece
       or outside the box.
 
       Try to input again by entering start-destination like: `a1 a3`
@@ -382,5 +446,4 @@ class Game
 end
 
 game = Game.new
-
 game.introduction
