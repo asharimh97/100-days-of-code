@@ -16,8 +16,8 @@ class Pawn
 
     # generate attack moves directly
     # then do verification in board class
-    @attack_moves.push([x-1, y + @direction]) if (x-1).between?(0,1)
-    @attack_moves.push([x+1, y + @direction]) if (x+1).between?(0,1)
+    @attack_moves.push([x-1, y + @direction]) if (x-1).between?(0,7)
+    @attack_moves.push([x+1, y + @direction]) if (x+1).between?(0,7)
     
     # pawn also has an attacking moves 1 square diagonally (left/right)
     # but I think it's not possible to generate from this method, and it's better
