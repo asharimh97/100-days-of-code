@@ -13,7 +13,7 @@ class Knight
     Movements::KNIGHT_MOVES.each do |move|
       i, j = move
       x1 = x + i
-      y1 = y + i
+      y1 = y + j
 
       moves.push([x1, y1]) if x1.between?(0, 7) && y1.between?(0,7)
     end
