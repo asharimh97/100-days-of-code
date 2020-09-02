@@ -861,3 +861,12 @@ I think the power board in my macbook is broken, it doesn't want to turn on. So 
 
 **Thoughts**
 I'm quite ewuh using Jennie's laptop, so I ask office if there's a device unused this time and it turns out there's a Macbook unused in office, reconfig it, to support my works and 100 days of code streak. I think I could continue my chess project effectively started from tomorrow.
+
+### Day 66: September 2 2020, Wednesday
+
+**Today's Progress**: Continue chess project, implement check logic
+
+**Thoughts**
+Fix some pieces movement logic because it causes invalid possible movements and implemented the check logic. It's as it written, but I haven't check it further so we need to check it further to make sure my logic is working as I planned.
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
