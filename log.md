@@ -870,3 +870,12 @@ I'm quite ewuh using Jennie's laptop, so I ask office if there's a device unused
 Fix some pieces movement logic because it causes invalid possible movements and implemented the check logic. It's as it written, but I haven't check it further so we need to check it further to make sure my logic is working as I planned.
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 67: September 3 2020, Thursday
+
+**Today's Progress**: Discussed Digitiket V2 project
+
+**Thoughts**
+Spent my time discuss about the proposed Digitiket UI with Ucil, I learn a lot from him, a perspective from a UI designer in making a website, I also used my experiences as a frontend developer to give him some opinions, we had so much fun. It will be very awesome if I could be involved in this project as the frontend developer.
+
+1. [Digitiket V2 UI](https://www.figma.com/file/sBiTM8TDfzSu9RhY53DOJ1/Digitiket-V2?node-id=0%3A1)
