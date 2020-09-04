@@ -70,11 +70,17 @@ class Game
         end
       end
     end
+
+    col, row = parse_input("d5")
+    @board.board[row][col] = Knight.new("black")
   end
 
   def regenerate_pieces (start, destination)
     # regenerate map pieces based on player color
-    @pieces_positions[@player.color].map! { |pos| pos == start ? destination : pos }
+    pieces = @pieces_positions[@player.color].filter { |pos| pos != start }
+    pieces.push(destination)
+
+    @pieces_positions[@player.color] = pieces
   end
 
   def move_king (position)
@@ -114,23 +120,23 @@ class Game
       # switch player
   end
 
-  def valid_piece? (position)
+  def valid_piece? (position, color = @player.color)
     col, row = position
     piece = @board.board[row][col]
 
     unless piece.nil?
-      return true if piece.color == @player.color
+      return true if piece.color == color
     end
 
     false
   end
 
-  def opponent_piece? (position)
+  def opponent_piece? (position, color = @player.color)
     col, row = position
     piece = @board.board[row][col]
 
     unless piece.nil? 
-      return true unless piece.color == @player.color
+      return true unless piece.color == color
     end
 
     false
@@ -160,6 +166,18 @@ class Game
     end
 
     #return array of possible moves
+    possible_moves
+  end
+
+  def get_checked_king_moves (moves, piece = @current_piece) 
+    possible_moves = []
+
+    board = @board.board
+    moves.each do |move|
+      col, row = move
+      possible_moves.push(move) if (board[row][col].nil? || opponent_piece?(move, piece.color))
+    end
+
     possible_moves
   end
 
@@ -262,27 +280,25 @@ class Game
     @pieces_positions[player_color].each do |position|
       col, row = position
       current_piece = @board.board[row][col]
-      piece_moves = get_possible_moves(current_piece.possible_moves(position), current_piece)
+      piece_moves = current_piece.nil? ? [] :  get_possible_moves(current_piece.possible_moves(position), current_piece)
 
       player_moves = player_moves.concat(piece_moves)
     end
 
-    p player_moves
-
     # king inside pieces possible moves, then it's a check
-    # if player_moves.include? opponent_king
-    #   # check mate, end game
-    #   @check = true
-    #   if mate?(player_moves, opponent_king)
-    #     puts "CHECKMATE!"
-    #     @victory = true
-    #   else
-    #     puts "CHECK!"
-    #     @victory = false
-    #   end
+    if player_moves.include? opponent_king
+      # check mate, end game
+      @check = true
+      if mate?(player_moves, opponent_king)
+        puts "CHECKMATE!"
+        @victory = true
+      else
+        puts "CHECK!"
+        @victory = false
+      end
 
-    #   return true
-    # end
+      return true
+    end
 
     false
   end
@@ -290,7 +306,7 @@ class Game
   def mate? (moves, king_position)
     col, row = king_position
     king = @board.board[row][col]
-    king_moves = get_possible_moves(king.possible_moves(king_position))
+    king_moves = get_checked_king_moves(king.possible_moves(king_position), king)
 
     # check if all opponent king's movement is surrounded
     king_moves.all? { |move| moves.include? move }
