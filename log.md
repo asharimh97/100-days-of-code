@@ -879,3 +879,12 @@ Fix some pieces movement logic because it causes invalid possible movements and 
 Spent my time discuss about the proposed Digitiket UI with Ucil, I learn a lot from him, a perspective from a UI designer in making a website, I also used my experiences as a frontend developer to give him some opinions, we had so much fun. It will be very awesome if I could be involved in this project as the frontend developer.
 
 1. [Digitiket V2 UI](https://www.figma.com/file/sBiTM8TDfzSu9RhY53DOJ1/Digitiket-V2?node-id=0%3A1)
+
+### Day 68: September 4 2020, Friday
+
+**Today's Progress**: Finish chess project
+
+**Thoughts**
+Finish check logic and I could consider chess project is done for now.
+
+1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
