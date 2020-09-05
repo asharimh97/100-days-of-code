@@ -888,3 +888,12 @@ Spent my time discuss about the proposed Digitiket UI with Ucil, I learn a lot f
 Finish check logic and I could consider chess project is done for now.
 
 1. [The Odin Project - Chess](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/2-ruby-programming/chess)
+
+### Day 69: September 5 2020, Saturday
+
+**Today's Progress**: Patched Blueathue project to have lightbox in gallery page
+
+**Thoughts**
+It's been a while playing with a light library such as this one, I should take a look at some other libraries as well in the time being, in case I'll need them in near future.
+
+1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
