@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #fff;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}

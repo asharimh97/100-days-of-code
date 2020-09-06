@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library sample</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-add-book" method="POST" action="">
+        <div>
+          <label for="title">Title</label>
+          <input name="title" id="title" type="text" />
+        </div>
+        <div>
+          <label for="author">Author</label>
+          <input name="author" id="author" type="text" />
+        </div>
+        <div>
+          <label for="pages">Total Pages</label>
+          <input name="pages" id="pages" type="text" />
+        </div>
+        <div>
+          <span>
+            <input name="read" id="read-true" type="radio" value="true" />
+            <label for="read-true">Have read</label>
+          </span>
+          <span>
+            <input name="read" id="read-false" type="radio" value="false" />
+            <label for="read-false">Have not read</label>
+          </span>
+        </div>
+        <div>
+          <input type="submit" value="Add book" />
+        </div>
+      </form>
+    </div>
+
+    <script src="./library.js"></script>
+  </body>
+</html>
