@@ -897,3 +897,12 @@ Finish check logic and I could consider chess project is done for now.
 It's been a while playing with a light library such as this one, I should take a look at some other libraries as well in the time being, in case I'll need them in near future.
 
 1. [Playground projects - Blueathue](https://github.com:asharimh97/playground/tree/master/blueathue)
+
+### Day 70: September 6 2020, Sunday
+
+**Today's Progress**: Leap to Javascript course in The Odin Project
+
+**Thoughts**
+Since the ruby is finished and I still don't know how to install MySQL in mac, I decided to turn other way and learn JS instead.
+
+1. [The Odin Project - Library](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/library)
