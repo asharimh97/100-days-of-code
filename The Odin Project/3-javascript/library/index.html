@@ -9,35 +9,57 @@
   </head>
   <body>
     <div class="container">
-      <form id="form-add-book" method="POST" action="">
-        <div>
-          <label for="title">Title</label>
-          <input name="title" id="title" type="text" />
-        </div>
-        <div>
-          <label for="author">Author</label>
-          <input name="author" id="author" type="text" />
-        </div>
-        <div>
-          <label for="pages">Total Pages</label>
-          <input name="pages" id="pages" type="text" />
-        </div>
-        <div>
-          <span>
-            <input name="read" id="read-true" type="radio" value="true" />
-            <label for="read-true">Have read</label>
-          </span>
-          <span>
-            <input name="read" id="read-false" type="radio" value="false" />
-            <label for="read-false">Have not read</label>
-          </span>
-        </div>
-        <div>
-          <input type="submit" value="Add book" />
-        </div>
-      </form>
+      <div>
+        <form id="form-add-book" method="POST" action="">
+          <fieldset>
+            <legend>Add Book</legend>
+            <div>
+              <label for="title">Title</label>
+              <input name="title" id="title" type="text" />
+            </div>
+            <div>
+              <label for="author">Author</label>
+              <input name="author" id="author" type="text" />
+            </div>
+            <div>
+              <label for="pages">Total Pages</label>
+              <input name="pages" id="pages" type="text" />
+            </div>
+            <div>
+              <span>
+                <input name="read" id="read-true" type="radio" value="true" />
+                <label for="read-true">Have read</label>
+              </span>
+              <span>
+                <input name="read" id="read-false" type="radio" value="false" />
+                <label for="read-false">Have not read</label>
+              </span>
+            </div>
+            <div>
+              <input type="submit" value="Add book" />
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <table id="table-list-book" class="table-list-book">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Total Pages</th>
+            <th>Read Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
 
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="./firebase.js"></script>
     <script src="./library.js"></script>
   </body>
 </html>
