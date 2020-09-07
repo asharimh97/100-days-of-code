@@ -906,3 +906,12 @@ It's been a while playing with a light library such as this one, I should take a
 Since the ruby is finished and I still don't know how to install MySQL in mac, I decided to turn other way and learn JS instead.
 
 1. [The Odin Project - Library](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/library)
+
+### Day 71: September 7 2020, Monday
+
+**Today's Progress**: Finished Library project with Javascript
+
+**Thoughts**
+Finished implementation of library project using Javascript, the next step is learn how to store and retrieve its data via Firebase. Daaammnn! I want to learn firebase since then, finally I got the chance. Yeah!!!!
+
+1. [The Odin Project - Library](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/library)
