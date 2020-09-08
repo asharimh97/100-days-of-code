@@ -1,33 +1,25 @@
-let myLibrary = [
-  {
-    id: 1,
-    title: "Think and Grow Rich",
-    author: "Napoleon Hill",
-    pages: 265,
-    read: false
+let myLibrary = [];
+let generated = false;
+
+// listen to database books
+const books = database.ref("books");
+books.on(
+  "value",
+  function (snapshot) {
+    const libraries = snapshot.val();
+
+    if (!generated) {
+      Object.values(libraries).forEach(book => {
+        myLibrary.push(book);
+      });
+      generated = true;
+      generateTable();
+    }
   },
-  {
-    id: 2,
-    title: "Barking Up the Wrong Tree",
-    author: "Eric Barker",
-    pages: 305,
-    read: false
-  },
-  {
-    id: 3,
-    title: "Everything is Fucked",
-    author: "Mark Manson",
-    pages: 292,
-    read: false
-  },
-  {
-    id: 4,
-    title: "It Doesn't Have to be Crazy at Work",
-    author: "Ipsum",
-    pages: 270,
-    read: false
+  function (err) {
+    console.error(err);
   }
-];
+);
 
 function Book(title, author, pages, read) {
   this.id = Math.round(Math.random() * 1000);
@@ -40,6 +32,15 @@ function Book(title, author, pages, read) {
 function addBookToLibrary(data) {
   const { title, author, pages, read } = data;
   book = new Book(title, author, pages, read);
+
+  // add book to library
+  database.ref("books/" + book.id).set({
+    id: book.id,
+    title: book.title,
+    author: book.author,
+    pages: book.pages,
+    read: book.read
+  });
 
   myLibrary.push(book);
 }
@@ -93,6 +94,9 @@ function deleteBook(id) {
   const bookId = myLibrary.findIndex(book => book.id == id);
   myLibrary.splice(bookId, 1);
 
+  // delete book from database
+  database.ref(`books/${id}`).remove();
+
   generateTable();
 }
 
@@ -106,7 +110,8 @@ function toggleRead(id) {
 
   myLibrary.splice(bookId, 1, newBook);
 
+  // update database book
+  database.ref().update({ [`books/${newBook.id}`]: newBook });
+
   generateTable();
 }
-
-generateTable();
