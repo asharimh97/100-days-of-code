@@ -915,3 +915,23 @@ Since the ruby is finished and I still don't know how to install MySQL in mac, I
 Finished implementation of library project using Javascript, the next step is learn how to store and retrieve its data via Firebase. Daaammnn! I want to learn firebase since then, finally I got the chance. Yeah!!!!
 
 1. [The Odin Project - Library](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/library)
+
+### Day 72: September 8 2020, Tuesday
+
+**Today's Progress**: Add firebase to library project
+
+**Thoughts**
+I didn't know implementing firebase will be quite easy!
+
+1. [The Odin Project - Library](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/library)
+
+### Day 73: September 9 2020, Wednesday
+
+**Today's Progress**: Initiate tic tac toe project and concepting Booklog project
+
+**Thoughts**
+I can't get focused, damn! I was swayed by Xbox, damn you Xbox!!!!
+
+At the end just initiate folder tic tac toe project and write down the concept of Booklog project with React and Firebase.
+
+1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/tic-tac-toe)
