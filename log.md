@@ -935,3 +935,12 @@ I can't get focused, damn! I was swayed by Xbox, damn you Xbox!!!!
 At the end just initiate folder tic tac toe project and write down the concept of Booklog project with React and Firebase.
 
 1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/tic-tac-toe)
+
+### Day 74: September 10 2020, Thursday
+
+**Today's Progress**: Finished tic tac toe project without function factories and object constructor
+
+**Thoughts**
+It's finished but without using function factories nor object constructor, well I don't think it's necessary to make it. Hmm but based on the course I should finish it with object constructor. Hmmmmm....
+
+1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/tic-tac-toe)
