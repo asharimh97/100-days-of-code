@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #fff;
+  font-family: "PT Sans", sans-serif;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+body.home {
+  background: url("../images/restaurant.jpg"), rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  width: 640px;
+}
+
+.container.home__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.home__title {
+  border: solid 2px #fff;
+  color: #fff;
+  font-size: 2.5em;
+  padding: 48px 32px;
+  letter-spacing: 10px;
+  line-height: 0;
+  margin-bottom: 64px;
+  text-transform: uppercase;
+}
+
+.home__navs {
+  display: flex;
+}
+
+.home__navs a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+}
