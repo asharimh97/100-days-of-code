@@ -953,3 +953,10 @@ It's finished but without using function factories nor object constructor, well 
 When it comes to simple config, webpack is quite easy but who knows when the needs is become more complicated the config will likely become more complicated tho.
 
 1. [The Odin Project - Restaurant](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/restaurant)
+
+### Day 76: September 12 2020, Saturday
+
+**Today's Progress**: Learned SOLID Principle in Javascript
+
+**Thoughts**
+I don't know but the more I read article about SOLID principle I still couldn't get a grasp of it. Hhhh, so frustrating.
