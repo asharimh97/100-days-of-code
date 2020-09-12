@@ -944,3 +944,12 @@ At the end just initiate folder tic tac toe project and write down the concept o
 It's finished but without using function factories nor object constructor, well I don't think it's necessary to make it. Hmm but based on the course I should finish it with object constructor. Hmmmmm....
 
 1. [The Odin Project - Tic Tac Toe](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/tic-tac-toe)
+
+### Day 75: September 11 2020, Friday
+
+**Today's Progress**: Learned class in Javascript and finished restaurant page with webpack config
+
+**Thoughts**
+When it comes to simple config, webpack is quite easy but who knows when the needs is become more complicated the config will likely become more complicated tho.
+
+1. [The Odin Project - Restaurant](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/restaurant)
