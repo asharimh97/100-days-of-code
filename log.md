@@ -960,3 +960,14 @@ When it comes to simple config, webpack is quite easy but who knows when the nee
 
 **Thoughts**
 I don't know but the more I read article about SOLID principle I still couldn't get a grasp of it. Hhhh, so frustrating.
+
+### Day 77: September 13 2020, Sunday
+
+**Today's Progress**: Continue learn SOLID principle by discussing with Faldy and start todo project
+
+**Thoughts**
+Still confused about SOLID principle a bit but I think I have get a grasp of it.
+
+Create todo project with vanilla JS is something. Usually we could auto update DOM with react or vue but in vanilla JS we should do it manually. Hmm, it's quite challenging.
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
