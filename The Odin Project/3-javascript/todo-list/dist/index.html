@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <aside class="sidebar navbar">
+      <div class="navbar__brand">
+        <h4>Todo List</h4>
+      </div>
+      <div id="sidebar__search">
+        <ion-icon name="search-outline" class="search__icon"></ion-icon>
+        <input type="text" placeholder="Search here" class="search__input" />
+      </div>
+      <!-- All projects will be rendered here -->
+      <div id="sidebar__navs">
+        <a href="#" class="sidebar__nav">
+          <div class="nav-item">
+            <ion-icon name="list-outline"></ion-icon>
+            Lorem ipsum
+          </div>
+        </a>
+        <a href="#" class="sidebar__nav sidebar__nav--active">
+          <div class="nav-item">
+            <ion-icon name="list-outline"></ion-icon>
+            Lorem ipsum
+          </div>
+        </a>
+      </div>
+    </aside>
+
+    <main id="main-content">
+      <section id="project__heading">
+        <h3 class="heading__title">Project title</h3>
+        <p class="heading__description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          veniam voluptate doloremque quia voluptates, mollitia eveniet quaerat
+          nemo amet illo. In, vel modi vitae iure repellat ducimus repudiandae
+          consectetur quam?
+        </p>
+        <div id="todos">
+          <div class="todo-item">
+            <div class="todo-item__body">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="todo-item__checkbox"
+              />
+              <div class="todo-item__content">
+                <p class="todo-item__title">Todo item 1</p>
+                <p class="todo-item__date">date disini</p>
+              </div>
+            </div>
+            <ion-icon name="flag" class="todo-item__flag"></ion-icon>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project's todos rendered here -->
+    </main>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
