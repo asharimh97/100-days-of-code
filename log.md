@@ -971,3 +971,12 @@ Still confused about SOLID principle a bit but I think I have get a grasp of it.
 Create todo project with vanilla JS is something. Usually we could auto update DOM with react or vue but in vanilla JS we should do it manually. Hmm, it's quite challenging.
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 78: September 14 2020, Monday
+
+**Today's Progress**: Create user interface for todo project
+
+**Thoughts**
+Let's start with the user interface first, I feel relieved when I could see what will I build.
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
