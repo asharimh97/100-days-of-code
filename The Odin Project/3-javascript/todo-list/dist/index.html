@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Todo List</title>
 
     <!-- CSS -->
@@ -11,7 +11,9 @@
   <body>
     <aside class="sidebar navbar">
       <div class="navbar__brand">
-        <h4>Todo List</h4>
+        <a href="index.html">
+          <h4>Todo List</h4>
+        </a>
       </div>
       <div id="sidebar__search">
         <ion-icon name="search-outline" class="search__icon"></ion-icon>
@@ -19,15 +21,16 @@
       </div>
       <!-- All projects will be rendered here -->
       <div id="sidebar__navs">
+        <p class="sidebar__nav-group-title">Projects</p>
         <a href="#" class="sidebar__nav">
           <div class="nav-item">
-            <ion-icon name="list-outline"></ion-icon>
+            <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
             Lorem ipsum
           </div>
         </a>
         <a href="#" class="sidebar__nav sidebar__nav--active">
           <div class="nav-item">
-            <ion-icon name="list-outline"></ion-icon>
+            <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
             Lorem ipsum
           </div>
         </a>
@@ -43,7 +46,10 @@
           nemo amet illo. In, vel modi vitae iure repellat ducimus repudiandae
           consectetur quam?
         </p>
-        <div id="todos">
+      </section>
+
+      <div id="todos">
+        <div id="todo-list">
           <div class="todo-item">
             <div class="todo-item__body">
               <input
@@ -59,8 +65,63 @@
             </div>
             <ion-icon name="flag" class="todo-item__flag"></ion-icon>
           </div>
+          <div class="todo-item todo-item--complete">
+            <div class="todo-item__body">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="todo-item__checkbox"
+                checked
+              />
+              <div class="todo-item__content">
+                <p class="todo-item__title">Todo item 1</p>
+                <p class="todo-item__date">date disini</p>
+              </div>
+            </div>
+            <ion-icon
+              name="flag"
+              class="todo-item__flag todo-item__flag--high"
+            ></ion-icon>
+          </div>
+          <div class="todo-item">
+            <div class="todo-item__body">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="todo-item__checkbox"
+              />
+              <div class="todo-item__content">
+                <p class="todo-item__title">Todo item 1</p>
+                <p class="todo-item__date">date disini</p>
+              </div>
+            </div>
+            <ion-icon
+              name="flag"
+              class="todo-item__flag todo-item__flag--medium"
+            ></ion-icon>
+          </div>
+          <div class="todo-item">
+            <div class="todo-item__body">
+              <input
+                type="checkbox"
+                name=""
+                id=""
+                class="todo-item__checkbox"
+              />
+              <div class="todo-item__content">
+                <p class="todo-item__title">Todo item 1</p>
+                <p class="todo-item__date">date disini</p>
+              </div>
+            </div>
+            <ion-icon
+              name="flag"
+              class="todo-item__flag todo-item__flag--low"
+            ></ion-icon>
+          </div>
         </div>
-      </section>
+      </div>
 
       <!-- Project's todos rendered here -->
     </main>
