@@ -980,3 +980,12 @@ Create todo project with vanilla JS is something. Usually we could auto update D
 Let's start with the user interface first, I feel relieved when I could see what will I build.
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 79: September 15 2020, Tuesday
+
+**Today's Progress**: Finished User Interface for todo list project
+
+**Thoughts**
+Let's rock the logic tomorrow!!!!
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
