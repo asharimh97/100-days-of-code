@@ -50,6 +50,7 @@
 
       <div id="todos">
         <div id="todo-list">
+          <!-- Project's todos rendered here -->
           <div class="todo-item">
             <div class="todo-item__body">
               <input
@@ -122,9 +123,60 @@
           </div>
         </div>
       </div>
-
-      <!-- Project's todos rendered here -->
     </main>
+
+    <button class="button__todo--add">
+      <ion-icon name="add-outline"></ion-icon>
+    </button>
+
+    <div class="modal">
+      <div class="modal__content">
+        <h2 class="modal__title">Add Todo</h2>
+        <div class="modal__closer">
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+
+        <div class="modal__body">
+          <form id="form__todo form__todo--add" action="">
+            <div class="input-group">
+              <label for="title">Title</label>
+              <input id="title" name="title" type="text" class="input__field" />
+            </div>
+            <div class="input-group--row">
+              <div class="input-group">
+                <label for="date">Due Date</label>
+                <input id="date" name="date" type="date" class="input__field" />
+              </div>
+              <div class="input-group">
+                <label for="priority">Priority</label>
+                <select name="priority" id="priority" class="input__field">
+                  <option value="high">High</option>
+                  <option value="medium">Medium</option>
+                  <option value="low">Low</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="description">Description</label>
+              <textarea
+                name="description"
+                id="description"
+                class="input__field"
+                rows="5"
+              ></textarea>
+            </div>
+            <div class="input-group input-group--row input-group--align-right">
+              <button class="button button--default" type="button">
+                Cancel
+              </button>
+              <button class="button button--primary" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <script src="./main.js"></script>
