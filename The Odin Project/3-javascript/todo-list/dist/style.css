@@ -187,3 +187,123 @@ main#main-content {
 .todo-item--complete .todo-item__body {
   text-decoration: line-through;
 }
+
+.button__todo--add {
+  align-items: center;
+  background: var(--blue);
+  border-radius: 50%;
+  border: none;
+  bottom: 0;
+  box-shadow: 0 3px 32px 0 rgba(10, 31, 68, 0.1),
+    0 0 1px 0 rgba(10, 31, 68, 0.08);
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  font-size: 1.25em;
+  height: 50px;
+  justify-content: center;
+  margin: 24px;
+  position: fixed;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  width: 50px;
+}
+.button__todo--add:hover {
+  transform: translateY(-15px);
+}
+
+/* Modal */
+.modal {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.modal.modal--show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__content {
+  background: var(--white);
+  border-radius: 5px;
+  box-shadow: 0 3px 32px 0 rgba(10, 31, 68, 0.1),
+    0 0 1px 0 rgba(10, 31, 68, 0.08);
+  padding: 16px;
+  position: relative;
+  min-width: 350px;
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.modal__closer {
+  font-size: 1.5em;
+  padding: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.input-group {
+  margin-bottom: 12px;
+}
+.input-group--row {
+  align-items: flex-start;
+  display: flex;
+}
+.input-group--row * {
+  margin-right: 12px;
+}
+.input-group--row *:last-child {
+  margin-right: 0;
+}
+.input-group--align-right {
+  justify-content: flex-end;
+}
+
+.input-group label {
+  color: var(--softerBlack);
+  display: block;
+  font-size: 0.85em;
+  margin-bottom: 4px;
+}
+.input__field {
+  border: solid 1px var(--darkerGrey);
+  border-radius: 3px;
+  font-family: inherit;
+  color: var(--black);
+  padding: 12px;
+  width: 100%;
+}
+.input-group .button {
+  background: none;
+  border: solid 1px var(--grey);
+  border-radius: 3px;
+  cursor: pointer;
+  height: 32px;
+  padding: 0 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-group .button.button--default {
+  color: var(--black);
+}
+.input-group .button.button--default:hover {
+  background: var(--softerGrey);
+}
+
+.input-group .button.button--primary {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: var(--shaded-white);
+}
