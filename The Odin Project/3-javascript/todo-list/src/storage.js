@@ -1,5 +1,5 @@
 const projectStorage = "todoStorage";
-export const storage = {
+const storage = {
   getAllProjects: () => {
     let projects = localStorage.getItem(projectStorage);
     projects = JSON.parse(projects);
@@ -7,7 +7,7 @@ export const storage = {
     return projects;
   },
   saveAllProjects: projects => {
-    localStorage.setItem(projectStorage, projects);
+    localStorage.setItem(projectStorage, JSON.stringify(projects));
   },
   getDetailProject: title => {
     let project = localStorage.getItem(title);
@@ -20,3 +20,5 @@ export const storage = {
     localStorage.setItem(title, projectData);
   }
 };
+
+module.exports = storage;

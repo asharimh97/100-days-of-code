@@ -1,4 +1,4 @@
-export const Todo = todo => {
+const Todo = (todo = {}) => {
   let { title, description, dueDate, priority } = todo;
   const id = Math.floor(Math.random() * 1000);
 
@@ -22,3 +22,5 @@ export const Todo = todo => {
     setTodo
   };
 };
+
+module.exports = Todo;

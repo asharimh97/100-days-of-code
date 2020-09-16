@@ -1,4 +1,4 @@
-export const Projects = (projectTitle, projectDescription) => {
+const Project = (projectTitle, projectDescription) => {
   let title = projectTitle;
   let description = projectDescription;
   let todos = [];
@@ -30,3 +30,5 @@ export const Projects = (projectTitle, projectDescription) => {
     removeTodo
   };
 };
+
+module.exports = Project;
