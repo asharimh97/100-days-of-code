@@ -989,3 +989,13 @@ Let's start with the user interface first, I feel relieved when I could see what
 Let's rock the logic tomorrow!!!!
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 80: September 16 2020, Wednesday
+
+**Today's Progress**: Start implement javascript functions for user interactions
+
+**Thoughts**
+It's harder than I thought!!!!
+I mean it's so easy in React JS, I think I can finish it within 2 hours in react js, but it will take 2 more days hahaha.
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
