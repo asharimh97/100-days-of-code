@@ -95,6 +95,7 @@ aside.sidebar {
 }
 
 .sidebar__nav-group-title {
+  margin: 16px;
   font-weight: 600;
 }
 .nav-item {
@@ -224,6 +225,7 @@ main#main-content {
   position: fixed;
   visibility: hidden;
   top: 0;
+  transition: all 0.2s ease-in-out;
   width: 100%;
 }
 
@@ -237,9 +239,18 @@ main#main-content {
   border-radius: 5px;
   box-shadow: 0 3px 32px 0 rgba(10, 31, 68, 0.1),
     0 0 1px 0 rgba(10, 31, 68, 0.08);
+  opacity: 0;
   padding: 16px;
   position: relative;
+  transform: translateY(-25px);
+  transition: all 0.2s ease;
+  transition-delay: 0.2s;
   min-width: 350px;
+}
+
+.modal.modal--show .modal__content {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .modal__title {
