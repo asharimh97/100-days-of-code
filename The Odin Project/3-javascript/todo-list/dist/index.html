@@ -20,9 +20,9 @@
         <input type="text" placeholder="Search here" class="search__input" />
       </div>
       <!-- All projects will be rendered here -->
+      <p class="sidebar__nav-group-title">Projects</p>
       <div id="sidebar__navs">
-        <p class="sidebar__nav-group-title">Projects</p>
-        <a href="#" class="sidebar__nav">
+        <!-- <a href="#" class="sidebar__nav">
           <div class="nav-item">
             <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
             Lorem ipsum
@@ -33,7 +33,7 @@
             <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
             Lorem ipsum
           </div>
-        </a>
+        </a> -->
       </div>
     </aside>
 
@@ -129,10 +129,10 @@
       <ion-icon name="add-outline"></ion-icon>
     </button>
 
-    <div class="modal">
+    <div id="modal__todo--add" class="modal">
       <div class="modal__content">
         <h2 class="modal__title">Add Todo</h2>
-        <div class="modal__closer">
+        <div data-target="modal__todo--add" class="modal__closer">
           <ion-icon name="close-outline"></ion-icon>
         </div>
 
