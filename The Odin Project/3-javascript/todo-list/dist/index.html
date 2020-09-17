@@ -51,76 +51,6 @@
       <div id="todos">
         <div id="todo-list">
           <!-- Project's todos rendered here -->
-          <div class="todo-item">
-            <div class="todo-item__body">
-              <input
-                type="checkbox"
-                name=""
-                id=""
-                class="todo-item__checkbox"
-              />
-              <div class="todo-item__content">
-                <p class="todo-item__title">Todo item 1</p>
-                <p class="todo-item__date">date disini</p>
-              </div>
-            </div>
-            <ion-icon name="flag" class="todo-item__flag"></ion-icon>
-          </div>
-          <div class="todo-item todo-item--complete">
-            <div class="todo-item__body">
-              <input
-                type="checkbox"
-                name=""
-                id=""
-                class="todo-item__checkbox"
-                checked
-              />
-              <div class="todo-item__content">
-                <p class="todo-item__title">Todo item 1</p>
-                <p class="todo-item__date">date disini</p>
-              </div>
-            </div>
-            <ion-icon
-              name="flag"
-              class="todo-item__flag todo-item__flag--high"
-            ></ion-icon>
-          </div>
-          <div class="todo-item">
-            <div class="todo-item__body">
-              <input
-                type="checkbox"
-                name=""
-                id=""
-                class="todo-item__checkbox"
-              />
-              <div class="todo-item__content">
-                <p class="todo-item__title">Todo item 1</p>
-                <p class="todo-item__date">date disini</p>
-              </div>
-            </div>
-            <ion-icon
-              name="flag"
-              class="todo-item__flag todo-item__flag--medium"
-            ></ion-icon>
-          </div>
-          <div class="todo-item">
-            <div class="todo-item__body">
-              <input
-                type="checkbox"
-                name=""
-                id=""
-                class="todo-item__checkbox"
-              />
-              <div class="todo-item__content">
-                <p class="todo-item__title">Todo item 1</p>
-                <p class="todo-item__date">date disini</p>
-              </div>
-            </div>
-            <ion-icon
-              name="flag"
-              class="todo-item__flag todo-item__flag--low"
-            ></ion-icon>
-          </div>
         </div>
       </div>
     </main>
@@ -137,19 +67,32 @@
         </div>
 
         <div class="modal__body">
-          <form id="form__todo form__todo--add" action="">
+          <form id="form__todo" class="form__todo form__todo--add" action="">
             <div class="input-group">
               <label for="title">Title</label>
-              <input id="title" name="title" type="text" class="input__field" />
+              <input
+                id="title"
+                name="title"
+                type="text"
+                class="input__field"
+                required
+              />
             </div>
             <div class="input-group--row">
               <div class="input-group">
                 <label for="date">Due Date</label>
-                <input id="date" name="date" type="date" class="input__field" />
+                <input
+                  id="date"
+                  name="date"
+                  type="date"
+                  class="input__field"
+                  required
+                />
               </div>
               <div class="input-group">
                 <label for="priority">Priority</label>
                 <select name="priority" id="priority" class="input__field">
+                  <option value="">-</option>
                   <option value="high">High</option>
                   <option value="medium">Medium</option>
                   <option value="low">Low</option>
@@ -166,7 +109,11 @@
               ></textarea>
             </div>
             <div class="input-group input-group--row input-group--align-right">
-              <button class="button button--default" type="button">
+              <button
+                data-target="modal__todo--add"
+                class="button button--default button__modal--cancel"
+                type="button"
+              >
                 Cancel
               </button>
               <button class="button button--primary" type="submit">
