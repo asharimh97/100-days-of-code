@@ -999,3 +999,13 @@ It's harder than I thought!!!!
 I mean it's so easy in React JS, I think I can finish it within 2 hours in react js, but it will take 2 more days hahaha.
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 81: September 17 2020, Thursday
+
+**Today's Progress**: Continue user interaction, add interaction to add todo
+
+**Thoughts**
+It's harder than I thought!!!!
+I think I misused between factory function and object constructor. It turns out the value never chage hahaha.
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
