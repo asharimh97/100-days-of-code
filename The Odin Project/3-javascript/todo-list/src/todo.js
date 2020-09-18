@@ -1,7 +1,6 @@
 const Todo = (todo = {}) => {
-  let { title, description, dueDate, priority } = todo;
-  const id = Math.floor(Math.random() * 1000);
-  let complete = false;
+  let { title, description, dueDate, priority, complete = false } = todo;
+  const id = todo.id || Math.floor(Math.random() * 1000);
 
   const setTodo = newTodo => {
     const {
@@ -23,26 +22,23 @@ const Todo = (todo = {}) => {
     complete = !complete;
   };
 
+  const getInfo = () => ({
+    id,
+    complete,
+    description,
+    dueDate,
+    priority,
+    title
+  });
+
   return {
     id,
     complete,
     ...todo,
     setTodo,
-    setComplete
+    setComplete,
+    getInfo
   };
 };
-
-// const t = Todo({
-//   title: "asd",
-//   description: "asd",
-//   dueDate: new Date(),
-//   priority: ""
-// });
-
-// console.log(t);
-
-// t.setComplete();
-
-// console.log(t);
 
 module.exports = Todo;
