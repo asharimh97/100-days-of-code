@@ -19,9 +19,8 @@ const Project = (projectTitle, projectDescription, todo = null) => {
   };
 
   const updateTodo = (todoId, newTodo) => {
-    const todo = todos.find(todo => todo.id === todoId);
+    const todo = todos.find(todo => todo.id == todoId);
     todo.setTodo(newTodo);
-    console.log(todo.getInfo());
   };
 
   const removeTodo = todoId => {
