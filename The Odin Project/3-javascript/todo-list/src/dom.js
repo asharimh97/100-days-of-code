@@ -40,7 +40,7 @@ export const DOMManipulator = {
     subheading.textContent = description;
   },
   // todo dom
-  addTodoToPage: todo => {
+  addTodoToPage: (todo, onChange) => {
     const { complete, id } = todo.getInfo();
     const todoContent = `
       <div class="todo-item__body">
@@ -68,21 +68,23 @@ export const DOMManipulator = {
     todoItem.innerHTML = todoContent;
 
     const checkbox = todoItem.querySelector("input");
+
+    checkbox.addEventListener("change", e => {
+      e.cancelBubble = true;
+      todoItem.classList.toggle("todo-item--complete");
+      onChange(id);
+    });
+
     todoItem.addEventListener(
       "click",
       function (e) {
         if (e.target != checkbox) {
           // buka modal edit
-          console.log(todo);
           return;
         }
       },
       true
     );
-    checkbox.addEventListener("change", e => {
-      e.cancelBubble = true;
-      todoItem.classList.toggle("todo-item--complete");
-    });
 
     list.appendChild(todoItem);
   },
@@ -93,7 +95,7 @@ export const DOMManipulator = {
   },
 
   // sidebar project dom
-  addProjectToSidebar: function (project) {
+  addProjectToSidebar: function (project, callback) {
     let navContent = `
       <div class="nav-item">
         <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
@@ -112,6 +114,7 @@ export const DOMManipulator = {
     link.addEventListener("click", function () {
       _this.clearSidebarActive();
       this.classList.add("sidebar__nav--active");
+      callback(project);
     });
 
     sidebar.appendChild(link);
