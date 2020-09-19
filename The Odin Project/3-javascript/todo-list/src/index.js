@@ -35,24 +35,16 @@ projects.forEach(project => {
 
   todoProjects.push(projectData);
 
-  DOMManipulator.addProjectToSidebar(project);
+  DOMManipulator.addProjectToSidebar(project, loadProject);
 });
 
 // load default project data
 (function loadInitProject() {
-  let tempTodo = [];
-  currentProject = todoProjects[0];
-  DOMManipulator.renderProject(currentProject.get());
-  currentProject.get().todos.forEach(todo => {
-    const currentTodo = Todo({ ...todo, dueDate: new Date(todo.dueDate) });
-    tempTodo.push(currentTodo);
-    DOMManipulator.addTodoToPage(currentTodo);
-  });
-  currentProject.resetTodo(tempTodo);
-  addTodoHandler();
+  loadProject(projects[0]);
 })();
 
 function loadProject(projectName) {
+  let tempTodo = [];
   const project = todoProjects.find(proj => proj.get().title === projectName);
   currentProject = project;
 
@@ -65,25 +57,22 @@ function loadProject(projectName) {
   // add todo to page
   currentProject.get().todos.forEach(todo => {
     const currentTodo = Todo({ ...todo, dueDate: new Date(todo.dueDate) });
-    DOMManipulator.addTodoToPage(currentTodo);
+    tempTodo.push(currentTodo);
+    DOMManipulator.addTodoToPage(currentTodo, handleChangeTodo);
   });
+
+  currentProject.resetTodo(tempTodo);
 }
 
-function addTodoHandler() {
-  const todosInput = document.querySelectorAll(".todo-item__checkbox");
+function handleChangeTodo(target) {
   const todos = currentProject.get().todos;
 
-  console.log(todos);
+  const currentTodo = todos.find(td => td.id == target);
 
-  todosInput.forEach(todo => {
-    todo.addEventListener("change", () => {
-      const { target } = todo.dataset;
-      const currentTodo = todos.find(td => td.id == target);
-      currentTodo.setComplete();
-      currentProject.updateTodo(currentTodo.id, currentTodo.getInfo());
-      updateSaveProject();
-    });
-  });
+  currentTodo.setComplete();
+
+  currentProject.updateTodo(currentTodo.id, currentTodo.getInfo());
+  updateSaveProject();
 }
 
 function updateSaveProject() {
@@ -96,24 +85,33 @@ function updateSaveProject() {
   storage.saveProject(project.title, project);
 }
 
-// add sidebar event listener
-// if user click project
-// get project data by project name
-const sidenavs = document.querySelectorAll(".sidebar__nav");
-// render project title, description, and all todos
-sidenavs.forEach(nav => {
-  nav.addEventListener("click", () => {
-    const project = nav.dataset.target;
-    // switch project
-    if (project !== currentProject.get().title) loadProject(project);
-  });
-});
-
 // reset all todos first
 
 // view detail project
 
 // add project...
+const inputAddProject = document.querySelector("#input__add-project");
+inputAddProject.addEventListener("submit", function (e) {
+  const { name } = this;
+  e.preventDefault();
+
+  // create project
+  const project = Project(name.value, "Another todo project description");
+  todoProjects.push(project);
+  projects.push(name.value);
+
+  // save project
+  storage.saveAllProjects(projects);
+  storage.saveProject(project.get().title, project.get());
+
+  // add project to sidebar
+  DOMManipulator.addProjectToSidebar(project.get().title, loadProject);
+
+  // reset form
+  this.reset();
+});
+
+// add todo
 // form
 const form = document.querySelector("#form__todo");
 
@@ -125,7 +123,7 @@ form.addEventListener("submit", e => {
   const todo = Todo(data);
 
   currentProject.addTodo(todo);
-  DOMManipulator.addTodoToPage(todo);
+  DOMManipulator.addTodoToPage(todo, handleChangeTodo);
 
   form.reset();
   closeModal("modal__todo--add");
