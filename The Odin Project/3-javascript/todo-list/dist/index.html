@@ -16,25 +16,19 @@
         </a>
       </div>
       <div id="sidebar__search">
-        <ion-icon name="search-outline" class="search__icon"></ion-icon>
-        <input type="text" placeholder="Search here" class="search__input" />
+        <form id="input__add-project">
+          <ion-icon name="add-outline" class="search__icon"></ion-icon>
+          <input
+            name="name"
+            type="text"
+            placeholder="Add project"
+            class="search__input"
+          />
+        </form>
       </div>
       <!-- All projects will be rendered here -->
       <p class="sidebar__nav-group-title">Projects</p>
-      <div id="sidebar__navs">
-        <!-- <a href="#" class="sidebar__nav">
-          <div class="nav-item">
-            <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
-            Lorem ipsum
-          </div>
-        </a>
-        <a href="#" class="sidebar__nav sidebar__nav--active">
-          <div class="nav-item">
-            <ion-icon name="list-outline" class="nav-item__icon"></ion-icon>
-            Lorem ipsum
-          </div>
-        </a> -->
-      </div>
+      <div id="sidebar__navs"></div>
     </aside>
 
     <main id="main-content">
