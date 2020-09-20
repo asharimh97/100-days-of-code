@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="form-register" action="">
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" required />
+      </div>
+      <div>
+        <label for="zipcode">Zipcode</label>
+        <input
+          type="text"
+          id="zipcode"
+          name="zipcode"
+          pattern="[0-9]{5}"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"
+          required
+        />
+      </div>
+      <div>
+        <label for="password-confirm">Password</label>
+        <input
+          type="password"
+          name="password_confirmation"
+          id="password-confirm"
+          pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$"
+          required
+        />
+      </div>
+      <div>
+        <input type="submit" value="Register" />
+      </div>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
