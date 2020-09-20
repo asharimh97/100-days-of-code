@@ -1028,3 +1028,12 @@ I could fix the problem I faced with factory function and now I have integrate i
 Finally finished it, it could do with multiple project now!!!
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 84: September 20 2020, Sunday
+
+**Today's Progress**: Try on form validation, take a look at webpack 2, and some js framework researchs
+
+**Thoughts**
+Form validation is new thing for me, I enjoy learned it. Also I could see webpack config clearer now since I have learned regex.
+
+1. [The Odin Project - Form Validation](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/form-validation)
