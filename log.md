@@ -1019,3 +1019,12 @@ It's harder than I thought!!!!
 I could fix the problem I faced with factory function and now I have integrate it with local storage what comes left are add project and maybe update and delete todo in project. But the basic is completed, I think.
 
 1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
+
+### Day 83: September 19 2020, Saturday
+
+**Today's Progress**: Finished the Todo List app project!
+
+**Thoughts**
+Finally finished it, it could do with multiple project now!!!
+
+1. [The Odin Project - Todo List](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list)
