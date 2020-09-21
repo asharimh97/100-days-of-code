@@ -1037,3 +1037,12 @@ Finally finished it, it could do with multiple project now!!!
 Form validation is new thing for me, I enjoy learned it. Also I could see webpack config clearer now since I have learned regex.
 
 1. [The Odin Project - Form Validation](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/form-validation)
+
+### Day 85: September 21 2020, Monday
+
+**Today's Progress**: Learn about big 3 js framework and React with typescript
+
+**Thoughts**
+It's quite tricky I think like how we should form the props first, then the filename to be considered as react JSX we should use `.tsx` instead of `.ts`.
+
+1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
