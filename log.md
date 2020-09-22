@@ -1046,3 +1046,12 @@ Form validation is new thing for me, I enjoy learned it. Also I could see webpac
 It's quite tricky I think like how we should form the props first, then the filename to be considered as react JSX we should use `.tsx` instead of `.ts`.
 
 1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
+
+### Day 86: September 22 2020, Tuesday
+
+**Today's Progress**: Continue todo list app with react + typescript
+
+**Thoughts**
+It's so difficult implement `styled-components` with typescript. Should look for more references, it's breaking if I put custom prop on the styled component.
+
+1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
