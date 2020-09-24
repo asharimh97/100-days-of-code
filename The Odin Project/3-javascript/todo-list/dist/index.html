@@ -45,6 +45,25 @@
       <div id="todos">
         <div id="todo-list">
           <!-- Project's todos rendered here -->
+          <div class="todo-item">
+            <div class="todo-item__body">
+              <input
+                type="checkbox"
+                class="todo-item__checkbox"
+                data-target="${id}"
+              />
+              <div class="todo-item__content">
+                <p class="todo-item__title">${todo.title}</p>
+                <p class="todo-item__date">
+                  ${format( todo.dueDate, "EEEE, d MMM YYY" )}
+                </p>
+              </div>
+            </div>
+            <ion-icon
+              name="flag"
+              class="todo-item__flag ${ todo.priority && `todo-item__flag--${todo.priority}` }"
+            ></ion-icon>
+          </div>
         </div>
       </div>
     </main>
@@ -120,6 +139,6 @@
     </div>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <script src="./main.js"></script>
+    <!-- <script src="./main.js"></script> -->
   </body>
 </html>
