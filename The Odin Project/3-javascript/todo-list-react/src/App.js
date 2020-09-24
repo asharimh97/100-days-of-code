@@ -5,6 +5,8 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 import ProjectHeading from "./components/ProjectHeading";
 import Container from "./components/Container";
+import TodoList from "./components/TodoList";
+import ModalTodo from "./components/ModalTodo";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <Sidebar />
       <Container>
         <ProjectHeading />
+        <TodoList />
       </Container>
+      <ModalTodo />
     </>
   );
 }
