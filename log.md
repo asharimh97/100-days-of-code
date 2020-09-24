@@ -1065,3 +1065,12 @@ It's so easy to create react app with javascript. WHYYYYYY?!!!!
 All these 2 days working is equivalent to an hour of javascript and I also add context as well.
 
 1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
+
+### Day 88: September 24 2020, Thursday
+
+**Today's Progress**: Continue create todo app, add todo item, list and modal
+
+**Thoughts**
+It takes longer than expected, I should hone my React skill more.
+
+1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
