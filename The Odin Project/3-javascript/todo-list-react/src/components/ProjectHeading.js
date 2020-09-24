@@ -9,6 +9,7 @@ const Heading = styled.h1`
 
 const Description = styled.p`
   color: ${theme.colors.softerBlack};
+  margin-bottom: 32px;
 `;
 
 const ProjectHeading = ({ title, description, ...props }) => {
