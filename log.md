@@ -1074,3 +1074,12 @@ All these 2 days working is equivalent to an hour of javascript and I also add c
 It takes longer than expected, I should hone my React skill more.
 
 1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
+
+### Day 89: September 25 2020, Friday
+
+**Today's Progress**: Finished Todo List app with context
+
+**Thoughts**
+Finally finished... The thing left is use local storage, but I think that's unnecessary.
+
+1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
