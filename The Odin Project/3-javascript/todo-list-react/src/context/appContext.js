@@ -1,8 +1,21 @@
 import { createContext } from "react";
 
-const appContext = createContext({
+/**
+ * Projects will contains data :
+ * {
+ *    id: "",
+ *    name: "",
+ *    slug: "",
+ *    todos: [
+ *      { id, title, description, dueDate, completed, priority }
+ *    ]
+ * }
+ */
+const AppContext = createContext({
   projects: [],
-  todos: {}
+  currentProject: null,
+  setProjects: () => {},
+  setCurrentProject: () => {}
 });
 
-export default appContext;
+export default AppContext;
