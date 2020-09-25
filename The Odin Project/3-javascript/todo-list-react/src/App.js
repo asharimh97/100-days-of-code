@@ -11,12 +11,15 @@ import AppContext from "./context/appContext";
 function App() {
   const [projects, setProjects] = useState([]);
   const [currentProject, setCurrentProject] = useState(null);
+  const [todos, setTodos] = useState({});
 
   const contextInitialValue = {
     projects,
     currentProject,
+    todos,
     setProjects,
-    setCurrentProject
+    setCurrentProject,
+    setTodos
   };
 
   return (
