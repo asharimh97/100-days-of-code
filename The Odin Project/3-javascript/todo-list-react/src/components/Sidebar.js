@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext, useRef } from "react";
 import styled from "styled-components";
 import theme from "./theme";
 import { IoIosList } from "react-icons/io";
+import AppContext from "../context/appContext";
+import { generateId, createSlug } from "../helper/helper";
 
 const Aside = styled.aside`
   background: ${props => props.theme.colors.white};
@@ -50,18 +52,51 @@ const Sidenav = styled.a`
 `;
 
 const Sidebar = () => {
+  const {
+    projects,
+    currentProject,
+    setProjects,
+    setCurrentProject
+  } = useContext(AppContext);
+  const inputRef = useRef(null);
+
+  const handleSelectProject = project => {
+    setCurrentProject(project);
+  };
+
+  const handleAddProject = e => {
+    e.preventDefault();
+    const projectName = inputRef.current.value;
+    const project = {
+      id: generateId(),
+      slug: createSlug(projectName),
+      name: projectName,
+      todos: []
+    };
+
+    setProjects([].concat(projects, project));
+
+    inputRef.current.value = "";
+  };
+
   return (
     <Aside data-test="sidebar-component">
       <Brand>Todo List</Brand>
-      <Input placeholder="Add Project" />
+      <form onSubmit={handleAddProject}>
+        <Input ref={inputRef} placeholder="Add Project" />
+      </form>
       <h3 style={{ marginTop: "0px" }}>Projects</h3>
-      <Sidenav href="#">
-        <IoIosList />
-        Lorem ipsum
-      </Sidenav>
-      <Sidenav href="#">Lorem ipsum</Sidenav>
-      <Sidenav href="#">Lorem ipsum</Sidenav>
-      <Sidenav href="#">Lorem ipsum</Sidenav>
+      {projects.map(project => (
+        <Sidenav
+          key={project.id}
+          href="#"
+          onClick={() => handleSelectProject(project)}
+          active={currentProject && project.id === currentProject.id}
+        >
+          <IoIosList />
+          {project.name}
+        </Sidenav>
+      ))}
     </Aside>
   );
 };
