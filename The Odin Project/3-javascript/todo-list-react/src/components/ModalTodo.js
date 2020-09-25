@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { IoIosClose } from "react-icons/io";
 import styled, { css } from "styled-components";
@@ -95,8 +95,7 @@ const ModalBody = styled.div`
   }
 `;
 
-const ModalTodo = ({ componentId, ...props }) => {
-  const [visible, setVisible] = useState(true);
+const ModalTodo = ({ visible, title, onSubmit, onCancel, ...props }) => {
   const overlay = useRef(null);
   const form = useRef(null);
 
@@ -109,7 +108,7 @@ const ModalTodo = ({ componentId, ...props }) => {
   }, []);
 
   const handleCloseModal = () => {
-    setVisible(false);
+    onCancel();
   };
 
   const handleOutsideClick = e => {
@@ -120,16 +119,17 @@ const ModalTodo = ({ componentId, ...props }) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    const { name, date, priority, description } = form.current;
+    const { title, date, priority, description } = form.current;
 
     const data = {
-      name: name.value,
+      title: title.value,
       date: date.value,
       priority: priority.value,
       description: description.value
     };
 
-    console.log(data);
+    onSubmit(data);
+    form.current.reset();
   };
 
   return (
@@ -139,11 +139,11 @@ const ModalTodo = ({ componentId, ...props }) => {
           <IoIosClose />
         </ModalCloser>
         <ModalBody>
-          <h3 style={{ marginTop: "0px" }}>Modal Title</h3>
+          <h3 style={{ marginTop: "0px" }}>{title}</h3>
           <form ref={form} onSubmit={handleSubmit}>
             <div>
               <label>Title</label>
-              <input name="name" placeholder="Title" required />
+              <input name="title" placeholder="Title" required />
             </div>
             <div
               style={{
@@ -181,11 +181,16 @@ const ModalTodo = ({ componentId, ...props }) => {
 };
 
 ModalTodo.propTypes = {
-  componentId: PropTypes.string
+  visible: PropTypes.bool,
+  title: PropTypes.string,
+  onSubmit: PropTypes.func,
+  onCancel: PropTypes.func
 };
 
 ModalTodo.defaultProps = {
-  componentId: "lorem"
+  visible: false,
+  onSubmit: () => {},
+  onCancel: () => {}
 };
 
 export default ModalTodo;
