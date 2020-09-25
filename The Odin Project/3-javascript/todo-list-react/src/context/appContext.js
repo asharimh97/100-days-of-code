@@ -6,16 +6,21 @@ import { createContext } from "react";
  *    id: "",
  *    name: "",
  *    slug: "",
- *    todos: [
- *      { id, title, description, dueDate, completed, priority }
- *    ]
+ * }
+ *
+ * Todos will contain data: {
+ *  "project-slug": [
+ *    { id, title, description, dueDate, completed, priority }
+ *  ]
  * }
  */
 const AppContext = createContext({
   projects: [],
   currentProject: null,
+  todos: {},
   setProjects: () => {},
-  setCurrentProject: () => {}
+  setCurrentProject: () => {},
+  setTodos: () => {}
 });
 
 export default AppContext;
