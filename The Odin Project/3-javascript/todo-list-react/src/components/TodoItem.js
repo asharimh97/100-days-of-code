@@ -47,13 +47,12 @@ const TodoBody = styled.div`
   }
 `;
 
-const TodoItem = ({ todo, onClick }) => {
-  const { title, date, priority } = todo;
-  const [completed, setCompleted] = useState(false);
+const TodoItem = ({ todo, onClick, onComplete }) => {
+  const { title, date, priority, completed } = todo;
 
   const handleCompleteTodo = e => {
     console.log("Complete this todo", todo);
-    setCompleted(!completed);
+    onComplete(todo);
   };
 
   const PRIORITY_COLOR = {
@@ -68,6 +67,7 @@ const TodoItem = ({ todo, onClick }) => {
           type="checkbox"
           onChange={handleCompleteTodo}
           style={{ marginRight: "16px" }}
+          checked={completed}
         />
         <div onClick={onClick} style={{ width: "100%" }}>
           <TodoTitle>{title}</TodoTitle>
@@ -81,7 +81,8 @@ const TodoItem = ({ todo, onClick }) => {
 
 TodoItem.propTypes = {
   todo: PropTypes.object,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  onComplete: PropTypes.func
 };
 
 TodoItem.defaultProps = {
@@ -89,7 +90,9 @@ TodoItem.defaultProps = {
     title: "Sample title",
     date: new Date(),
     priority: ""
-  }
+  },
+  onClick: () => {},
+  onComplete: () => {}
 };
 
 export default TodoItem;
