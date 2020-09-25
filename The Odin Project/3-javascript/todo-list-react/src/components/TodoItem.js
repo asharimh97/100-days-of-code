@@ -47,17 +47,13 @@ const TodoBody = styled.div`
   }
 `;
 
-const TodoItem = ({ todo }) => {
+const TodoItem = ({ todo, onClick }) => {
   const { title, date, priority } = todo;
   const [completed, setCompleted] = useState(false);
 
   const handleCompleteTodo = e => {
     console.log("Complete this todo", todo);
     setCompleted(!completed);
-  };
-
-  const handleClickTodo = e => {
-    console.log("Click body todo");
   };
 
   const PRIORITY_COLOR = {
@@ -73,9 +69,9 @@ const TodoItem = ({ todo }) => {
           onChange={handleCompleteTodo}
           style={{ marginRight: "16px" }}
         />
-        <div onClick={handleClickTodo} style={{ width: "100%" }}>
+        <div onClick={onClick} style={{ width: "100%" }}>
           <TodoTitle>{title}</TodoTitle>
-          <TodoDate>{format(date, "d MMMM yyyy")}</TodoDate>
+          <TodoDate>{format(new Date(date), "d MMMM yyyy")}</TodoDate>
         </div>
       </TodoBody>
       <IoIosFlag fill={PRIORITY_COLOR[priority] || theme.colors.softerGrey} />
@@ -84,7 +80,8 @@ const TodoItem = ({ todo }) => {
 };
 
 TodoItem.propTypes = {
-  todo: PropTypes.object
+  todo: PropTypes.object,
+  onClick: PropTypes.func
 };
 
 TodoItem.defaultProps = {
