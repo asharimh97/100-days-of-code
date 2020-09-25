@@ -16,9 +16,7 @@ const Wrapper = styled.div`
 `;
 
 const TodoList = () => {
-  const { currentProject, projects, setCurrentProject } = useContext(
-    AppContext
-  );
+  const { currentProject, todos, setTodos } = useContext(AppContext);
   const [addTodo, showAddTodo] = useState(false);
 
   const showDetailTodo = () => {
@@ -32,11 +30,8 @@ const TodoList = () => {
       completed: false
     };
 
-    await setCurrentProject({
-      ...currentProject,
-      todos: [].concat(currentProject.todos, todo)
-    });
-    console.log(currentProject, projects);
+    const projectTodos = todos[currentProject.id];
+    setTodos({ ...todos, [currentProject.id]: [].concat(projectTodos, todo) });
     showAddTodo(false);
   };
 
@@ -44,16 +39,32 @@ const TodoList = () => {
     console.log(val);
   };
 
+  const handleCompleteTodo = todo => {
+    const newTodo = {
+      ...todo,
+      completed: !todo.completed
+    };
+
+    const currentTodos = todos[currentProject.id];
+    const idx = currentTodos.findIndex(td => td.id === todo.id);
+    currentTodos.splice(idx, 1, newTodo);
+
+    setTodos({ ...todos, [currentProject.id]: currentTodos });
+  };
+
+  const currentTodos = todos[currentProject?.id] || [];
+
   return (
     <div>
-      {currentProject?.todos?.length > 0 ? (
+      {currentTodos?.length > 0 ? (
         <Wrapper>
-          {currentProject.todos.map(todo => (
+          {todos[currentProject.id].map(todo => (
             <TodoItem
               data-test="todo-item"
               key={todo.id}
               todo={todo}
               onClick={showDetailTodo}
+              onComplete={handleCompleteTodo}
             />
           ))}
         </Wrapper>
