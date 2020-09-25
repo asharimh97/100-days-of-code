@@ -55,8 +55,10 @@ const Sidebar = () => {
   const {
     projects,
     currentProject,
+    todos,
     setProjects,
-    setCurrentProject
+    setCurrentProject,
+    setTodos
   } = useContext(AppContext);
   const inputRef = useRef(null);
 
@@ -75,6 +77,7 @@ const Sidebar = () => {
     };
 
     setProjects([].concat(projects, project));
+    setTodos({ ...todos, [`${project.id}`]: [] });
 
     inputRef.current.value = "";
   };
