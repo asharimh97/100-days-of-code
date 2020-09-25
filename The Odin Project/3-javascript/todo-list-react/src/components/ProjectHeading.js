@@ -1,35 +1,34 @@
-import React, { useEffect } from "react";
+import React, { useContext } from "react";
 import styled, { withTheme } from "styled-components";
 import theme from "./theme";
+import AppContext from "../context/appContext";
 
 const Heading = styled.h1`
-  margin-top: 0;
-  margin-bottom: 24px;
+  font-size: 2em;
+  margin-top: 8px;
+  margin-bottom: 16px;
 `;
 
 const Description = styled.p`
   color: ${theme.colors.softerBlack};
+  font-size: 0.9em;
+  line-height: 175%;
   margin-bottom: 32px;
 `;
 
-const ProjectHeading = ({ title, description, ...props }) => {
-  useEffect(() => {
-    console.log("Current theme: " + props.theme);
-  });
-
+const ProjectHeading = () => {
+  const { currentProject } = useContext(AppContext);
   return (
     <>
-      <Heading data-test="project-title">{title}</Heading>
-      <Description>{description}</Description>
+      <Heading data-test="project-title">
+        {currentProject?.name || "Select Todo Project"}
+      </Heading>
+      <Description>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus
+        malesuada tellus, dictum porta magna posuere nec. Nulla et porta ipsum.
+      </Description>
     </>
   );
-};
-
-ProjectHeading.defaultProps = {
-  title: "Sample Title",
-  description: `Lorem ipsum dolor sit amet, 
-  consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua.`
 };
 
 export default withTheme(ProjectHeading);
