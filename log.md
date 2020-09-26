@@ -1083,3 +1083,12 @@ It takes longer than expected, I should hone my React skill more.
 Finally finished... The thing left is use local storage, but I think that's unnecessary.
 
 1. [The Odin Project - Todo List in React](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/todo-list-react)
+
+### Day 90: September 26 2020, Saturday
+
+**Today's Progress**: Created a weather forecast app
+
+**Thoughts**
+First time playing with open weather API, quite confused at first, then I got used to it. Hmm...
+
+1. [The Odin Project - Weather Forecast](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/weather-app)
