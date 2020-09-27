@@ -1092,3 +1092,14 @@ Finally finished... The thing left is use local storage, but I think that's unne
 First time playing with open weather API, quite confused at first, then I got used to it. Hmm...
 
 1. [The Odin Project - Weather Forecast](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/weather-app)
+
+### Day 91: September 27 2020, Sunday
+
+**Today's Progress**: Playing with TDD
+
+**Thoughts**
+Need to learn more about TDD. Because my fundamental of TDD is still weak, I need to strengthen the fundamental and way of thinking in TDD.
+
+1. [The Odin Project - Unit Testing](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/unit-testing)
+2. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
+3. [Eric Elliot - Unit testing with Tape](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
