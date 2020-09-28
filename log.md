@@ -1103,3 +1103,14 @@ Need to learn more about TDD. Because my fundamental of TDD is still weak, I nee
 1. [The Odin Project - Unit Testing](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/unit-testing)
 2. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
 3. [Eric Elliot - Unit testing with Tape](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
+
+### Day 92: September 28 2020, Monday
+
+**Today's Progress**: Playing with TDD part II - Mock and assert
+
+**Thoughts**
+Need to learn more about TDD. Because my fundamental of TDD is still weak, I need to strengthen the fundamental and way of thinking in TDD.
+
+1. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
+2. [Eric Elliot - 5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
+3. [Eric Elliott - Rethinking Unit Test Assertions](https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f)
