@@ -1,0 +1,2 @@
+- [Modern Javascript Tutorial](https://javascript.info/)
+- [HTML CSS Basic](https://github.com/csabapalfi/basic-html-css)
