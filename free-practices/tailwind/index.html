@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Try Tailwind</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="p-5">
+      <div class="container mx-auto flex justify-between">
+        <a href="#" class="navbar__brand"> Book Log </a>
+        <nav>
+          <ul class="navbar-navs flex justify-start">
+            <li class="mr-8">
+              <a href="#">Home</a>
+            </li>
+            <li class="mr-8">
+              <a href="#">Menu 1</a>
+            </li>
+            <li>
+              <a href="#">Menu 2</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero-image relative">
+      <img
+        class="absolute w-full h-full top-0 left-0 object-bottom object-cover"
+        src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+        alt="Book Log"
+      />
+    </section>
+    <section class="boook-list py-16 mb-4">
+      <div
+        class="container mx-auto flex flex-col justify-center text-center mb-16"
+      >
+        <h3 class="text-2xl mb-3">Books Journey</h3>
+        <p class="text-gray-400 text-sm">All the books I have read</p>
+      </div>
+
+      <div
+        class="container mx-auto book-list-gallery grid gap-8 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book-item rounded overflow-hidden shadow-lg">
+          <div class="image-wrapper relative h-48">
+            <img
+              class="absolute h-full w-full object-center object-cover top-0 left-0"
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              alt=""
+            />
+          </div>
+          <div class="p-6 overflow-hidden">
+            <h3 class="font-bold text-xl mb-3">Zero To One</h3>
+            <p class="text-base text-gray-500 break-words mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              alias, eum ex modi repellendus
+            </p>
+            <div class="flex items-center justify-start">
+              <img
+                class="inline-block h-10 w-10 rounded-full mr-4 text-white shadow-solid"
+                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+              <div>
+                <p class="text-base text-gray-800 font-semibold truncate">
+                  Peter Thiel
+                </p>
+                <p class="text-xs text-gray-600">Januari 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta-read-book py-16">
+      <div class="container mx-auto flex flex-col md:flex-row justify-center">
+        <div class="w-1/2 flex justify-end">
+          <img
+            class="w-64 lg:ml-48 lg:mr-16"
+            src="https://images.unsplash.com/photo-1547413749-3e0c1ba70695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+        </div>
+        <div class="px-6 w-1/2">
+          <p
+            class="text-base leading-8 tracking-wide uppercase text-indigo-600"
+          >
+            Intermezzo
+          </p>
+          <h1 class="font-bold text-3xl mb-5">Ayo Mulai<br />Baca Bukumu!</h1>
+          <p class="text-base text-gray-500 mb-8">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt,
+            iusto! Esse impedit officiis nisi sapiente sed, facilis adipisci in
+            eos, ipsam sint id, molestias suscipit nesciunt velit expedita modi
+            minima.
+          </p>
+          <button
+            class="bg-indigo-500 hover:bg-indigo-700 text-white px-4 py-2 rounded tracking-wide uppercase transition-colors duration-300 ease-in-out"
+          >
+            Baca buku sekarang
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4">
+      <p class="text-gray-500 text-sm text-center mb-2">
+        Copyright &copy; 2020. Built with Tailwind CSS.
+      </p>
+      <p class="text-gray-500 text-xs text-center">by Ashari Muhammad H</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

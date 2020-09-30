@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: white;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.hero-image {
+  padding-top: 400px;
+}
