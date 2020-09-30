@@ -1114,3 +1114,12 @@ Need to learn more about TDD. Because my fundamental of TDD is still weak, I nee
 1. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
 2. [Eric Elliot - 5 Questions Every Unit Test Must Answer](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 3. [Eric Elliott - Rethinking Unit Test Assertions](https://medium.com/javascript-scene/rethinking-unit-test-assertions-55f59358253f)
+
+### Day 93: September 29 2020, Tuesday
+
+**Today's Progress**: Finished learning TDD
+
+**Thoughts**
+Need to learn more about TDD. Because my fundamental of TDD is still weak, I need to strengthen the fundamental and way of thinking in TDD.
+
+1. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
