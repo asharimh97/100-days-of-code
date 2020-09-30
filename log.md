@@ -1123,3 +1123,12 @@ Need to learn more about TDD. Because my fundamental of TDD is still weak, I nee
 Need to learn more about TDD. Because my fundamental of TDD is still weak, I need to strengthen the fundamental and way of thinking in TDD.
 
 1. [Fun fun function - Unit Testing in Javascript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
+
+### Day 94: September 30 2020, Wednesday
+
+**Today's Progress**: Playing with tailwind
+
+**Thoughts**
+It's quite confusing at first because it's been a while styling a component using class names.
+
+1. [Free Practices - Tailwind](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/tailwind)
