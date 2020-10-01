@@ -1132,3 +1132,12 @@ Need to learn more about TDD. Because my fundamental of TDD is still weak, I nee
 It's quite confusing at first because it's been a while styling a component using class names.
 
 1. [Free Practices - Tailwind](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/tailwind)
+
+### Day 95: October 1 2020, Thursday
+
+**Today's Progress**: Playing with tailwind and react
+
+**Thoughts**
+It's quite convenient to create react app with tailwind because we don't need to learn too many things there.
+
+1. [Free Practices - React Tailwind](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/react-tailwind)
