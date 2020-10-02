@@ -1141,3 +1141,12 @@ It's quite confusing at first because it's been a while styling a component usin
 It's quite convenient to create react app with tailwind because we don't need to learn too many things there.
 
 1. [Free Practices - React Tailwind](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/react-tailwind)
+
+### Day 96: October 2 2020, Friday
+
+**Today's Progress**: Created a simple todo app with react and tailwind
+
+**Thoughts**
+I think I've been quite familiar with Tailwind and react now. Time to move on to the next course
+
+1. [The Odin Project - Overview](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/overview)
