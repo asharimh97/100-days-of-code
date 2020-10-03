@@ -1150,3 +1150,12 @@ It's quite convenient to create react app with tailwind because we don't need to
 I think I've been quite familiar with Tailwind and react now. Time to move on to the next course
 
 1. [The Odin Project - Overview](https://github.com/asharimh97/100-days-of-code/tree/master/The%20Odin%20Project/3-javascript/overview)
+
+### Day 97: October 3 2020, Saturday
+
+**Today's Progress**: Start learning Gatsby JS.
+
+**Thoughts**
+Why do I feel overwhelmed?! I thought I did some projects in Gatsby back then. Hmm. Should take it slowly and re-read it again tonight.
+
+1. [Free Practices - Gatsby Site](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/gatsby-site)
