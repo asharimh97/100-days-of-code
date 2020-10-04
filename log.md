@@ -1158,4 +1158,15 @@ I think I've been quite familiar with Tailwind and react now. Time to move on to
 **Thoughts**
 Why do I feel overwhelmed?! I thought I did some projects in Gatsby back then. Hmm. Should take it slowly and re-read it again tonight.
 
+I'm 23 y.o. today beetch!!! :v
+
+1. [Free Practices - Gatsby Site](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/gatsby-site)
+
+### Day 98: October 4 2020, Sunday
+
+**Today's Progress**: Created a simple blog post gatsby app
+
+**Thoughts**
+I finally understand how it works in GraphQL and Gatsby nodes.
+
 1. [Free Practices - Gatsby Site](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/gatsby-site)
