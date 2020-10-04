@@ -10,6 +10,7 @@ module.exports = {
     title: `Gatsby Markdown`
   },
   plugins: [
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,6 +18,12 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
-    `gatsby-transformer-remark`
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts`
+      }
+    }
   ]
-}
+};
