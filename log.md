@@ -1170,3 +1170,17 @@ I'm 23 y.o. today beetch!!! :v
 I finally understand how it works in GraphQL and Gatsby nodes.
 
 1. [Free Practices - Gatsby Site](https://github.com/asharimh97/100-days-of-code/tree/master/free-practices/gatsby-site)
+
+### Day 99: October 5 2020, Monday
+
+**Today's Progress**: Learned Redux selector
+
+**Thoughts**
+Selector can gain the app performance because it simplify logic in our redux `mapState` to component. Because if we put too complex logic in our `mapState` it will re-run everytime props/state changed.
+
+Although in Kulina I haven't met a situation where I need to use selector because we get the data fully from paginated API. But maybe someday it'll become handy.
+
+1. [What is Redux Selector](https://medium.com/@matthew.holman/what-is-a-redux-selector-a517acee1fe8)
+2. [Redux Hooks](https://react-redux.js.org/api/hooks)
+3. [Redux - Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
+4. [Redux Reselect Documentation](https://github.com/reduxjs/reselect)
