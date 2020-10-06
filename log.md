@@ -1184,3 +1184,15 @@ Although in Kulina I haven't met a situation where I need to use selector becaus
 2. [Redux Hooks](https://react-redux.js.org/api/hooks)
 3. [Redux - Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
 4. [Redux Reselect Documentation](https://github.com/reduxjs/reselect)
+
+### Day 100: October 6 2020, Tuesday
+
+**Today's Progress**: Initiated a boilerplate in Next JS
+
+**Thoughts**
+
+I have learned a lot and I still don't know much more, it was a great experience in my life. I want to do it again, but I want to take a break for a while. Let's fill this quarter with self-learning without any challenge involved.
+
+I will release my boilerplate later on. Maybe at the end of this week.
+
+Thank you, myself, you did a great job. Let's do a second, third, fourth, fifth, etc-th round.
