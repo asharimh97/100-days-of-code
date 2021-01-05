@@ -1,5 +1,3 @@
-// @ts-check
-
 /**
  * Convert Hexacode to RGB
  * @param {string} color 
