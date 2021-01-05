@@ -20,3 +20,12 @@ Still haven't get the spirit to code something, OMG I'm in slump mode -\_-. So I
 **Link to work**
 
 - [Javascript Features Appreciation 2020](https://medium.com/bahas-javascript/javascript-features-appreciation-2020-f9bd90d9141e)
+
+### Day 2: Tuesday, 5 January 2021
+
+Start touch the code, back to the fundamental Typescript. Read chapter 1 of book Typescript in 50 Lessons by Martin Baumgartner. It's really easy to understand.
+
+**Link to work**
+
+- [Typescript Exercises](https://github.com/asharimh97/100-days-of-code/tree/master/typescript-exercises)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
