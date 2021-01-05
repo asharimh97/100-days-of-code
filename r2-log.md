@@ -23,7 +23,7 @@ Still haven't get the spirit to code something, OMG I'm in slump mode -\_-. So I
 
 ### Day 2: Tuesday, 5 January 2021
 
-Start touch the code, back to the fundamental Typescript. Read chapter 1 of book Typescript in 50 Lessons by Martin Baumgartner. It's really easy to understand.
+Start touch the code, back to the fundamental Typescript. Read chapter 1 of book Typescript in 50 Lessons by Stefan Baumgartner. It's really easy to understand.
 
 **Link to work**
 
