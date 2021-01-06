@@ -29,3 +29,12 @@ Start touch the code, back to the fundamental Typescript. Read chapter 1 of book
 
 - [Typescript Exercises](https://github.com/asharimh97/100-days-of-code/tree/master/typescript-exercises)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 3: Wednesday, 6 January 2021
+
+Continue learning typescript with subjects of `any`, `unknown`, and `composite types`.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-1)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
