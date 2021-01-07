@@ -38,3 +38,13 @@ Continue learning typescript with subjects of `any`, `unknown`, and `composite t
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-1)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 4: Thursday, 7 January 2021
+
+Learn about the difference between `type` and `interface`. Then update some datas on my personal website.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-1)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
+- [My Personal Website](https://iamashari.space/)
