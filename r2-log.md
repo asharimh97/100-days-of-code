@@ -48,3 +48,7 @@ Learn about the difference between `type` and `interface`. Then update some data
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-1)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
 - [My Personal Website](https://iamashari.space/)
+
+### Day 5: Friday, 8 January 2021
+
+I was so curious on how create an npm package. I want to create my package especially for my own personal projects.
