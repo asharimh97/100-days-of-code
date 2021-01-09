@@ -52,3 +52,12 @@ Learn about the difference between `type` and `interface`. Then update some data
 ### Day 5: Friday, 8 January 2021
 
 I was so curious on how create an npm package. I want to create my package especially for my own personal projects.
+
+### Day 6: Saturday, 9 January 2021
+
+Learn about functions, rest parameter, and function overloading. I somehow could pull off the function overloading with declaring multiple functions but I still get error when implementing overloading through `type` and `arrow function`.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-2)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
