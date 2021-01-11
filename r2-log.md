@@ -65,3 +65,12 @@ Learn about functions, rest parameter, and function overloading. I somehow could
 ### Day 7: Sunday, 10 January 2021
 
 I am quite curious how JSDoc used in `styled-components` component. I haven't found the best way to fully use it. Or I implemented in a wrong way? Hmmm....
+
+### Day 8: Monday, 11 January 2021
+
+Learn about type `intersection` and `union`, the use of `keyof`, mapping type, also type `never` which won't accept any value.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-2)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
