@@ -74,3 +74,12 @@ Learn about type `intersection` and `union`, the use of `keyof`, mapping type, a
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-2)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 9: Tuesday, 12 January 2021
+
+Try implement some of knowledge I have gain from the book `Typescript in 50 Lessons`. Change all type to interface in `Next Typescript` practice project, implement usage of `keyof` to define type, add type definition file.
+
+**Link to work**
+
+- [Next Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/next-typescript)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
