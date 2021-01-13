@@ -83,3 +83,11 @@ Try implement some of knowledge I have gain from the book `Typescript in 50 Less
 
 - [Next Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/next-typescript)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 10: Wednesday, 13 January 2021
+
+Write my opinion about Javascript framework.
+
+**Link to work**
+
+- [Framework Javascript Terbaik](https://medium.com/bahas-javascript/library-framework-js-terbaik-23b6168d6c7b)
