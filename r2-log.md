@@ -91,3 +91,12 @@ Write my opinion about Javascript framework.
 **Link to work**
 
 - [Framework Javascript Terbaik](https://medium.com/bahas-javascript/library-framework-js-terbaik-23b6168d6c7b)
+
+### Day 11: Thursday, 14 January 2021
+
+Learn about `Partial`, `Required`, `Record`, generics and its default value.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
