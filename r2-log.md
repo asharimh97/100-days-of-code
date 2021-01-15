@@ -100,3 +100,11 @@ Learn about `Partial`, `Required`, `Record`, generics and its default value.
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 12: Friday, 15 January 2021
+
+Relearn about flexbox, especially when it comes to `flex-shrink, flex-grow, flex-basis, flex-wrap`. Honestly my life is helped so much by flexbox, but sometimes I mess it up. Urgh.
+
+**Link to work**
+
+- [What The Flexbox](https://flexbox.io/)
