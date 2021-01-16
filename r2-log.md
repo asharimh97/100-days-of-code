@@ -108,3 +108,12 @@ Relearn about flexbox, especially when it comes to `flex-shrink, flex-grow, flex
 **Link to work**
 
 - [What The Flexbox](https://flexbox.io/)
+
+### Day 13: Saturday, 16 January 2021
+
+Review generic in typescript and implement nested generic to some interfaces, then move on to conditional type.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
