@@ -117,3 +117,14 @@ Review generic in typescript and implement nested generic to some interfaces, th
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 14: Saturday, 16 January 2021
+
+Continue learning conditional types, understand-- try to understand to be exact--on how `Pick, Exclude, Extract, infer, Omit` works. Hmm... I can't wait to implement it on my work project hahaha.
+
+1 chapter left, gogogogo!!!
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
