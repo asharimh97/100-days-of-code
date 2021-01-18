@@ -128,3 +128,12 @@ Continue learning conditional types, understand-- try to understand to be exact-
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-3)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 15: Monday, 18 January 2021
+
+Last chapter of this typescript book, learn about jsonify, recursive, service definition.
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-4)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
