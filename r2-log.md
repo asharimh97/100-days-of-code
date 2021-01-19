@@ -137,3 +137,12 @@ Last chapter of this typescript book, learn about jsonify, recursive, service de
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-4)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 16: Tuesday, 19 January 2021
+
+Finish reading Typescript in 50 Lessons by Stefan Baumgartner. There are some parts I'm not fully understand yet but I know the fundamentals. The book is really great, it explains Typescript really well, although there are also some parts I wish were inside the books. But worry not, it means my journey in Typescript is still very long. Let's pick up the pace. Gracias!
+
+**Link to work**
+
+- [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-4)
+- [Typescript in 50 Lessons](https://typescript-book.com/)
