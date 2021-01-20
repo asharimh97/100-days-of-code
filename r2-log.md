@@ -146,3 +146,11 @@ Finish reading Typescript in 50 Lessons by Stefan Baumgartner. There are some pa
 
 - [Typescript Practices](https://github.com/asharimh97/practices/tree/master/typescript/lesson-4)
 - [Typescript in 50 Lessons](https://typescript-book.com/)
+
+### Day 17: Wednesday, 20 January 2021
+
+After finishing my reading of Typescript book, turns out implementing it isn't as easy as I think. I still find myself quite difficult working with union (generate union from array) then implement it into styled system props. Hmmm...
+
+**Link to work**
+
+- [Book Journey](https://github.com/asharimh97/book-journey)
