@@ -154,3 +154,11 @@ After finishing my reading of Typescript book, turns out implementing it isn't a
 **Link to work**
 
 - [Book Journey](https://github.com/asharimh97/book-journey)
+
+### Day 18: Thursday, 21 January 2021
+
+Try to replicate my old project, `Blue at Hue` which used HTML+CSS stack to React Typescript with xstyled.
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
