@@ -162,3 +162,11 @@ Try to replicate my old project, `Blue at Hue` which used HTML+CSS stack to Reac
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 19: Friday, 22 January 2021
+
+Still playing with xstyled on my replicated project, the `x` component is so amazing and so fun to play, but I was wondering how to pass the `x` props if we want to create component called `Flex`, because the autocomplete can't work properly :(
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
