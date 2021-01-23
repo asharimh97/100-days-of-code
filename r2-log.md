@@ -170,3 +170,11 @@ Still playing with xstyled on my replicated project, the `x` component is so ama
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 20: Saturday, 23 January 2021
+
+Find a way to extends certain properties to wrapped props and play with create style alias with xstyled. Wow it turns out quite easy. Hahaha
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
