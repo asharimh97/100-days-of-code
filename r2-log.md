@@ -178,3 +178,11 @@ Find a way to extends certain properties to wrapped props and play with create s
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 21: Sunday and Monday, 24-25 January 2021
+
+Was trying to write a story in Medium but can't focus due to moving out process, then continue yesterday's progress with playing with typescript codebase and infer type from a value. It's quite tricky that we couldn't do so with interface. Hmm...
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
