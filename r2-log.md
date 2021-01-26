@@ -186,3 +186,11 @@ Was trying to write a story in Medium but can't focus due to moving out process,
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 22: Tuesday, 26 January 2021
+
+Start creating components for real in my replicated project, it's quite easy once we know what we are doing with those styled components.
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
