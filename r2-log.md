@@ -194,3 +194,11 @@ Start creating components for real in my replicated project, it's quite easy onc
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 23: Wednesday, 27 January 2021
+
+Continue working on the side project, start to familiarize myself with more typescript usages.
+
+**Link to work**
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
