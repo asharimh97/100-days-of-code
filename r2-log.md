@@ -202,3 +202,9 @@ Continue working on the side project, start to familiarize myself with more type
 **Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 24: Thursday, 28 January 2021
+
+I can't focus, my cat is sick and I gotta bring her to the vet :( so I spent today's time watching some videos related to typescript, react, redux, ah, and recoil js.
+
+I hope my cat gets well soon. :(
