@@ -208,3 +208,11 @@ Continue working on the side project, start to familiarize myself with more type
 I can't focus, my cat is sick and I gotta bring her to the vet :( so I spent today's time watching some videos related to typescript, react, redux, ah, and recoil js.
 
 I hope my cat gets well soon. :(
+
+### Day 25: Friday, 29 January 2021
+
+My cat is passed away :(, I'm so sad and I was feeling so lazy to do today's challenge.
+
+I continue create page auth and familiarize myself with React's html attributes interfaces.
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
