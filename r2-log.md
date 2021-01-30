@@ -216,3 +216,9 @@ My cat is passed away :(, I'm so sad and I was feeling so lazy to do today's cha
 I continue create page auth and familiarize myself with React's html attributes interfaces.
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 26: Saturday, 30 January 2021
+
+Still continue my typescript mini project, met a case when I need to use SVG element. I have no idea how SVG works, I think I'll need to look deeper into it before proceed.
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
