@@ -222,3 +222,10 @@ I continue create page auth and familiarize myself with React's html attributes 
 Still continue my typescript mini project, met a case when I need to use SVG element. I have no idea how SVG works, I think I'll need to look deeper into it before proceed.
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 27: Sunday, 31 January 2021
+
+Continue create page title component and update main layout styling. Honestly I somehow feeling sooo lazy to progress, I lost motivation, what should I do?
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+- [CSS Transitions](https://css-transition.herokuapp.com/)
