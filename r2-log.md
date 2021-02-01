@@ -228,4 +228,9 @@ Still continue my typescript mini project, met a case when I need to use SVG ele
 Continue create page title component and update main layout styling. Honestly I somehow feeling sooo lazy to progress, I lost motivation, what should I do?
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
-- [CSS Transitions](https://css-transition.herokuapp.com/)
+
+### Day 28: Monday, 1 February 2021
+
+Add page for blog list in the project, 2 page to go and this project is finished. Although yesterday I was so lazy, I think I'm quite spiritful today. Hahaha, should keep up the good work, myself! You can do it!
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
