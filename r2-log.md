@@ -234,3 +234,9 @@ Continue create page title component and update main layout styling. Honestly I 
 Add page for blog list in the project, 2 page to go and this project is finished. Although yesterday I was so lazy, I think I'm quite spiritful today. Hahaha, should keep up the good work, myself! You can do it!
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 29: Tuesday, 2 February 2021
+
+I wrote a simple story about art of Googling.
+
+- [The Art of Googling](https://iamashari.medium.com/the-art-of-googling-d74679470621)
