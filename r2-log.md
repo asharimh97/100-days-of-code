@@ -240,3 +240,11 @@ Add page for blog list in the project, 2 page to go and this project is finished
 I wrote a simple story about art of Googling.
 
 - [The Art of Googling](https://iamashari.medium.com/the-art-of-googling-d74679470621)
+
+### Day 30: Wednesday, 3 February 2021
+
+Finally finished replicating one of my side project with React, Typescript, xstyled, etc. It was so fun, I learned many things despite in the process I sometimes feel lazy to do the daily challenge. Hahaha
+
+What's next? Hmmm...
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
