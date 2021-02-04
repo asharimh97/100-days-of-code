@@ -253,4 +253,4 @@ What's next? Hmmm...
 
 Start learning how to use storybook, I really want to publish a proper storybook for components.
 
-- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+- [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
