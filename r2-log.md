@@ -248,3 +248,9 @@ Finally finished replicating one of my side project with React, Typescript, xsty
 What's next? Hmmm...
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
+
+### Day 31: Thursday, 4 February 2021
+
+Start learning how to use storybook, I really want to publish a proper storybook for components.
+
+- [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
