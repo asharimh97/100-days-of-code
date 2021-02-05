@@ -254,3 +254,9 @@ What's next? Hmmm...
 Start learning how to use storybook, I really want to publish a proper storybook for components.
 
 - [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
+
+### Day 32: Friday, 5 February 2021
+
+Took a stepback before createing a storybook, get to know about design system, style guide, and CSS pattern. Might use this opportunity to revamp my personal website? Hmmm...
+
+- [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
