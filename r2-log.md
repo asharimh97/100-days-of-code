@@ -260,3 +260,9 @@ Start learning how to use storybook, I really want to publish a proper storybook
 Took a stepback before createing a storybook, get to know about design system, style guide, and CSS pattern. Might use this opportunity to revamp my personal website? Hmmm...
 
 - [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
+
+### Day 33: Saturday, 6 February 2021
+
+Still continue my stepback from yesterday, today I started reading the Atomic Design by Brad Frost. Right now I just take "atomic design" for granted without knowing a deeper reason behind it. I want to know the principle better so I know what I am doing.
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
