@@ -266,3 +266,9 @@ Took a stepback before createing a storybook, get to know about design system, s
 Still continue my stepback from yesterday, today I started reading the Atomic Design by Brad Frost. Right now I just take "atomic design" for granted without knowing a deeper reason behind it. I want to know the principle better so I know what I am doing.
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+
+### Day 34: Sunday, 7 February 2021
+
+TIL atomic design is not just a step by step atoms, molecules, organisms, templates, and pages. It's much more than that, it's a mental model. Thankfully I reset my perspective sooner, so I could appreciate it more.
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
