@@ -215,11 +215,15 @@ My cat is passed away :(, I'm so sad and I was feeling so lazy to do today's cha
 
 I continue create page auth and familiarize myself with React's html attributes interfaces.
 
+**Link to work**
+
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
 
 ### Day 26: Saturday, 30 January 2021
 
 Still continue my typescript mini project, met a case when I need to use SVG element. I have no idea how SVG works, I think I'll need to look deeper into it before proceed.
+
+**Link to work**
 
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
 
@@ -227,17 +231,23 @@ Still continue my typescript mini project, met a case when I need to use SVG ele
 
 Continue create page title component and update main layout styling. Honestly I somehow feeling sooo lazy to progress, I lost motivation, what should I do?
 
+**Link to work**
+
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
 
 ### Day 28: Monday, 1 February 2021
 
 Add page for blog list in the project, 2 page to go and this project is finished. Although yesterday I was so lazy, I think I'm quite spiritful today. Hahaha, should keep up the good work, myself! You can do it!
 
+**Link to work**
+
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
 
 ### Day 29: Tuesday, 2 February 2021
 
 I wrote a simple story about art of Googling.
+
+**Link to work**
 
 - [The Art of Googling](https://iamashari.medium.com/the-art-of-googling-d74679470621)
 
@@ -247,11 +257,15 @@ Finally finished replicating one of my side project with React, Typescript, xsty
 
 What's next? Hmmm...
 
+**Link to work**
+
 - [Blue at Hue Typescript](https://github.com/asharimh97/practices/tree/master/react-practices/blueathue-ts)
 
 ### Day 31: Thursday, 4 February 2021
 
 Start learning how to use storybook, I really want to publish a proper storybook for components.
+
+**Link to work**
 
 - [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
 
@@ -259,11 +273,15 @@ Start learning how to use storybook, I really want to publish a proper storybook
 
 Took a stepback before createing a storybook, get to know about design system, style guide, and CSS pattern. Might use this opportunity to revamp my personal website? Hmmm...
 
+**Link to work**
+
 - [Storybook Demo](https://github.com/asharimh97/practices/tree/master/react-practices/storybook-demo)
 
 ### Day 33: Saturday, 6 February 2021
 
 Still continue my stepback from yesterday, today I started reading the Atomic Design by Brad Frost. Right now I just take "atomic design" for granted without knowing a deeper reason behind it. I want to know the principle better so I know what I am doing.
+
+**Link to work**
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 
@@ -271,4 +289,17 @@ Still continue my stepback from yesterday, today I started reading the Atomic De
 
 TIL atomic design is not just a step by step atoms, molecules, organisms, templates, and pages. It's much more than that, it's a mental model. Thankfully I reset my perspective sooner, so I could appreciate it more.
 
+**Link to work**
+
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+
+### Day 35: Sunday, 7 February 2021
+
+Continue learning atomic design, I'm halfway through the book.
+
+Ah also patch and add some updates to my personal website. By adding those small things, I realized that I really need to do some refactor. My code is so messy.
+
+**Link to work**
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+- [I am Ashari](https://iamashari.space)
