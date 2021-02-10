@@ -303,3 +303,11 @@ Ah also patch and add some updates to my personal website. By adding those small
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 - [I am Ashari](https://iamashari.space)
+
+### Day 36: Monday, 8 February 2021
+
+I almost forgot to log today's challenge. Still learning atomic design by brad frost, I feel my better understanding gives me a better approach on structuring my components, it affects on my daily job project as well.
+
+**Link to work**
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
