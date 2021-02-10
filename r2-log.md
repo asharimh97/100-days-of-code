@@ -293,7 +293,7 @@ TIL atomic design is not just a step by step atoms, molecules, organisms, templa
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 
-### Day 35: Sunday, 7 February 2021
+### Day 35: Sunday, 8 February 2021
 
 Continue learning atomic design, I'm halfway through the book.
 
@@ -304,9 +304,17 @@ Ah also patch and add some updates to my personal website. By adding those small
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 - [I am Ashari](https://iamashari.space)
 
-### Day 36: Monday, 8 February 2021
+### Day 36: Monday, 9 February 2021
 
 I almost forgot to log today's challenge. Still learning atomic design by brad frost, I feel my better understanding gives me a better approach on structuring my components, it affects on my daily job project as well.
+
+**Link to work**
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+
+### Day 37: Tuesday, 10 February 2021
+
+Continue learning atomic design, entering last chapter of the book. I have learned a lot not only about technical but also how to make design system collaborative and last long. I think these moments where I learn by reading more than coding, gives my mind some breathing. :D
 
 **Link to work**
 
