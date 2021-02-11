@@ -319,3 +319,11 @@ Continue learning atomic design, entering last chapter of the book. I have learn
 **Link to work**
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+
+### Day 38: Wednesday, 11 February 2021
+
+Finished reading Atomic Design by Brad Frost, it gives me a broader insight of the concept/mental model, now let's put some effort implementing the theories into reality.
+
+**Link to work**
+
+- [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
