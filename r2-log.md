@@ -293,7 +293,7 @@ TIL atomic design is not just a step by step atoms, molecules, organisms, templa
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 
-### Day 35: Sunday, 8 February 2021
+### Day 35: Monday, 8 February 2021
 
 Continue learning atomic design, I'm halfway through the book.
 
@@ -304,7 +304,7 @@ Ah also patch and add some updates to my personal website. By adding those small
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 - [I am Ashari](https://iamashari.space)
 
-### Day 36: Monday, 9 February 2021
+### Day 36: Tuesday, 9 February 2021
 
 I almost forgot to log today's challenge. Still learning atomic design by brad frost, I feel my better understanding gives me a better approach on structuring my components, it affects on my daily job project as well.
 
@@ -312,7 +312,7 @@ I almost forgot to log today's challenge. Still learning atomic design by brad f
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 
-### Day 37: Tuesday, 10 February 2021
+### Day 37: Wednesday, 10 February 2021
 
 Continue learning atomic design, entering last chapter of the book. I have learned a lot not only about technical but also how to make design system collaborative and last long. I think these moments where I learn by reading more than coding, gives my mind some breathing. :D
 
@@ -320,10 +320,18 @@ Continue learning atomic design, entering last chapter of the book. I have learn
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
 
-### Day 38: Wednesday, 11 February 2021
+### Day 38: Thursday, 11 February 2021
 
 Finished reading Atomic Design by Brad Frost, it gives me a broader insight of the concept/mental model, now let's put some effort implementing the theories into reality.
 
 **Link to work**
 
 - [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design)
+
+### Day 39: Friday, 12 February 2021
+
+Start implementing better atomic design and typescript to my personal website, not really know how long will it take, but I assume it won't be longer than a month. Yok bisa yok.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
