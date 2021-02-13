@@ -335,3 +335,11 @@ Start implementing better atomic design and typescript to my personal website, n
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 40: Saturday, 13 February 2021
+
+Still on process revamping my personal website, configuring ESLint but somehow it doesn't work as expected. Hmmm...
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
