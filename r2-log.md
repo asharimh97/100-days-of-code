@@ -343,3 +343,11 @@ Still on process revamping my personal website, configuring ESLint but somehow i
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 41: Sunday, 14 February 2021
+
+As I said that I am in the process of revamping my personal website, finally I could make the ESLint work after re-init the config. I was wondering why it didn't work in the first place hmm... Oh also it works well in Typescript file as well.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
