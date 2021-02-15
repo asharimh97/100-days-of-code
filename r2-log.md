@@ -351,3 +351,13 @@ As I said that I am in the process of revamping my personal website, finally I c
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 42: Monday, 15 February 2021
+
+Continue configuring typescript, add some typescript declaration files, add xstyled. I am thinking of replacing styled-system with xstyled because I feel xstyled is more efficient to handle custom style props.
+
+Oh also redesigning the web and learning Figma at the same time. What is variant anyway?
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
