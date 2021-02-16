@@ -361,3 +361,11 @@ Oh also redesigning the web and learning Figma at the same time. What is variant
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 43: Tuesday, 16 February 2021
+
+Continue redesign the web project, tried Figma variants, it was quite confusing since it didn't worked well, I was so desperate, then.... I only need to restart the app to make it worked. Damn -\_-
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
