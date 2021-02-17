@@ -369,3 +369,11 @@ Continue redesign the web project, tried Figma variants, it was quite confusing 
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 44: Wednesday, 17 February 2021
+
+Finish the base redesign of the mobile view. Actually I don't plan on differ the view too much, since converting the current project to more proper code and typescript will also take some time let's do the redesign later on.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
