@@ -377,3 +377,11 @@ Finish the base redesign of the mobile view. Actually I don't plan on differ the
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 45: Thursday, 18 February 2021
+
+Finish the design concept for tablet view.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
