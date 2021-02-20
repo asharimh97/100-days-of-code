@@ -385,3 +385,19 @@ Finish the design concept for tablet view.
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 46: Friday, 19 February 2021
+
+Finish the design for web view, but I forgot to make design for error pages, should add them tomorrow. Then let's get down to business.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 47: Saturday, 20 February 2021
+
+Finish all basic design, all error pages has been designed, I think we could start the code from tomorrow.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
