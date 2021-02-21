@@ -401,3 +401,11 @@ Finish all basic design, all error pages has been designed, I think we could sta
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 48: Sunday, 21 February 2021
+
+Since all the design for the version 2.0 is finished, let's get down to the business. Continue config this and that, add some atom components.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
