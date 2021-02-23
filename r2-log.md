@@ -409,3 +409,11 @@ Since all the design for the version 2.0 is finished, let's get down to the busi
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 49: Monday, 22 February 2021
+
+Start going back to code, reinit storybook, create some base elements, try some gatsby features I didn't know back then.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
