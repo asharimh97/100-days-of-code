@@ -417,3 +417,11 @@ Start going back to code, reinit storybook, create some base elements, try some 
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 50: Tuesday, 23 February 2021
+
+Continue create components, after try some approach, decided to keep the `Layout` approach instead of wrap page element approach for now, since it gives no different to the implementation. Also implement the xstyled config, well it crash with the previous layout setting, but it's fine since xstyled and styled-system has a quite different implementation.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
