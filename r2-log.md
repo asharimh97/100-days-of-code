@@ -425,3 +425,11 @@ Continue create components, after try some approach, decided to keep the `Layout
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 51: Wednesday, 24 February 2021
+
+Update implementation of global style, remove `global.css`, add `Heading` and `Link` component, try to implement dark mode but failed. Still wondering why...
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
