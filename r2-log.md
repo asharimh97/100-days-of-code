@@ -433,3 +433,11 @@ Update implementation of global style, remove `global.css`, add `Heading` and `L
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 52: Thursday, 25 February 2021
+
+Add Image component and it works perfectly. I think the base setup and config for the project is done, we can now move to implement molecules or organism components.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
