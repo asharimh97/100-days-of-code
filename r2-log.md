@@ -441,3 +441,11 @@ Add Image component and it works perfectly. I think the base setup and config fo
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 53: Friday, 26 February 2021
+
+Start creating molecules component, started with Footer component. It's going to be fun. I hope. Hahahaha
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
