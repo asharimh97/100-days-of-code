@@ -449,3 +449,11 @@ Start creating molecules component, started with Footer component. It's going to
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 54: Saturday, 27 February 2021
+
+Continue create molecules component, add `Navbar`, `PageHeading`, replace some components in Layout component as well.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
