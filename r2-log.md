@@ -457,3 +457,11 @@ Continue create molecules component, add `Navbar`, `PageHeading`, replace some c
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 55: Sunday, 28 February 2021
+
+Start working with pages, it takes longer than back then but I think I enjoy the time I take, I also want to give my best shot to my website tho, so I need to make it as good as possible.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
