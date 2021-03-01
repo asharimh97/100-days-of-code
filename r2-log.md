@@ -465,3 +465,11 @@ Start working with pages, it takes longer than back then but I think I enjoy the
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 56: Monday, 1 March 2021
+
+Continue the personal webpage, now entering the about page... Still reconsider on how style the layout in about
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
