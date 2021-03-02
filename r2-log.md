@@ -473,3 +473,11 @@ Continue the personal webpage, now entering the about page... Still reconsider o
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 57: Tuesday, 2 March 2021
+
+Finished creating about page and created an under construction page, well I think it's quite smooth~ hohoho. I'll do the stories, portfolios, and contact tomorrow, maybe. I think I could finish my project by the end of the week.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
