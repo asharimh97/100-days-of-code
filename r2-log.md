@@ -481,3 +481,11 @@ Finished creating about page and created an under construction page, well I thin
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 58: Wednesday, 3 March 2021
+
+Revamped contact page, re-arrange and refactor error pages component. Took some time and energy to work on but I think it's quite paid off.
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
