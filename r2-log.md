@@ -489,3 +489,11 @@ Revamped contact page, re-arrange and refactor error pages component. Took some 
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 59: Thursday, 4 March 2021
+
+Revamp page stories, actually I want to revamp 2 pages but I think I'm too tired so I can't do so. Let's wrap it for tomorrow!
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
