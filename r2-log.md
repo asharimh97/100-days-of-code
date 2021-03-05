@@ -497,3 +497,11 @@ Revamp page stories, actually I want to revamp 2 pages but I think I'm too tired
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 60: Friday, 5 March 2021
+
+Finish revamping!!! Ready to launch!!!
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
