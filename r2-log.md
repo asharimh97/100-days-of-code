@@ -505,3 +505,19 @@ Finish revamping!!! Ready to launch!!!
 **Link to work**
 
 - [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 61: Saturday, 6 March 2021
+
+Finishing touch, new website is launched!
+
+**Link to work**
+
+- [I am Ashari web repo](https://www.github.com/asharimh97/profile)
+
+### Day 62: Sunday, 7 March 2021
+
+Tried react query, I think it's quite interesting as a data fetcher, but still haven't found how to access a query outside the component. Should we use `useQueryClient`? Hmmm....
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
