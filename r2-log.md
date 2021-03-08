@@ -521,3 +521,11 @@ Tried react query, I think it's quite interesting as a data fetcher, but still h
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 63: Monday, 8 March 2021
+
+Continue learning react query and I think I have get the grasp of the library, also try axios interceptors, I wish I knew it back then, it's quite easy to create a custom request using interceptors -\_-
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
