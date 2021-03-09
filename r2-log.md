@@ -529,3 +529,11 @@ Continue learning react query and I think I have get the grasp of the library, a
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 64: Tuesday, 9 March 2021
+
+Still continue learn react query and axios interceptor, I think I'm ready to take it to a simple project.
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
