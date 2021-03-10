@@ -537,3 +537,11 @@ Still continue learn react query and axios interceptor, I think I'm ready to tak
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 65: Wednesday, 10 March 2021
+
+Continue the simple movie project with react query and axios interceptor, plus react router. I dunno, but I feel react router doesn't fit me very well.
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
