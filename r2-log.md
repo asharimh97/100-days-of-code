@@ -545,3 +545,11 @@ Continue the simple movie project with react query and axios interceptor, plus r
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 66: Thursday, 11 March 2021
+
+Tried `useInfiniteQuery` from react query, it was quite difficult at first because I am not aware of its third param (options) and the API I'm working on doesn't provide the page identifier, but after some tweak finally I could use it quite well. Hoho
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
