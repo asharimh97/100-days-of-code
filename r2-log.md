@@ -553,3 +553,11 @@ Tried `useInfiniteQuery` from react query, it was quite difficult at first becau
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 67: Friday, 12 March 2021
+
+Finished the simple movie project with react-query. I could say I was having fun learning it, it's simple and easy. Will reconsider using react query for future simple projects.
+
+**Link to work**
+
+- [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
