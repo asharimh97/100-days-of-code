@@ -561,3 +561,11 @@ Finished the simple movie project with react-query. I could say I was having fun
 **Link to work**
 
 - [React query practice](https://www.github.com/asharimh97/practices/tree/master/react-practices/query)
+
+### Day 68: Saturday, 13 March 2021
+
+Since I haven't decided what to do next, I chose to continue my progress on Freecodecamp's Javascript Algorithms and Data Sructures course.
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
