@@ -569,3 +569,11 @@ Since I haven't decided what to do next, I chose to continue my progress on Free
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 69: Sunday, 14 March 2021
+
+Finish my first course of Javascript Algorithm. Few more courses to go!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
