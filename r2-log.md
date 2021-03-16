@@ -577,3 +577,11 @@ Finish my first course of Javascript Algorithm. Few more courses to go!!!
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 70: Monday, 15 March 2021
+
+Finish ES6 course of Javascript Algorithm. Regex, here we go!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
