@@ -585,3 +585,11 @@ Finish ES6 course of Javascript Algorithm. Regex, here we go!!!
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 71: Tuesday, 16 March 2021
+
+Finish Regex course of Javascript Algorithm. Data structure, here we go!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
