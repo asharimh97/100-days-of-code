@@ -593,3 +593,11 @@ Finish Regex course of Javascript Algorithm. Data structure, here we go!!!
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 72: Wednesday, 17 March 2021
+
+Finish Debugging course and mistakenly worked on last part of course of Javascript Algorithm. Data structure, here we go!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
