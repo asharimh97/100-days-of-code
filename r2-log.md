@@ -601,3 +601,11 @@ Finish Debugging course and mistakenly worked on last part of course of Javascri
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 73: Thursday, 18 March 2021
+
+Finish Basic Data Structures and 50% of Basic Algorithm Scripting of Javascript Algorithm course. Let's gooo!!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
