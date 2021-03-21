@@ -618,10 +618,19 @@ Finish Basic Algorithm Scripting and Object Oriented Programming chapters of Jav
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
 
-### Day 75: Sunday, 20 March 2021
+### Day 75: Saturday, 20 March 2021
 
 Finish Functional Programming and started Intermediate Algorithm Scripting chapters of Javascript Algorithm course. Let's gooo!!!! 2 More chapters baby!!!!
 
 **Link to work**
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+
+### Day 76: Sunday, 21 March 2021
+
+Finished the course!!!! I got my certification dude!!!
+
+**Link to work**
+
+- [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
+- [Freecodecamp Javascript Algorihtm Certificate](https://www.freecodecamp.org/certification/asharimh97/javascript-algorithms-and-data-structures)
