@@ -634,3 +634,11 @@ Finished the course!!!! I got my certification dude!!!
 
 - [Freecodecamp Javascript Algorihtm](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript)
 - [Freecodecamp Javascript Algorihtm Certificate](https://www.freecodecamp.org/certification/asharimh97/javascript-algorithms-and-data-structures)
+
+### Day 77: Monday, 22 March 2021
+
+Playing with SEO Meta tags, it's correctly validated by somehow I can't get the correct image and description especially when dealing with detail book page (which data generated after accessing url).
+
+**Link to work**
+
+- [Book Journey](https://bookjourney.iamashari.space)
