@@ -642,3 +642,11 @@ Playing with SEO Meta tags, it's correctly validated by somehow I can't get the 
 **Link to work**
 
 - [Book Journey](https://bookjourney.iamashari.space)
+
+### Day 78: Tuesday, 23 March 2021
+
+Tried `react-snapshot` library to implement site pre-render, let's see if it can give better SEO result. Hmm...
+
+**Link to work**
+
+- [Book Journey](https://bookjourney.iamashari.space)
