@@ -650,3 +650,11 @@ Tried `react-snapshot` library to implement site pre-render, let's see if it can
 **Link to work**
 
 - [Book Journey](https://bookjourney.iamashari.space)
+
+### Day 79: Wednesday, 24 March 2021
+
+I thought react-snapshot and/or react-snap could provide me the pre-render but somehow it returns error while build the app. What should I dooooooo :o
+
+**Link to work**
+
+- [Book Journey](https://bookjourney.iamashari.space)
