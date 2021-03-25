@@ -658,3 +658,11 @@ I thought react-snapshot and/or react-snap could provide me the pre-render but s
 **Link to work**
 
 - [Book Journey](https://bookjourney.iamashari.space)
+
+### Day 80: Thursday, 25 March 2021
+
+Learn about CSS pseudo classes and elements, I didn't realize working with `vanilla` CSS has become so much easier.
+
+**Link to work**
+
+- [Book Journey](https://bookjourney.iamashari.space)
