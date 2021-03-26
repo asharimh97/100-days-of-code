@@ -666,3 +666,7 @@ Learn about CSS pseudo classes and elements, I didn't realize working with `vani
 **Link to work**
 
 - [Book Journey](https://bookjourney.iamashari.space)
+
+### Day 81: Friday, 26 March 2021
+
+Tried preact, quite curious since a year ago, finally can try it. Hmmm what kind of project should I make?
