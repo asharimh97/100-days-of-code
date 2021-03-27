@@ -670,3 +670,15 @@ Learn about CSS pseudo classes and elements, I didn't realize working with `vani
 ### Day 81: Friday, 26 March 2021
 
 Tried preact, quite curious since a year ago, finally can try it. Hmmm what kind of project should I make?
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 82: Saturday, 27 March 2021
+
+Tried to implement tailwind to preact, but somehow got errors if implement tailwind with postcss, thus implemented tailwind without postcss. I'm still curious tho how to implement it with postcss, but the tutorial related to it is still minim.
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
