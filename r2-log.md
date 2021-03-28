@@ -682,3 +682,11 @@ Tried to implement tailwind to preact, but somehow got errors if implement tailw
 **Link to work**
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 83: Sunday, 28 March 2021
+
+Tried tailwind 2 in preact project, it seems I forgot many things about tailwind. Hmm
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
