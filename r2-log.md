@@ -690,3 +690,11 @@ Tried tailwind 2 in preact project, it seems I forgot many things about tailwind
 **Link to work**
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 84: Monday, 29 March 2021
+
+Tried recoil.js (again) inside the preact project, now that I've tried another state management library like react-query, I think I implemented recoil js in a better way than I used to.
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
