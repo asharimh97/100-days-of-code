@@ -698,3 +698,11 @@ Tried recoil.js (again) inside the preact project, now that I've tried another s
 **Link to work**
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 85: Tuesday, 30 March 2021
+
+Did some experiments on websocket, I could get the grasp of it, actually I want to try Primus JS but once I implemented in Preact, it doesn't work, so I use socket io for now. Hmm...
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
