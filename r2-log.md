@@ -706,3 +706,11 @@ Did some experiments on websocket, I could get the grasp of it, actually I want 
 **Link to work**
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 86: Wednesday, 30 March 2021
+
+Finally I am able to use primus as websocket service both in server and client, but yeah it's easier implementing socket.io as websocket service. Anyway it's worth learning!
+
+**Link to work**
+
+- [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
