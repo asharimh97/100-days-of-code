@@ -707,10 +707,19 @@ Did some experiments on websocket, I could get the grasp of it, actually I want 
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
 
-### Day 86: Wednesday, 30 March 2021
+### Day 86: Wednesday, 31 March 2021
 
 Finally I am able to use primus as websocket service both in server and client, but yeah it's easier implementing socket.io as websocket service. Anyway it's worth learning!
 
 **Link to work**
 
 - [Try Preact](https://github.com/asharimh97/practices/tree/master/preact-practices/try-preact)
+
+### Day 87: Thursday, 1 April 2021
+
+Learn about react server side rendering (without framework like Next JS) and server component, it's interesting.
+
+**Link to work**
+
+- [React Server Component](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
+- [React SSR](https://www.digitalocean.com/community/tutorials/react-server-side-rendering)
