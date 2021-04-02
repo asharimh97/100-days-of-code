@@ -723,3 +723,13 @@ Learn about react server side rendering (without framework like Next JS) and ser
 
 - [React Server Component](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
 - [React SSR](https://www.digitalocean.com/community/tutorials/react-server-side-rendering)
+
+### Day 88: Friday, 2 April 2021
+
+Continue learn about react server components, can't wait its release. Then since I'm quite confused on what to learn, decided to take a look at https://github.com/dypsilon/frontend-dev-bookmarks, surprisingly there are tons of learning material there.
+
+**Link to work**
+
+- [React Server Component](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
+- [React SSR](https://www.digitalocean.com/community/tutorials/react-server-side-rendering)
+- [Frontend developer bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
