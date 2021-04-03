@@ -733,3 +733,11 @@ Continue learn about react server components, can't wait its release. Then since
 - [React Server Component](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
 - [React SSR](https://www.digitalocean.com/community/tutorials/react-server-side-rendering)
 - [Frontend developer bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
+
+### Day 89: Saturday, 3 April 2021
+
+Listened accessibility with SVG at Syntax FM podcast
+
+**Link to work**
+
+- [SVGs with Sara Soueidan](https://open.spotify.com/episode/623G7dDaAzylsbPCik3g82?si=DN0eVn6XQY2Yb-Ze7Lj63w)
