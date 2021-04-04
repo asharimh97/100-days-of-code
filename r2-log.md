@@ -741,3 +741,11 @@ Listened accessibility with SVG at Syntax FM podcast
 **Link to work**
 
 - [SVGs with Sara Soueidan](https://open.spotify.com/episode/623G7dDaAzylsbPCik3g82?si=DN0eVn6XQY2Yb-Ze7Lj63w)
+
+### Day 90: Sunday, 4 April 2021
+
+Continue learn about design accessibility, it turns out there are so many things related to accessibility to learn. (well indeed, ash).
+
+**Link to work**
+
+- [SVGs with Sara Soueidan](https://open.spotify.com/episode/623G7dDaAzylsbPCik3g82?si=DN0eVn6XQY2Yb-Ze7Lj63w)
