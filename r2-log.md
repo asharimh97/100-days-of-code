@@ -757,3 +757,11 @@ Continue learn web accessibility with ARIA.
 **Link to work**
 
 - [Using ARIA](https://w3c.github.io/using-aria/)
+
+### Day 92: Tuesday, 6 April 2021
+
+Take an udacity course related to web accessibility! I hope I could make a web with very good accessibility!
+
+**Link to work**
+
+- [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
