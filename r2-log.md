@@ -765,3 +765,11 @@ Take an udacity course related to web accessibility! I hope I could make a web w
 **Link to work**
 
 - [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+
+### Day 93: Wednesday, 7 April 2021
+
+Finished chapter 2: Focus on Udacity Web Accessibility. Learn about tabindex, focus, etc.
+
+**Link to work**
+
+- [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
