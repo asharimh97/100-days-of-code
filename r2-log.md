@@ -781,3 +781,11 @@ Finished chapter 3: Semantics on Udacity Web Accessibility. Learn about tabindex
 **Link to work**
 
 - [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+
+### Day 95: Friday, 9 April 2021
+
+Finished chapter 4: Navigating content on Udacity Web Accessibility. Learn about tabindex, focus, etc.
+
+**Link to work**
+
+- [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
