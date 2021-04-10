@@ -776,7 +776,7 @@ Finished chapter 2: Focus on Udacity Web Accessibility. Learn about tabindex, fo
 
 ### Day 94: Thursday, 8 April 2021
 
-Finished chapter 3: Semantics on Udacity Web Accessibility. Learn about tabindex, focus, etc.
+Finished chapter 3: Semantics on Udacity Web Accessibility.
 
 **Link to work**
 
@@ -784,7 +784,15 @@ Finished chapter 3: Semantics on Udacity Web Accessibility. Learn about tabindex
 
 ### Day 95: Friday, 9 April 2021
 
-Finished chapter 4: Navigating content on Udacity Web Accessibility. Learn about tabindex, focus, etc.
+Finished chapter 4: Navigating content on Udacity Web Accessibility.
+
+**Link to work**
+
+- [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+
+### Day 96: Saturday, 10 April 2021
+
+Finished chapter 5: ARIA content on Udacity Web Accessibility. Turns out ARIA is very broad and useful.
 
 **Link to work**
 
