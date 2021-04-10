@@ -792,7 +792,7 @@ Finished chapter 4: Navigating content on Udacity Web Accessibility.
 
 ### Day 96: Saturday, 10 April 2021
 
-Finished chapter 5: ARIA content on Udacity Web Accessibility. Turns out ARIA is very broad and useful.
+Finished Udacity Web Accessibility Course. Of course by finishing it doesn't mean I'll be master in no time, but by learning through this course, it gives me broader aspect when it comes to building a web. And as a developer I could learn that we must build an app in user perspective. Because we made the app for users tho.
 
 **Link to work**
 
