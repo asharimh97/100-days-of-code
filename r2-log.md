@@ -797,3 +797,11 @@ Finished Udacity Web Accessibility Course. Of course by finishing it doesn't mea
 **Link to work**
 
 - [Udacity Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+
+### Day 97: Sunday, 11 April 2021
+
+I didn't know I applied for Web Performance Optimization course, then I decided to continue my progress in this course. Although I think the course is quite "old", but let's give it a try, I believe I still able to learn one or two things.
+
+**Link to work**
+
+- [Udacity Web Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
