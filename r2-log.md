@@ -805,3 +805,11 @@ I didn't know I applied for Web Performance Optimization course, then I decided 
 **Link to work**
 
 - [Udacity Web Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
+
+### Day 98: Monday, 12 April 2021
+
+Finished the Web Performance Optimization course by Udacity, if the prev course gave me another perspective to consider in designing web app, now it's more how to optimize our app so it will be faster to be consumed by users.
+
+**Link to work**
+
+- [Udacity Web Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
