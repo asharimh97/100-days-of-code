@@ -813,3 +813,11 @@ Finished the Web Performance Optimization course by Udacity, if the prev course 
 **Link to work**
 
 - [Udacity Web Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
+
+### Day 99: Tuesday, 13 April 2021
+
+Try to implement what I learn about accessibility and performance in my personal website. Turns out it's quite difficult since I'm not familiar with WAI ARIA, CRP, etc. Nevertheless, it's fun to know one two things and try it.
+
+**Link to work**
+
+- [Personal website](https://iamashari.space)
